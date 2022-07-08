@@ -3,8 +3,8 @@
 %                                                          %
 % Author: Christian E. Salas Eljatib                       %
 % Email: cseljatib at gmail.com                            % 
-% Pre-Last changes: feb23,2022                             % 
-% Last changes:  apr26,2022                                %
+% Pre-Last changes: jun17,2022                             % 
+% Last changes:  jul4,2022                                %
 % Santiago, Chile.                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %----------------------------------
@@ -86,6 +86,7 @@
 @STRING{ comfrev = "Commonw. For. Rev."}%Commonwealth Forestry Review
 @STRING{ comnorfri ="Communications of the Norwegian Forest Research Institute"}
 @STRING{ comstat ="Communications in Statistics-Theoretical Methods"}
+@STRING{ comstatsimu ="Communications in Statistics-Simulation and Computation"}
 @STRING{ compstat = "Computational Statistics \& Data Analisis"} %Comput. Stat. Data Anal.
 @STRING{ compagri = "Computers and Electronics in Agriculture"} %
 @STRING{ consebiol = "Conservation Biology"}
@@ -180,7 +181,7 @@
 @STRING{ jcgs = "J. of Computational and Graphical Statistics"}%Journal of Computational and Graphical Statistics
 @STRING{ jecol = "J. of Ecology"} %J. of Ecology %J. Ecol. %Journal of Ecology
 @STRING{ jeconper = "J. of Economic Perspectives"} %
-@STRING{ jenvman = "Journal of Environmental Management"}
+@STRING{ jenvman = "J. of Environmental Management"}
 @STRING{ jebot = "J. of Experimental Botany"} %Journal of Experimental Botany%{J.Exp.Bot}
 @STRING{ jfor = "J. of Forestry"} %Journal of Forestry J.Forestry% J. For. %J. Forestry
 @STRING{ jfr = "Journal of Forest Research"} %Journal of Forest Research
@@ -225,6 +226,9 @@
 @STRING{ nat = "Nature"} %Nature
 @STRING{ natcom = "Nature Communications"} %Nature Communications
 @STRING{ natgeo = "Nature Geoscience"}
+@STRING{ nee = "Nature Ecology \& Evolution"}
+@STRING{ nek = "Nature Education Knowledge"}
+@STRING{ ncc = "Nature Climate Change"}
 @STRING{ njaf = "North. J. Appl. For."} %Northern Journal of Applied Forestry
 @STRING{ nwsc = "Northwest Science"} 
 @STRING{ nphy = "New Phytologist"} %New Phytologist
@@ -241,7 +245,7 @@
 @STRING{ photo = "Photogrammetrie"} %Photogrammetrie Fernerkundung Geoinformation
 @STRING{ photoeng = "Photogramm. Eng. Rem. Sens."} %Photogrammetric Engineering & Remote Sensing
 @STRING{ phytopa = "Phytopathology"}
-@STRING{ pnas = "Proceedings of the National Academy of Sciences of the USA"}%"PNAS"} %PNAS %"Proceedings of the National Academy of Sciences"
+@STRING{ pnas = "PNAS"} %"Proceedings of the National Academy of Sciences of the USA"}%"PNAS"} %PNAS %"Proceedings of the National Academy of Sciences"
 @STRING{ peco = "Plant Ecology"}
 @STRING{ pecod = "Plant Ecology \& Diversity"}
 @STRING{ prorsa = "Proceedings of the Royal Society, A"}
@@ -318,14 +322,35 @@
 @STRING{ usdarp = "USDA For. Serv. Res. Pap."}
 @STRING{ usdarn = "USDA For. Serv. Res. Not."}
 @STRING{ usdadiv = "USDA Div. For. Bull."}
-
-
-
 @STRING{ veg = "Vegetatio"}
 @STRING{ wjaf = "West. J. Appl. For."} %Western Journal of Applied Forestry
 @STRING{ wil = "The Wilson Bulletin"}
-@STRING{ nee = "Nature Ecology \& Evolution"}
-@STRING{ nek = "Nature Education Knowledge"}
+
+
+@Article{williams13,
+author={Williams, A. P. 
+and Allen, Craig D.
+and Macalady, Alison K.
+and Griffin, Daniel
+and Woodhouse, Connie A.
+and Meko, David M.
+and Swetnam, Thomas W.
+and Rauscher, Sara A.
+and Seager, Richard
+and Grissino-Mayer, Henri D.
+and Dean, Jeffrey S.
+and Cook, Edward R.
+and Gangodagamage, Chandana
+and Cai, Michael
+and McDowell, Nate G.},
+title={Temperature as a potent driver of regional forest drought stress and tree mortality},
+journal=ncc,
+year={2013},
+volume={3},
+number={3},
+pages={292--297},
+}
+
 
 % otros short-cuts
 @STRING{ ingyreport = "Inland Northwest Growth and Yield Cooperative-University of Montana, Project: Height growth modelling for Douglas-fir."}
@@ -368,8 +393,8 @@
 
 
 @article{silva17,
-AUTHOR = {Silva, Carlos Alberto and Klauberg, Carine and Hudak, Andrew Thomas and Vierling, Lee Alexander and Jaafar, Wan Shafrina Wan Mohd and Mohan, Midhun and Garcia, Mariano and Ferraz, Ant\'onio and Cardil, Adri\'an and Saatchi, Sassan},
-TITLE = {Predicting Stem Total and Assortment Volumes in an Industrial {\it Pinus taeda} {L.} Forest Plantation Using Airborne Laser Scanning Data and Random Forest},
+AUTHOR = {Silva, Carlos Alberto and Klauberg, Carine and Hudak, Andrew Thomas and Vierling, Lee Alexander and Wan~Mohd~Jaafar, W. S. and Mohan, Midhun and Garcia, Mariano and Ferraz, Ant\'onio and Cardil, Adri\'an and Saatchi, Sassan},
+TITLE = {Predicting Stem Total and Assortment Volumes in an Industrial {{\it Pinus taeda} {L.}} Forest Plantation Using Airborne Laser Scanning Data and Random Forest},
 JOURNAL = {Forests},
 VOLUME = {8},
 YEAR = {2017},
@@ -470,6 +495,37 @@ author = {Marc D. Abrams},
 	journal =  pnas
 }
 
+@article{dietze18,
+author = {Michael C. Dietze  and Andrew Fox  and Lindsay M. Beck-Johnson  and Julio L. Betancourt  and Mevin B. Hooten  and Catherine S. Jarnevich  and Timothy H. Keitt  and Melissa A. Kenney  and Christine M. Laney  and Laurel G. Larsen  and Henry W. Loescher  and Claire K. Lunch  and Bryan C. Pijanowski  and James T. Randerson  and Emily K. Read  and Andrew T. Tredennick  and Rodrigo Vargas  and Kathleen C. Weathers  and Ethan P. White },
+title = {Iterative near-term ecological forecasting: Needs, opportunities, and challenges},
+journal = pnas,
+volume = {115},
+number = {7},
+pages = {1424--1432},
+year = {2018},
+}
+
+@article{adams09,
+author = {Henry D. Adams  and Maite Guardiola-Claramonte  and Greg A. Barron-Gafford  and Juan Camilo Villegas  and David D. Breshears  and Chris B. Zou  and Peter A. Troch  and Travis E. Huxman},
+title = {Temperature sensitivity of drought-induced tree mortality portends increased regional die-off under global-change-type drought},
+journal = pnas,
+volume = {106},
+number = {17},
+pages = {7063--7066},
+year = {2009},
+}
+
+@article{breshears05,
+author = {David D. Breshears  and Neil S. Cobb  and Paul M. Rich  and Kevin P. Price  and Craig D. Allen  and Randy G. Balice  and William H. Romme  and Jude H. Kastens  and M. Lisa Floyd  and Jayne Belnap  and Jesse J. Anderson  and Orrin B. Myers  and Clifton W. Meyer },
+title = {Regional vegetation die-off in response to global-change-type drought},
+journal = pnas,
+volume = {102},
+number = {42},
+pages = {15144--15148},
+year = {2005},
+}
+
+
 @article {zhou14,
 	author = {Zhou, Jizhong and Deng, Ye and Zhang, Ping and Xue, Kai and Liang, Yuting and Van Nostrand, Joy D. and Yang, Yunfeng and He, Zhili and Wu, Liyou and Stahl, David A. and Hazen, Terry C. and Tiedje, James M. and Arkin, Adam P.},
 	title = {Stochasticity, succession, and environmental perturbations in a fluidic ecosystem},
@@ -479,6 +535,7 @@ author = {Marc D. Abrams},
 	year = {2014},
 	journal = pnas
 }
+
 
 
 % articulo agregado por Tomas Cayul por encargo del prof. Christian 06 agosto 2018
@@ -819,6 +876,16 @@ number={Proyecto FONDECYT No. 1151495},
 note={17 p.}
 }
 
+@techreport{libroinstalapsp,
+author={C. Salas-Eljatib and J. Riquelme and P. J. Donoso and D. P. Soto},
+title={Establecimiento y medici\'on de unidades de 
+muestreo permanente en bosques naturales},
+year={2022},
+type={Borrador de Libro (en revisi\'on)},
+address={Santiago, Chile},
+note={59 p.}
+}
+
 @techreport{manualumpfondecyt,
 author={C. Salas},
 title={Manual de procedimentos para el establecimiento y remedici\'on de unidades de 
@@ -1116,6 +1183,15 @@ pages="10",
     note={784 p.}
 } 
 
+
+@book{brewer88,
+    author={R. Brewer},
+    title={The Science of Ecology},
+    publisher={Saunders  College Publishing},
+    year={1988},
+    address={Orlando, FL, USA},
+    note={922 p.}
+} 
 
 %25 – 26 June 2007 , note={31 p.}
 
@@ -1897,6 +1973,8 @@ author = "D. Klein and Juan Pablo Fuentes and Andreas Schmidt
  and Harald Schmidt and Andreas Schulte"
 }
 
+}
+
 @article{arme78,
     author={Juan J. Armesto and J. A. Mart{\'i}nez}, 
     title={Relations between vegetation
@@ -2255,6 +2333,13 @@ year = {1987},
 
 
 
+@article{griffin21,
+author = {Griffin, Robert and Neha, Nolan and Sarah, Mohanbabu and Alexander, Araldi-Brondolo and Ebert, R and Julie, Levonne and Joanna, I and Lumbsden-Pinto, and Hannah, Roden and Jordan, R and Stark, and Tourville, Jordon and Katie, M and Becklin, Katie and John, E and Drake, and Douglas, A and Louis, J and Lamit, and Drake, J},
+year = {2021},
+title = {Friend or foe? The role of biotic agents in drought-induced plant mortality},
+journal = {Plant Ecology},
+}
+
 @article{helfley17,
 author = {Hefley, Trevor J. and Broms, Kristin M. and Brost, Brian M. and Buderman, Frances E. and Kay, Shannon L. and Scharf, Henry R. and Tipton, John R. and Williams, Perry J. and Hooten, Mevin B.},
 title = {The basis function approach for modeling autocorrelation in ecological data},
@@ -2387,15 +2472,16 @@ raul\'i-roble en hacienda Jauja, IX Regi\'on, Chile},
 }
 
 
-	author={Peterson, Jr., A. V.},
+%author={Chapin III, F. Stuart AND Matson, P. A. AND Mooney, H. A.},
 @book{chapinbook,
-	author={Chapin III, F. Stuart AND Matson, P. A. AND Mooney, H. A.},
+	author={Chapin, F. Stuart AND Matson, P. A. AND Mooney, H. A.},
 	title={{Principles of Terrestrial Ecosystem Ecology}},
 	publisher={Springer-Verlag},
 	year={2002},
 	address={New York, NY, USA},
+	note={436 p.}
 }
-%	note={436 p.}
+
 
 @article{burnham04,
 author = {Burnham, Kenneth P. and Anderson, D. R.},
@@ -2468,7 +2554,7 @@ year = {2004},
  
 
 @phdthesis{burgmann98,
-  author={B{\"u}rgmann, H},
+  author={B{\"u}rgmann, H.},
   title={Soil quality changes under {P}inus radiata plantations in the IXth {R}egion of Chile; applicability of soil microbial activity and nutrient analysis for the evaluation of sustainability},
   year={1998},
   school={Diplomarbeit, Universitat Bayreuth},
@@ -2681,6 +2767,27 @@ year = "2015",
 author = "Jennifer L. McCarthy and Hariyo T. Wibisono and Kyle P. McCarthy and Todd K. Fuller and Noviar Andayani",
 }
 
+@article{ittersum97,
+author = {M. K. van~Ittersum and R. Rabbinge},
+title = {Concepts in production ecology for analysis and quantification of
+agricultural input-output combinations},
+journal = {Field Crops Research},
+volume = {52},
+year = {1997},
+pages = {197--208},
+}
+
+@article{keeling07,
+author = {Keeling, Helen C. and Phillips, Oliver L.},
+title = {The global relationship between forest productivity and biomass},
+journal = globeco,
+volume = {16},
+number = {5},
+year = {2007},
+pages = {618--631},
+}
+
+
 @article{liu18,
 title = "Mixed-species versus monocultures in plantation forestry: Development, benefits, ecosystem services and perspectives for the future",
 journal = globecoc,
@@ -2815,7 +2922,7 @@ P. Sj{\"o}gren-Gulven and J. S. Hatfield and M. A. McCarthy},
 author = {M. Didion and Andrea D.Kupferschmid
  and Andreas Zingg and Lorenz Fahse
  and Harald Bugmann},
-title = {Gaining local accuracy while not losing generality — extending the range of gap model applications},
+title = {Gaining local accuracy while not losing generality -- extending the range of gap model applications},
 journal = cjfr,
 volume = {39},
 number = {6},
@@ -4104,15 +4211,6 @@ Forest Research Information Paper 167. Sault Ste. Marie, Ontario, Canada}
     number={7}
 }
 
-@article{buchman83,
-    author={R. G. Buchman and S. R. Shifley},
-    title={Guide to evaluating forest growth projection systems},
-    journal=jfor,
-    volume={81},
-    year={1983},
-    pages={232--254},
-    number={4}
-}
 
 @article{butera86,
        author={M. K. Butera},
@@ -4383,6 +4481,16 @@ journal = pnas
     year={2004},
     pages={157--175},
     number={1-2}
+}
+
+
+@article{loehle96,
+    author={Loehle, C.  and LeBlanc, D.},
+    title={Model-based assessments of climate change effects on forests: a critical review},
+    journal=emod,
+    volume={90},
+    year={1996},
+    pages={1--31}
 }
 
 
@@ -4758,43 +4866,6 @@ year = {2009},
 }
 
 
-@article{salas21,
-title = {{An approach to quantify climate-productivity relationships: an example from a widespread 
-{\it {N}othofagus} forest}},
-journal = ecoappli,
-volume = 31,
-number=4,
-pages="eap.2285",
-year = "2021",
-author = "C. Salas-Eljatib",
-}
-
-@article{salas21stem,
-title={{A new algorithm for reconstructing tree height growth with stem analysis data}},
-journal = mee,
-author={C. Salas-Eljatib},
-year={2021}, 
- volume = {12},
- number = {10},
- pages = {2008--2016},
-} 
-
-
-@article{salas21data,
-title={Time series height-data for  {\it Nothofagus alpina} trees},
-journal = {Figshare, https://doi.org/10.6084/m9.figshare.13521602},
-author={Salas-Eljatib, Christian},
-year={2021}, month={Jan}
-} 
-
-%url={https://figshare.com/articles/dataset/rauliData_dat/13521602/2},
-
-@article{salas21stemanadata,
-title={Data from: A new algorithm for reconstructing tree height growth with stem analysis data},
-journal = {Dryad, Dataset, https://doi.org/10.5061/dryad.qnk98sfgc},
-author={Salas-Eljatib, Christian},
-year={2021}, 
-} 
 
 @article{johnson35,
  author = {N. O. Johnson},
@@ -4949,6 +5020,17 @@ and Rodolfo Neiva},
 	year={1973},
 	address={M{\'e}xico, D.F., M{\'e}xico},
 	note={629 p.}
+}
+
+
+@article{watters20,
+author = {Christine G. Watters and Lynn R. LaMotte},
+title = {A comparison of four methods of inverse prediction},
+journal = comstatsimu,
+volume = {49},
+number = {3},
+pages = {709--716},
+year  = {2020},
 }
 
 @article{canci87,
@@ -5318,10 +5400,6 @@ equations for maritime pine in {N}orthwestern {S}pain},
 }
 
 
-
-
-
-
 @book{catastronac13,
     author={{CONAF}},
     title={{CONAF, por un Chile forestal sustentable}},
@@ -5330,6 +5408,18 @@ equations for maritime pine in {N}orthwestern {S}pain},
     address={Santiago, Chile},
     note={83 p.}
 } 
+
+@book{catastronac20,
+    author={{CONAF}},
+    title={{Catastro de los Recursos
+Vegetacionales Nativos de Chile. Actualizaciones al a\~no 2020.}},
+    publisher={Departamento de Monitoreo
+    de Ecosistemas Forestales, CONAF},
+    year={2020},
+    address={Santiago, Chile},
+        note={76 p.}
+} 
+
 
 @book{catastronac17,
     author={{CONAF}},
@@ -5627,7 +5717,7 @@ year = {2010}
 
 @article{poorter08,
 author = {Poorter, L. and Wright, S. J. and Paz, H. and Ackerly, D. D. and Condit, R. and Ibarra-Manr{\'i}quez, G. and Harms, K. E. and Licona, J. C. and Mart{\'i}nez-Ramos, M. and Mazer, S. J. and Muller-Landau, H. C. and Pe{\~n}a-Claros, M. and Webb, C. O. and Wright, I. J.},
-title = {ARE FUNCTIONAL TRAITS GOOD PREDICTORS OF DEMOGRAPHIC RATES? EVIDENCE FROM FIVE NEOTROPICAL FORESTS},
+title = {ARE FUNCTIONAL TRAITS GOOD PREDICTORS OF DEMOGRAPHIC RATES? EVIDENCE FROM FIVE {N}EOTROPICAL FORESTS},
 journal = ecol,
 volume = {89},
 number = {7},
@@ -7086,6 +7176,17 @@ Documento de Trabajo No. 38 (Publicaci\'on FAO)},
 	year={1981},
 	note={70 p}
 }
+
+@book{donosotipfor,
+	author={C. Donoso},
+	title={Tipos forestales de los bosques nativos de {C}hile},
+	publisher={Investigac\'ion y Desarrollo Forestal (CONAF/PNUD/FAO),
+Documento de Trabajo No. 38 (Publicaci\'on FAO)},
+	year={1981},
+	address={Santiago, Chile},
+	note={70 p}
+}
+
 @article{donoso83,
 	author={C. Donoso},
 	title={Modificaciones del paisaje forestal chileno a lo
@@ -7109,15 +7210,6 @@ Documento de Trabajo No. 38 (Publicaci\'on FAO)},
 	pages={365--438}
 }
 
-@book{donosotipfor,
-	author={C. Donoso},
-	title={Tipos forestales de los bosques nativos de {C}hile},
-	publisher={Investigac\'ion y Desarrollo Forestal (CONAF/PNUD/FAO),
-Documento de Trabajo No. 38 (Publicaci\'on FAO)},
-	year={1981},
-	address={Santiago, Chile},
-	note={82 p}
-}
 
 
 
@@ -7561,13 +7653,26 @@ and Empirical Considerations},
 	pages={847--940}
 }
 
+@inproceedings{gcos09,
+	author={{GCOS}},
+	booktitle={Proceedings of the Conference of the Parties (COP)},
+	title={Implementation Plan for the Global Observing System for Climate in Support of the
+UNFCCC (2010 Update)},
+	year= 2009,
+	address={Copenhagen, Denmark},
+	editor={S. Solomon and D. Qin and M. Manning and Z. Chen and
+	M. Marquis and K. B. Averyt and M. Tignor and H. L. Miller},
+	pages={7--19}
+}
+
+
 
 %%trayectorias diferentes
 @article{norden15,
 author = {Norden, Natalia and Angarita, H\'ector A. and Bongers,
 Frans and Mart\'inez-Ramos, Miguel and Granzow-de la Cerda,
 I\~{n}igo and van Breugel, Michiel and Lebrija-Trejos, Edwin and Meave, Jorge A. and Vandermeer, John and Williamson, G. Bruce and Finegan, Bryan and Mesquita, Rita and Chazdon, Robin L.}, 
-title = {Successional dynamics in Neotropical forests are as uncertain as they are predictable},
+title = {Successional dynamics in {N}eotropical forests are as uncertain as they are predictable},
 volume = {112}, 
 number = {26}, 
 pages = {8013-8018}, 
@@ -7577,10 +7682,28 @@ journal = pnas
 
 @ARTICLE{li21,
 AUTHOR={Li, Ronghua and Zhu, Shidan and Lian, Juyu and Zhang, Hui and Liu, Hui and Ye, Wanhui and Ye, Qing},   	 
-TITLE={Functional Traits Are Good Predictors of Tree Species Abundance Across 101 Subtropical Forest Species in China},      	
+TITLE={{Functional traits are good predictors of tree species abundance across 101 subtropical forest species in China}},      	
 JOURNAL={Frontiers in Plant Science},      	
 VOLUME={12},      	
 YEAR={2021},      
+}
+
+@ARTICLE{adams13,
+AUTHOR={Adams, Henry and Williams, A and Xu, Chonggang and Rauscher, Sara and Jiang, Xiaoyan and McDowell, Nate},   
+TITLE={Empirical and process-based approaches to climate-induced forest mortality models},      
+JOURNAL={Frontiers in Plant Science},      	
+VOLUME={4},      	
+YEAR={2013},      
+}
+
+@ARTICLE{li20,
+  AUTHOR={Li, Chao and Barclay, Hugh and Roitberg, 
+Bernard and Lalonde, Robert},   	 
+TITLE={Forest Productivity Enhancement and Compensatory Growth: A Review and Synthesis},      	
+JOURNAL={Frontiers in Plant Science},      	
+VOLUME={11},      	
+NUMBER={575211},
+YEAR={2020},      
 }
 
 @article {falster18,
@@ -7614,7 +7737,6 @@ YEAR={2021},
 	editor={J Calbucura and F. LeBonniec},
 	pages={3--43}
 }
-%%	address={New Haven, CT, USA},
 
 
 @inproceedings{donosointro99,
@@ -8105,7 +8227,7 @@ author = "Raphael Trouve and Craig R. Nitschke and Andrew P. Robinson and Patric
 
 @article{donop07,
 	author={P. J. Donoso and D. P. Soto and R. A. Bert\'in},
-	title={Size–density relationships in \emph{{D}rimys winteri} 
+	title={Size--density relationships in \emph{{D}rimys winteri} 
 secondary forests of the {C}hiloe {I}sland, {C}hile: Effects of 
 physiography and species composition},
 	journal=foreco,
@@ -8134,6 +8256,18 @@ and Chile's wetland sanctuary: ethical considerations}},
 	volume={6},
 	year={2006},
 	pages={1--4}
+}
+
+
+@article{saltelli20,
+	author={Saltelli, A. and Bammer, G. and Bruno, I. and Charters, E. and Di, Fiore M. and Didier, E. and Nelson, W. and Kay, J. and Lo~Piano, S. and Mayo, D. and
+	 Pielke~Jr, R. and Portaluri, T. and Porter, T. M. and
+	  Puy, A. and Rafols, I. and Ravetz, J.R. and Reinert, E. and Sarewitz, D. and Stark, P. B. and Stirling, A. and van~der~Sluijs, J. and Vineis, P.},
+	title={{Five ways to ensure that models serve society: a manifesto}},
+	journal={Nature},
+	volume={582},
+	year={2020},
+	pages={482--484}
 }
 
 @article{mulsow06,
@@ -8439,6 +8573,27 @@ number={6}
   volume = {7},
   year = {2004},
 }
+
+@article{jones08b,
+author = {Jones, Owen R. and Gaillard, Jean-Michel and Tuljapurkar, Shripad and Alho, Jussi S. and Armitage, Kenneth B. and Becker, Peter H. and Bize, Pierre and Brommer, Jon and Charmantier, Anne and Charpentier, Marie and Clutton-Brock, Tim and Dobson, F. Stephen and Festa-Bianchet, Marco and Gustafsson, Lars and Jensen, Henrik and Jones, Carl G. and Lillandt, Bo-Göran and McCleery, Robin and Merilä, Juha and Neuhaus, Peter and Nicoll, Malcolm A. C. and Norris, Ken and Oli, Madan K. and Pemberton, Josephine and Pietiäinen, Hannu and Ringsby, Thor Harald and Roulin, Alexandre and Saether, Bernt-Erik and Setchell, Joanna M. and Sheldon, Ben C. and Thompson, Paul M. and Weimerskirch, Henri and Jean Wickings, E. and Coulson, Tim},
+title = {Senescence rates are determined by ranking on the fast–slow life-history continuum},
+journal = ecolet,
+volume = {11},
+number = {7},
+pages = {664--673},
+year = {2008}
+}
+
+@article{alonso08,
+author = {Alonso, David and Ostling, Annette and Etienne, Rampal S.},
+title = {The implicit assumption of symmetry and the species abundance distribution},
+journal = ecolet,
+volume = {11},
+number = {2},
+pages = {93--105},
+year = {2008}
+}
+
 
 @article{youngetal17,
 author = {Young, Derek J. N. and Stevens, Jens T. and Earles, J. Mason and Moore, Jeffrey and Ellis, Adam and Jirka, Amy L. and Latimer, Andrew M.},
@@ -9158,6 +9313,16 @@ Year = {1999},
     pages={2203--2211}
 }
 
+@article{chen02,
+title = {{Derivation and validation of Canada-wide coarse-resolution leaf area index maps using high-resolution satellite imagery and ground measurements}},
+journal =rse,
+volume = {80},
+number = {1},
+pages = {165--184},
+year = {2002},
+author = {J. M. Chen and G. Pavlic and L. Brown and J. Cihlar and S. G. Leblanc and H. P. White and R. J. Hall and D. R. Peddle and D. J. King and J. A. Trofymow and E. Swift and J. {Van der Sanden} and P. K. Pellikka},
+}
+
 @book{fitzecobook,
   editor = {B. Fitzenberger and R. Koenjer and J. A.~F. Machado},
   title =  {Economic Applications of Quantile Regression},
@@ -9217,6 +9382,67 @@ Institute of Forest Resources Contribution Number 55. Seattle, WA, USA.}
 	pages={483--489},
 	number={3}
 }
+
+@article{mitchell13,
+author = {Mitchell, Patrick J. and O'Grady, Anthony P. and Tissue, David T. and White, Donald A. and Ottenschlaeger, Maria L. and Pinkard, Elizabeth A.},
+title = {Drought response strategies define the relative contributions of hydraulic dysfunction and carbohydrate depletion during tree mortality},
+journal = nphy,
+volume = {197},
+number = {3},
+pages = {862--872},
+year = {2013}
+}
+
+
+@article{anderegg15b,
+author = {Anderegg, William and Hicke, Jeffrey and Rosie, Fisher and Allen, Craig and Aukema, Juliann and Bentz, Barbara and Hood, Sharon and Lichstein, Jeremy and Macalady, Alison and McDowell, Nate and Pan, Yude and Raffa, Kenneth and Sala, Anna and Shaw, John and Stephenson, Nathan and Tague, Christina and Zeppel, Melanie},
+year = {2015},
+number = {3},
+pages = {674--683},
+title = {Tree mortality from drought, insects, and their interactions in a changing climate},
+volume = {208},
+journal = nphy,
+}
+
+@article{mcdowell08,
+author = {McDowell, Nate and Pockman, William and Allen, Craig and Breshears, David and Cobb, Neil and Kolb, Thomas and Plaut, Jennifer and Sperry, John and West, Adam and Williams, David and Yepez, Enrico},
+year = {2008},
+pages = {719--39},
+title = {Mechanisms of plant survival and mortality during drought: Why do some plants survive while others succumb to drought?},
+volume = {178},
+journal = nphy,
+}
+
+@article{grossiord20,
+author = {Grossiord, Charlotte and Buckley, Thomas N. and Cernusak, Lucas A. and Novick, Kimberly A. and Poulter, Benjamin and Siegwolf, Rolf T. W. and Sperry, John S. and McDowell, Nate G.},
+title = {Plant responses to rising vapor pressure deficit},
+journal = nphy,
+volume = {226},
+number = {6},
+pages = {1550--1566},
+year = {2020}
+}
+
+@Article{mcdowell15,
+author={McDowell, Nathan G. and Allen, Craig D.},
+title={Darcy's law predicts widespread forest mortality under climate warming},
+journal=ncc,
+year={2015},
+volume={5},
+number={7},
+pages={669--672},
+}
+
+
+@article{mcdowell20,
+author = {Nate G. McDowell  and Craig D. Allen  and Kristina Anderson-Teixeira  and Brian H. Aukema  and Ben Bond-Lamberty  and Louise Chini  and James S. Clark  and Michael Dietze  and Charlotte Grossiord  and Adam Hanbury-Brown  and George C. Hurtt  and Robert B. Jackson  and Daniel J. Johnson  and Lara Kueppers  and Jeremy W. Lichstein  and Kiona Ogle  and Benjamin Poulter  and Thomas A. M. Pugh  and Rupert Seidl  and Monica G. Turner  and Maria Uriarte  and Anthony P. Walker  and Chonggang Xu },
+title = {Pervasive shifts in forest dynamics in a changing world},
+journal = {Science},
+volume = {368},
+number = {6494},
+pages = {eaaz9463},
+year = {2020},}
+
 
 @article{fish21,
 	author={R. A. Fisher},
@@ -9496,6 +9722,18 @@ Key lessons for its application in {C}hile and around the world},
 	year={2010},
 	pages={185--194}
 } 
+
+
+@Article{harmon20,
+AUTHOR = {Harmon, Mark E. and Bell, David M.},
+TITLE = {Mortality in Forested Ecosystems: suggested Conceptual Advances},
+JOURNAL = {Forests},
+VOLUME = {11},
+YEAR = {2020},
+NUMBER = {5},
+PAGES = {572},
+}
+
 
 @inbook{franklin89,
 	title = {Importance and justification of long-term studies in ecology},
@@ -10215,6 +10453,7 @@ title = {Height growth in radiata pine I. General model and estimation procedure
 }
 
 
+
 @article{kimberley05,
     author={M. Kimberley and G. West and M. Dean and L. Knowles},
     title={The 300 index--a volume productivity index for radiata pine},
@@ -10232,7 +10471,7 @@ title = {Height growth in radiata pine I. General model and estimation procedure
     journal= nzf,
     volume={24},
     number={1},
-    year={2005},
+    year={1979},
     pages={13--24}
 }
 
@@ -10470,6 +10709,16 @@ volume = {92},
 number = {4},
 pages = {418--427},
 year = {2016},
+}
+
+@article{parker42,
+author = {Parker, H. A.},
+title = {DOMINANT HEIGHT AND AVERAGE DIAMETER AS A MEASURE OF SITE},
+journal = fchron,
+volume = {18},
+number = {3},
+pages = {152--156},
+year = {1942},
 }
 
 @article{garcia05c,
@@ -10982,6 +11231,17 @@ and on a New Mode of Determining the Value of Life Contingencies},
 }
 
 
+@article{bigler09,
+	author={C. Bigler and T. T. Veblen},
+	title={Increased early growth rates
+decrease
+ longevities of conifers in subalpine fores},
+	journal={Oikos},
+	volume={118},
+	year={2009},
+	pages={1130--1138}
+}
+
 @article{gmauroetal02,
 	author={Mauro E. Gonz\'alez and T. T. Veblen and
 	C. Donoso and L. Valeria},
@@ -11170,6 +11430,15 @@ de la {Revista Chilena de Historia Natural}: quinquenio 2003-2007},
 	note={265 p.}
 }
 
+@book{barbour98,
+  title={Terrestrial Plant Ecology},
+  author={Barbour, M. G. and and Burk, J. H. and Pitts, W. D. and Gilliam, F. S. and Schwartz, M. W.},
+  note={649 p},
+    edition={3rd},
+  year={1998},
+  publisher={Addison Wesley Longman}
+}
+
 @book{gotelli98,
 	author={Nicholas J. Gotelli},
 	title={A Primer of Ecology},
@@ -11258,6 +11527,19 @@ epithet for a \emph{{N}othofagus hybrid}},
     pages={447--451},
     number={4}
 }
+
+@article{cayuela19,
+    author = {Cayuela, Hugo and Akani, Godfrey C and Hema, Emmanuel M and Eniang, Edem A and Amadi, Nioking and Ajong, Stephanie N and Dendi, Daniele and Petrozzi, Fabio and Luiselli, Luca},
+    title = {Life history and age-dependent mortality processes in tropical reptiles},
+    journal = {Biological Journal of the Linnean Society},
+    volume = {128},
+    number = {2},
+    pages = {251--262},
+    year = {2019},
+}
+
+
+
 
 @article {green92,
 	author = {Edwin J. Green and  William E. Strawderman and Charles E. Thomas},
@@ -11800,8 +12082,8 @@ de {Storie}},
 
 @article{grosse89,
 	author={H. Grosse},
-	title={Renovales de Raul\'{\i}, Roble, Coig{\"u}e y Tepa, 
-expectativas de rendimiento},
+	title="{Renovales de Raul\'{\i}, Roble, Coig{\"u}e y Tepa, 
+expectativas de rendimiento}",
 	journal=cef,
 	volume={3},
 	year={1989},
@@ -11906,7 +12188,7 @@ uso y manejo},
 
 @techreport{npn92a,
 	author={P. N{\'{u}\~{n}}ez and O. Vera},
-	title={Evaluaci\'on de intervenciones silv\'colas en un renoval mixto de lenga 
+	title={Evaluaci\'on de intervenciones silv\'icolas en un renoval mixto de lenga 
 (\emph{{N}othofagus pumilio}) y coihue (\emph{{N}othofagus dombeyi}), 
 ubicado en la reserva forestal {Coyaique, XI Regi\'on}},
 	institution={CIEFAP},
@@ -11957,8 +12239,8 @@ title={Seguimiento Forestal y Ambiental del uso de los Bosques de Lenga — {XII
 
 @inproceedings{grosseq99,
 	author={H. Grosse and I. Quiroz},
-	title={Silvicultura de los bosques de segundo crecimiento de Roble, 
-Raul\'{\i} y Coig{\"u}e en la regi{\'o}n centro-sur de {C}hile},
+	title="{Silvicultura de los bosques de segundo crecimiento de Roble, 
+Raul\'{\i} y Coig{\"u}e en la regi{\'o}n centro-sur de {C}hile}",
 	booktitle={~Silvicultura de los bosques nativos de {C}hile},
 	year={1999},
 	publisher={Editorial Universitaria},
@@ -12458,12 +12740,12 @@ for Timber Yield Predictions},
 
 @techreport{hamil74b,
     author={Hamilton~Jr., D. A.},
-    title={XXXX},
+    title={Even probabilities estimated by regression},
      type=usdarp,
-    year={1973},
+    year={1974},
     address={USA},
-    number={INT-137},
-    note={32 p.}
+    number={INT-152},
+    note={18 p.}
 }
 
 @article{hamil86,
@@ -12671,7 +12953,7 @@ Comparative Analysis of Flexible Two-Parameter Models of Plant Disease Epidemics
 @article{rfor01,
 	author={L. Brieman},
 	title={Random forest},
-	journal={Machine lerning},
+	journal={Machine learning},
 	volume={45},
 	year={2007},
 	pages={5--32},
@@ -13150,6 +13432,17 @@ Information Sciences, Volume XXXVI, Part 3/W19. Enschede, The Netherlands.}
 	pages={555--562}
 }
 
+@article{meddens12,
+author = {Meddens, Arjan J. H. and Hicke, Jeffrey A. and Ferguson, Charles A.},
+title = {{Spatiotemporal patterns of observed bark beetle-caused tree mortality in British Columbia and the western United States}},
+journal = ecoappli,
+volume = {22},
+number = {7},
+pages = {1876--1891},
+year = {2012}
+}
+
+
 @article{ives06,
 author = {Ives, Anthony R. and Zhu, Jun},
 title = {Statistics For Correlated Data: Phylogenies, Space, And Time},
@@ -13443,6 +13736,145 @@ different soil types},
   volume={4},
   pages={2269}
 }
+
+@article{esquivel20,
+author={Esquivel-Muelbert, Adriane
+and Phillips, Oliver L.
+and Brienen, Roel J. W.
+and Fauset, Sophie
+and Sullivan, Martin J. P.
+and Baker, Timothy R.
+and Chao, Kuo-Jung
+and Feldpausch, Ted R.
+and Gloor, Emanuel
+and Higuchi, Niro
+and Houwing-Duistermaat, Jeanne
+and Lloyd, Jon
+and Liu, Haiyan
+and Malhi, Yadvinder
+and Marimon, Beatriz
+and Marimon Junior, Ben Hur
+and Monteagudo-Mendoza, Abel
+and Poorter, Lourens
+and Silveira, Marcos
+and Torre, Emilio Vilanova
+and D{\'a}vila, Esteban Alvarez
+and del Aguila Pasquel, Jhon
+and Almeida, Everton
+and Loayza, Patricia Alvarez
+and Andrade, Ana
+and Arag{\~a}o, Luiz E. O. C.
+and Araujo-Murakami, Alejandro
+and Arets, Eric
+and Arroyo, Luzmila
+and Aymard C., Gerardo A.
+and Baisie, Michel
+and Baraloto, Christopher
+and Camargo, Pl{\'i}nio Barbosa
+and Barroso, Jorcely
+and Blanc, Lilian
+and Bonal, Damien
+and Bongers, Frans
+and Boot, Ren{\'e}
+and Brown, Foster
+and Burban, Benoit
+and Camargo, Jos{\'e} Lu{\'i}s
+and Castro, Wendeson
+and Moscoso, Victor Chama
+and Chave, Jerome
+and Comiskey, James
+and Valverde, Fernando Cornejo
+and da Costa, Antonio Lola
+and Cardozo, Nallaret Davila
+and Di Fiore, Anthony
+and Dourdain, Aur{\'e}lie
+and Erwin, Terry
+and Llampazo, Gerardo Flores
+and Vieira, Ima C{\'e}lia Guimar{\~a}es
+and Herrera, Rafael
+and Honorio Coronado, Eur{\'i}dice
+and Huamantupa-Chuquimaco, Isau
+and Jimenez-Rojas, Eliana
+and Killeen, Timothy
+and Laurance, Susan
+and Laurance, William
+and Levesley, Aurora
+and Lewis, Simon L.
+and Ladvocat, Karina Liana Lisboa Melga{\c{c}}o
+and Lopez-Gonzalez, Gabriela
+and Lovejoy, Thomas
+and Meir, Patrick
+and Mendoza, Casimiro
+and Morandi, Paulo
+and Neill, David
+and Nogueira Lima, Adriano Jos{\'e}
+and Vargas, Percy Nu{\~{n}}ez
+and de Oliveira, Edmar Almeida
+and Camacho, Nadir Pallqui
+and Pardo, Guido
+and Peacock, Julie
+and Pe{\~{n}}a-Claros, Marielos
+and Pe{\~{n}}uela-Mora, Maria Cristina
+and Pickavance, Georgia
+and Pipoly, John
+and Pitman, Nigel
+and Prieto, Adriana
+and Pugh, Thomas A. M.
+and Quesada, Carlos
+and Ramirez-Angulo, Hirma
+and de Almeida Reis, Simone Matias
+and Rejou-Machain, Maxime
+and Correa, Zorayda Restrepo
+and Bayona, Lily Rodriguez
+and Rudas, Agust{\'i}n
+and Salom{\~a}o, Rafael
+and Serrano, Julio
+and Espejo, Javier Silva
+and Silva, Natalino
+and Singh, James
+and Stahl, Clement
+and Stropp, Juliana
+and Swamy, Varun
+and Talbot, Joey
+and ter Steege, Hans
+and Terborgh, John
+and Thomas, Raquel
+and Toledo, Marisol
+and Torres-Lezama, Armando
+and Gamarra, Luis Valenzuela
+and van der Heijden, Geertje
+and van der Meer, Peter
+and van der Hout, Peter
+and Martinez, Rodolfo Vasquez
+and Vieira, Simone Aparecida
+and Cayo, Jeanneth Villalobos
+and Vos, Vincent
+and Zagt, Roderick
+and Zuidema, Pieter
+and Galbraith, David},
+title={Tree mode of death and mortality risk factors across Amazon forests},
+journal=narcom,
+year={2020},
+volume={11},
+number={1},
+pages={5515},
+}
+
+
+@Article{senf20,
+author={Senf, Cornelius
+and Buras, Allan
+and Zang, Christian S.
+and Rammig, Anja
+and Seidl, Rupert},
+title={Excess forest mortality is consistently linked to drought across Europe},
+journal=natcom,
+year={2020},
+volume={11},
+number={1},
+pages={6200},
+}
+
 
 @article{eloy17,
   title={{Wind loads and competition for light sculpt trees into self-similar structures}},
@@ -13848,7 +14280,7 @@ approaches for young red alder plantations},
 }
 %%	url = "http://www.ingentaconnect.com/content/saf/fs/2006/00000052/00000006/art00002"
 
-@article{kimins85,
+@article{kimmins85,
     author={J. P. Kimmins},
     title={Future Shock in Forest Yield Forecasting: The Need for a New Approach},
     journal=fchron,
@@ -13933,7 +14365,7 @@ estimation of cubic foot volume},
 }
  
  
-@article{kimins90,
+@article{kimmins90,
     author={J. P. Kimmins and P. G. Comeau and W. Kurz},
     title={Modelling the interactions between moisture and nutrients in the 
 control of forest growth},
@@ -14576,7 +15008,7 @@ pages={287--288},
 }
 
 
-@article{villalba97,
+@article{villalba97a,
 	author={R. Villalba and T. T. Veblen},
 	title={Improving estimates of total tree ages based on increment
  core samples},
@@ -14585,6 +15017,43 @@ pages={287--288},
 	year={1997},
 	pages={534--542},
 	number={4}
+}
+
+@article{vanden13,
+author={van den Berg, Tobias
+and Heymans, Martijn W.
+and Leone, Stephanie S.
+and Vergouw, David
+and Hayden, Jill A.
+and Verhagen, Arianne P.
+and de Vet, Henrica CW},
+title={Overview of data-synthesis in systematic reviews of studies on outcome prediction models},
+journal={BMC Medical Research Methodology},
+year={2013},
+volume={13},
+number={1},
+pages={42},
+}
+
+
+@article{petro21,
+AUTHOR = {Petrokofsky, Gillian and Savilaakso, Sini},
+TITLE = {The Value of Systematic Evidence Synthesis in Forestry, Land Use and Development to Improve Research, Decision-Making and Practice},
+JOURNAL = {Forests},
+VOLUME = {12},
+YEAR = {2021},
+NUMBER = {10},
+PAGES = {1355},
+}
+
+@article{villalba97,
+author = {Villalba, Ricardo and Boninsegna, J. A. and
+Veblen, T. T. and Schmelter, A. and Rubulis, S.},
+title = {{Recent trends in tree-ring records from high elevation sites in the Andes of northern Patagonia}},
+journal = {Climatic Change},
+volume = {36},
+year ={1998},
+pages = {425--454}
 }
 
 @article{niklasson02,
@@ -15373,13 +15842,14 @@ doi = {10.1139/x83-012}
 
 @article{lorimer83b,
 	author={Craig G. Lorimer and and Albert G. Krug},
-	title={TDiameter Distributions in Even-aged Stands of Shade-tolerant and Midtolerant Tree Species},
+	title={Diameter Distributions in Even-aged Stands of Shade-tolerant and Midtolerant Tree Species},
 	journal={American Midland Naturalist},
 	volume={109},
 	year={1983},
 	pages={331--345},
 		number={2}
 }
+
 
 
 @article{lorimer83,
@@ -15499,6 +15969,16 @@ volume = {20},
 journal = {New Forests}
 }
 
+
+@article{schutz75,
+author = {J. P. Sch{\"u}tz},
+title = {Dynamique et conditions d'{\'e}quilibre de peuplements jardin{\'e}s sur les stations de la hêtraie {\'a} sapin},
+journal = {Schweizerische Zeitschrift f{\"u}r Forstwesen},
+volume = {126},
+pages = {637--671},
+year = {1975}
+}
+ 
 @article{obrien17,
 author = {O'Brien, Michael J. and Engelbrecht, Bettina M. J. and Joswig, Julia and Pereyra, Gabriela and Schuldt, Bernhard and Jansen, Steven and Kattge, Jens and Landh{\"a}usser, Simon M. and Levick, Shaun R. and Preisler, Yakir and V{\"a}{\"a}n{\"a}nen,
 P{\"a}ivi and Macinnis-Ng, Cate},
@@ -16199,9 +16679,9 @@ year = {1994}
 	author={R. Neumann},
 	title={An\'alisis de estructura y din\'amica de un bosque remanente original
 de Roble-Laurel-Lingue, en el fundo  San Juli\'an,  comuna de {P}anguipulli, {X} Regi\'on},
-	school={Universidad de Chile},
+	school={Universidad Austral de Chile},
 	year={2001},
-	address={Santiago, Chile},
+	address={Valdivia, Chile},
 	type={Tesis {I}ngeniero {F}orestal},
 	note={103 p.}
 } 
@@ -17188,6 +17668,8 @@ and knowledge management, and policy science},
 
 
 
+
+
 @article{monse90,
     author={R. A. Monserud and U. Moody and D. W. Breuer},
     title={A soil-site study for inland {D}ouglas-fir},
@@ -17208,6 +17690,23 @@ and knowledge management, and policy science},
     pages={738--742}
 }
 
+@article{monse96,
+author = {Robert A. Monserud and Hubert Sterba},
+title = {{A basal area increment model for individual trees growing in even- and uneven-aged forest stands in Austria}},
+journal = foreco,
+volume = {80},
+pages = {57 - 80},
+year = {1996}
+}
+
+@article{monse99b,
+title = {Modeling individual tree mortality for {A}ustrian forest species},
+journal = foreco,
+volume = {113},
+pages = {109-123},
+year = {1999},
+author = {Robert A. Monserud and Hubert Sterba}
+}
 
 @article{monse99,
     author={Robert A. Monserud and John D. Marshall},
@@ -17347,6 +17846,8 @@ for Seven Tree Species in {M}aine},
   type =  {{Maine
 Agricultural Experiment Station, Technical Bulletin 12}}
 }
+
+
 
 
 @article{moore96,
@@ -17623,6 +18124,9 @@ Likelihood Ratio Statistic in Multivariate Analysis of Variance},
 	note={767 p.}
 }
 
+
+
+
 @book{munoz,
 	author={M. Mu{\~{n}}oz and  H. N\'{u}{\~{n}}ez and J. Y\'{a}{\~{n}}ez},
 	title={Libro rojo de los sitios prioritarios para la conservaci{\'o}n 
@@ -17764,6 +18268,17 @@ vegetation on tree height growth},
 	edition={2nd},
 	address={Pacific Grove, CA, USA},
 	note={488 p.}
+}
+
+@techreport{hoar65,
+  author =   {Leigh E. Hoar and Harold E. Young},
+  title =    {MENSURATION METHODS FOR SITE CLASSIFICATION
+OF SHADE TOLERANT TREE SPECIES},
+  note =    {15 p},
+  year =     1965,
+  publisher =  {Maine Agricultural Experiment Station -- University
+  of Maine, Technical   Bulletin 18},
+  addres={Orono, ME}
 }
 
 @book{mostebook,
@@ -18481,6 +18996,16 @@ and economic productivity},
 }
 
 
+@book{manion81,
+	author={Manion, P. D.},
+	title={Tree disease concepts},
+	publisher={Prentice-Hall, Inc.},
+	year={1981}, 	
+	address={NJ, USA},
+	note={399 p.}
+}
+
+
 @book{kevinbook,
   title={Multiaged Silviculture: Managing for
   Complex Forest Stand Structures},
@@ -18489,6 +19014,15 @@ and economic productivity},
   publisher={Oxford University Press},
       address={New York, USA},
   note={213 p.}
+}
+
+@book{botkinbook,
+  title={Forest Dynamics. An Ecological Model},
+  author={D. B. Botkin},
+  year={1993},
+  publisher={Oxford University Press},
+      address={New York, USA},
+  note={309 p.}
 }
 
 @book{oliverbook1,
@@ -18600,6 +19134,19 @@ year = "2008",
 author = "D. Piotto",
 }
 
+@article{prisley04,
+author = {Stephen P. Prisley and Michael J. Mortimer},
+title = {A synthesis of literature on evaluation of models for policy applications, with implications for forest carbon accounting},
+journal = foreco,
+volume = {198},
+number = {1},
+pages = {89--103},
+year = {2004},
+}
+
+
+
+
 @article{pollard71,
      title = {On Distance Estimators of Density in Randomly Distributed Forests},
      author = {Pollard, J. H.},
@@ -18631,6 +19178,16 @@ number = "11",
 pages = "569--574",
 year = "2007",
 author = "Christian K{\"o}rner"
+}
+
+@article{hulsmann21,
+title = {Is Variation in Conspecific Negative Density Dependence Driving Tree Diversity Patterns at Large Scales?},
+journal = tecoevo,
+volume = {36},
+number = {2},
+pages = {151--163},
+year = {2021},
+author = {Lisa H\"{u}lsmann and Ryan A. Chisholm and Florian Hartig},
 }
 
 @article{poisot19,
@@ -19334,7 +19891,7 @@ Bosque Nativo de la Empresa {S}oc. {F}orestal {M}illalemu {S.A.}
 @techreport{npn85,
 	author={P. N{\'{u}\~{n}}ez and Ruben Pe{\~{n}}aloza},
 	title={Evaluaci\'on y primeros resultados del ensayo de tratamientos silv\'icolas aplicados
-al bosque de lenga en Coyhaique, XI Regi\'on},
+al bosque de lenga en {C}oyhaique, {XI R}egi\'on},
 	institution={Fac. Cienc. For., Univ. Austral de Chile},
 	year={1985},
 	type={Informe de convenio},
@@ -19674,7 +20231,7 @@ pages="363--374",
 
 @article{pretzetal07,
     author={H. Pretzsch and R. Grote and B. Reineking and Th. R\"{o}tzer and St. Seifert},
-    title={Models for Forest Ecosystem Management: {A} European Perspective},
+    title={Models for Forest Ecosystem Management: {a} {E}uropean Perspective},
     journal=anabot,
     year={2007},
     pages={1--23},
@@ -19776,13 +20333,13 @@ de Ingenier\'ia Forestal},
 
 
 @techreport{puente79,
-	author={Mario Puente and C. Donoso and Ruben Pe{\~{n}}aloza and 
-	        Eduardo Morales},
-	title={Estudio de raleo y otras t\'ecnicas para el manejo de renovales de 
+	author={M. Puente and C. Donoso and R. Pe{\~{n}}aloza and 
+	        E. Morales},
+	title="{Estudio de raleo y otras t\'ecnicas para el manejo de renovales de 
 	        raul{\'{\i}} (\emph{{N}othofagus alpina}) y 
 	        roble (\emph{{N}othofagus obliqua}). 
 	        {E}tapa {I}: Identificaci\'on y caracterizaci\'on de renovales de 
-	        raul{\'{\i}} y roble},
+	        raul{\'{\i}} y roble}",
 	institution={Proyecto {CONAF}/{PNUD}/{FAO-CHI}/76/003},
 	year={1979},
 	type={Informe de convenio},
@@ -21643,21 +22200,6 @@ por cole{\'o}pteros xilofagos, IX Regi\'on, Chile}},
     pages={52--56}
 }
 
- 
-@article{poblete89,
-    author={R. Rebolledo and C. Salas and P. S{\'a}ez and C. Klein and
-A. Aguilera },
-    title={{Tableros de part\'iculas con renovales de
-roble ({\it Nothofagus obliqua}), raul\'i ({\it N. alpina}) y un
-h\'ibrido de ambos}},
-    journal=bos,
-    volume={10},
-    number={1},
-    year = {1989},
-    pages={9--17}
-}
-
-
 @article{salasetal06,
     author={C. Salas and V. LeMay and P. N{\'{u}\~{n}}ez and 
             P. Pacheco and A. Espinosa},
@@ -21706,6 +22248,18 @@ chilenas: una aplicaci\'on en las ciencias forestales con {B}osque},
     pages={3--10}
 }
 
+@article{salaspromis20,
+    author={C. Salas-Eljatib and A. Promis},
+    title={Un llamado a la activaci\'on real de la {S}ociedad {C}hilena de {C}iencias {F}orestales},
+    journal=bos,
+    volume={41},
+    number={3},
+    year = {2020},
+    pages={209--212}
+}
+
+
+
 @article{salas08b,
     author={C. Salas},
     title={?`{P}or qu\'e comprar un programa estad\'istico si existe {R}?},
@@ -21727,6 +22281,60 @@ vegetation on tree height growth},
     year = {2008},
     pages={107--122}
 }
+
+@article{salas21,
+title = {{An approach to quantify climate-productivity relationships: an example from a widespread 
+{\it {N}othofagus} forest}},
+journal = ecoappli,
+volume = 31,
+number=4,
+pages="eap.2285",
+year = "2021",
+author = "C. Salas-Eljatib",
+}
+
+@article{salas21stem,
+title={{A new algorithm for reconstructing tree height growth with stem analysis data}},
+journal = mee,
+author={C. Salas-Eljatib},
+year={2021}, 
+ volume = {12},
+ number = {10},
+ pages = {2008--2016},
+} 
+
+
+@article{salas21data,
+title={Time series height-data for  {\it Nothofagus alpina} trees},
+journal = {Figshare, https://doi.org/10.6084/m9.figshare.13521602},
+author={Salas-Eljatib, Christian},
+year={2021}, month={Jan}
+} 
+
+%url={https://figshare.com/articles/dataset/rauliData_dat/13521602/2},
+
+@article{salas21stemanadata,
+title={Data from: A new algorithm for reconstructing tree height growth with stem analysis data},
+journal = {Dryad, Dataset, https://doi.org/10.5061/dryad.qnk98sfgc},
+author={Salas-Eljatib, Christian},
+year={2021}, 
+} 
+
+ 
+@article{poblete89,
+    author={R. Rebolledo and C. Salas and P. S{\'a}ez and C. Klein and
+A. Aguilera },
+    title={{Tableros de part\'iculas con renovales de
+roble ({\it Nothofagus obliqua}), raul\'i ({\it N. alpina}) y un
+h\'ibrido de ambos}},
+    journal=bos,
+    volume={10},
+    number={1},
+    year = {1989},
+    pages={9--17}
+}
+
+
 
 
 
@@ -22067,6 +22675,24 @@ year = {2008}
 }
 
 
+
+
+
+
+
+
+
+@article{searle22,
+author = {Eric B. Searle  and Han Y. H. Chen  and Alain Paquette },
+title = {Higher tree diversity is linked to higher tree mortality},
+journal = pnas,
+volume = {119},
+number = {19},
+pages = {e2013171119},
+year = {2022},
+}
+
+
 @article{salascience,
 	author = {Liang, Jingjing and Crowther, T. W. and Picard, Nicolas and Wiser, Susan and Zhou, Mo and Alberti, Giorgio and Schulze, Ernst-Detlef and McGuire, A. D. and Bozzato, Fabio and Pretzsch, Hans and de-Miguel, Sergio and Paquette, Alain and H{\'e}rault, Bruno and Scherer-Lorenzen, Michael and Barrett, Christopher B. and Glick, Henry B. and Hengeveld, Geerten M. and Nabuurs, Gert-Jan and Pfautsch, Sebastian and Viana, Helder and Vibrans, Alexander C. and Ammer, C. and Schall, Peter and Verbyla, D. and Tchebakova, Nadja and Fischer, Markus and Watson, James V. and Chen, Han Y. H. and Lei, Xiangdong and Schelhaas, Mart-Jan and Lu, Huicui and Gianelle, Damiano and Parfenova, Elena I. and Salas, C. and Lee, Eungul and Lee, Boknam and Kim, Hyun Seok and Bruelheide, Helge and Coomes, D. A. and Piotto, D. and Sunderland, Terry and Schmid, Bernhard and Gourlet-Fleury, Sylvie and Sonk{\'e}, Bonaventure and Tavani, Rebecca and Zhu, Jun and Brandl, Susanne and Vayreda, Jordi and Kitahara, Fumiaki and Searle, Eric B. and Neldner, Victor J. and Ngugi, Michael R. and Baraloto, Christopher and Frizzera, Lorenzo and Ba{\l}azy, Radomir and Oleksyn, Jacek and Zawi{\l}a-Nied{\'z}wiecki, Tomasz and Bouriaud, Olivier and Bussotti, Filippo and Fin{\'e}r, Leena and Jaroszewicz, Bogdan and Jucker, Tommaso and Valladares, Fernando and Jagodzinski, Andrzej M. and Peri, P. L. and Gonmadje, Christelle and Marthy, William and O{\textquoteright}Brien, Timothy and Martin, Emanuel H. and Marshall, Andrew R. and Rovero, Francesco and Bitariho, Robert and Niklaus, Pascal A. and Alvarez-Loayza, Patricia and Chamuya, Nurdin and Valencia, Renato and Mortier, Fr{\'e}d{\'e}ric and Wortel, Verginia and Engone-Obiang, Nestor L. and Ferreira, Leandro V. and Odeke, D. E. and Vasquez, Rodolfo M. and Lewis, Simon L. and Reich, Peter B.},
 	title = {Positive biodiversity-productivity relationship predominant in global forests},
@@ -22175,6 +22801,28 @@ year={2017},
 volume={1},
 number={11},
 pages={1639--1642},
+}
+
+@article{karger20,
+author={Karger, Dirk Nikolaus
+and Schmatz, Dirk R.
+and Dettling, Gabriel
+and Zimmermann, Niklaus E.},
+title={High-resolution monthly precipitation and temperature time series from 2006 to 2100},
+journal={Scientific Data},
+year={2020},
+volume={7},
+number={1},
+pages={248},
+}
+
+@article{brun22,
+AUTHOR = {Brun, P. and Zimmermann, N. E. and Hari, C. and Pellissier, L. and Karger, D. N.},
+TITLE = {Global climate-related predictors at kilometre resolution for the past and future},
+JOURNAL = {Earth System Science Data Discussions},
+VOLUME = {14},
+YEAR = {2022},
+PAGES = {1--44},
 }
 
 
@@ -22370,9 +23018,9 @@ author = "C. Salas-Eljatib and A. Fuentes-Ram\'irez and T. G. Gregoire and A. Al
 
 
 @article{salasweis18,
-title = "Evaluation of modeling strategies
+title = "{Evaluation of modeling strategies
  for assessing self-thinning behavior
- and carrying capacity",
+ and carrying capacity}",
 journal = ecoevol,
 volume = "8",
 number = "22",
@@ -22382,7 +23030,7 @@ author = "C. Salas-Eljatib and A. R. Weiskittel",
 }
 
 @article{salasweis20,
-title = "On studying the patterns of individual-based tree mortality in natural forests: a modelling analysis",
+title = "{On studying the patterns of individual-based tree mortality in natural forests: a modelling analysis}",
 journal = foreco,
 volume = "475",
 pages = {118369},
@@ -22418,8 +23066,8 @@ para {\it Drimys winteri} en el sur (41-43$^{\circ}$ S) de Chile}},
 }
 
 @article{salas20,
-title = "Height growth--rate at a given height: A mathematical perspective for forest
-productivity",
+title = "{Height growth--rate at a given height: a mathematical perspective for forest
+productivity}",
 journal = emod,
 volume = "431",
 pages = 109198,
@@ -23238,6 +23886,28 @@ the Black Hills National Forest}},
 }
 %  note =     {94 p.},
 
+@techreport{staebler53,
+  author =   {G. R. Staebler},
+    title={Mortality estimation in fully stocked stands of young-growth {D}ouglas-fir},
+     type=usdarp,
+    year={1953},
+    address={USA},
+    number={PNW-4},
+    note={8 p.}
+}
+
+@techreport{staebler55,
+  author =   {G. R. Staebler},
+    title={Gross yield and mortality tables for fully stocked stands 
+    of {D}ouglas-fir},
+     type=usdarp,
+    year={1955},
+    address={USA},
+    number={PNW-4},
+    note={20 p.}
+}
+
+
 @Unpublished{ssicentral05,
     author={SSI},
     title={Multilevel non-linear models},
@@ -23414,6 +24084,7 @@ title={Site index curves for grand fir in the inland empire},
 type=  usdagtr,
   address =  {USA}
 }
+
 
 
 @techreport{stage75,
@@ -24386,6 +25057,30 @@ DE LAS PUBLICACIONES cient\'ificas},
 	note={79 p.}
 }
 
+
+@mastersthesis{vera85,
+	author={O. Vera},
+	title={{Evaluaci\'on de intervenciones silv\'colas en un renoval mixto de lenga 
+(\emph{{N}othofagus pumilio} (POEPP. ET ENDL.)) y coihue (\emph{{N}othofagus dombeyi} (MIRB.) OERST.), 
+ubicado en la reserva forestal {Coyaique, XI Regi\'on}}},
+	school={Universidad Austral de Chile},
+	year={1985},
+	address={Valdivia, Chile},
+	type={Tesis {I}ngeniero {F}orestal},
+	note={108 p.}
+}
+
+
+@mastersthesis{blazina14,
+	author={A. P. Blazina,
+	title={{Estructura y din\'amica de un bosque de Lenga ({\it Nothofagus pumilio} (Poepp. et Endl.) Krasser) bajo disturbios naturales en el valle del r\'io Toro, provincia de Santa Cruz, Argentina: una apreciaci{\'o}n dendrocronol{\'o}gica}},
+	school={Universidad Nacional de Cuyo},
+	year={2014},
+	address={Mendoza, Argentina},
+	type={Tesis {I}ngenier\'ia en {R}ecursos {N}aturales {R}enovables},
+	note={48 p.}}}
+
+
 @mastersthesis{mano95,
 	author={L. Manosalva},
 	title={{Antecedentes dendrom\'etricos b\'asicos de un rodal de lenga ({\it Nothofagus pumilio}
@@ -24760,6 +25455,16 @@ de los Recursos Naturales, Comisi{\'o}n de Supervivencia de Especies de la UICN}
     pages={35}
 }
 
+@article{collins20,
+    author = {Collins, Scott L.},
+    title = "{Synthesis in Ecology}",
+    journal = {BioScience},
+    volume = {70},
+    number = {12},
+    pages = {1041--1041},
+    year = {2020},
+}
+
 
 @article{torales12,
     author={S. L. Torales and M. Rivarola and
@@ -25057,6 +25762,8 @@ and methods},
 	pages={1231--1245},
 }
 
+
+
 @article{veblen78,
 	author={T. T. Veblen and D. H. Ashton},
 	title={CATASTROPHIC INFLUENCES ON THE VEGETATION OF 
@@ -25156,6 +25863,17 @@ title={Structure and dynamics of
     pages = {162--183},
      year = {1985}
     }
+
+
+@article{rebertus97,
+author = {Rebertus, Alan J. and Kitzberger, Thomas and Veblen, Thomas T. and Roovers, Lynn M.},
+title = {BLOWDOWN HISTORY AND LANDSCAPE PATTERNS IN THE {A}NDES OF {T}ierra del {F}uego, {A}rgentina},
+journal = {Ecology},
+volume = {78},
+number = {3},
+pages = {678--692},
+year = {1997}
+}
 
 @article{may77,
 	author={R. M. May},
@@ -28925,7 +29643,14 @@ author = {Sonja Vospernik},
     pages = {265-279}
 }
 
-
+@article{gazol22,
+title = {Compound climate events increase tree drought mortality across European forests},
+journal = stte,
+volume = {816},
+pages = {151604},
+year = {2022},
+author = {Antonio Gazol and J. Julio Camarero},
+}
 
 
 @article{salazar21,
@@ -29005,8 +29730,17 @@ author = {Pablo {Salazar} and Aurelio {Diaz} and Manuel Olmo and Paloma Ruiz-Ben
 	pages={350--382}
 }
 
+@article{ohara99,
+    author = {O'Hara, Kevin L. and Oliver, Chadwick D.},
+    title = {A Decision System for Assessing Stand Differentiation Potential and Prioritizing Precommercial Thinning Treatments},
+    journal = wjaf,
+    volume = {14},
+    number = {1},
+    pages = {7--13},
+    year = {1999},
+}
 
-% articulo agregado por Tomas Cayul postulacion fondecyt 2019 27/08/18
+
 @article{lorimer01,
     author = {Craig G. Lorimer and Sally E. Dahir and Erik V. Nordheim},
 	title={Tree mortality rates and longevity in mature and old-growth hemlock-hardwood forests},
@@ -29248,7 +29982,7 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
 % articulo agregado por Tomas Cayul postulacion fondecyt 2019 28/08/18
 @article{chao84,
  author = {Anne Chao},
- title = {Nonparametric {E}stimation of the {N}umber of {C}lasses in a {P}opulation},
+ title = {Nonparametric Estimation of the Number of Classes in a Population},
  journal = sjstat,
  year = {1984},
  volume = {11},
@@ -29271,7 +30005,7 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
 % articulo agregado por Tomas Cayul postulacion fondecyt 2019 28/08/18
 @article{gotelli01,
  author = {N. J. Gotelli and R. K. Colwell},
- title = {Quantifying biodiversity: {P}rocedures and pitfalls in the measurement and comparison of species richness},
+ title = {Quantifying biodiversity: procedures and pitfalls in the measurement and comparison of species richness},
  journal = ecolet,
  year = {2001},
  volume = {4},
@@ -29290,7 +30024,6 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
 }
 
 
-% articulo agregado por Tomas Cayul postulacion fondecyt 2019 28/08/18
 @article{rossi11,
  author = {Jean-Pierre Rossi},
  title = {rich: {A}n {R} {P}ackage to {A}nalyse {S}pecies {R}ichness},
@@ -29301,7 +30034,7 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
  pages = {112--120}
 }
 
-% libro agregado por Tomas Cayul postulacion fondecyt 2019 27/08/18
+
 @book{aaronbook,
   author={A. R. Weiskittel and D. W. Hann and J. A. {Kershaw Jr.} and J. K. Vanclay},
   title =  {Forest {G}rowth and {Y}ield {M}odeling},
@@ -29310,6 +30043,15 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
   address =  {Chichester, UK},
   pages={430 p.}
 }
+
+@article{aravena02,
+   title = {{Tree-ring growth patterns and temperature reconstruction from  {\it Nothofagus pumilio} ({\it Fagaceae}) forests at the upper tree line of southern Chilean Patagonia}},
+   journal = rchn,
+   author={Aravena, JUAN C. AND Lara, ANTONIO AND Wolodarsky-Franke, ALEXIA AND Villalba, RICARDO AND Cuq, EMILIO},
+   volume = {75},
+   year = {2002},
+   pages = {361--376}
+ }
 
 
 @book{braun13,
@@ -29322,10 +30064,13 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
   edition={3rd}
 }
 
+%BRAUN BLANQUET, J. 1932. Plant Sociology.
+%McGraw-Hill Book Co. 439 pp
+
 % libro agregado por Tomas Cayul postulacion fondecyt 2019 27/08/18
-@InProceedings{matthei95,
+@book{matthei95,
   author={O. Matthei},
-  title =  {Handbook of the Weeds that Grow in Chile},
+  title = {Handbook of the Weeds that Grow in Chile},
   year={1995},
   publisher={Alfabeta Press},
   address =  {Santiago, Chile}
@@ -29419,12 +30164,12 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
 % articulo agregado por Tomas Cayul postulacion fondecyt 2019 28/08/18
 @article{breiman01,
  author = {Leo Breiman},
- title = {Statistical {M}odeling: {T}he {T}wo {C}ulture},
+ title = {Statistical Modeling: The Two Cultures},
  journal = statsc,
  year = {2001},
  volume = {16},
  number = {3},
- pages = {199-231}
+ pages = {199--231}
 }
 
 
@@ -29539,7 +30284,7 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
     journal=cjfr,
     volume={22},
     number={9},
-    pages={1235-1248}
+    pages={1235--1248}
 }
 
 
@@ -29560,10 +30305,9 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
     title={Factors predisposing episodic drought-induced tree mortality in \emph{Nothofagus}-site, climatic sensitivity and growth trends},
     journal=jecol,
     volume={92},
-    pages={954-966}
+    pages={954--966}
 }
 
-% articulo agregado por Tomas Cayul postulacion fondecyt 2019 03/09/18
 @article{lutz06,
     author={James A. Lutz and Charles B. Halpern},
     year={2006},
@@ -29571,9 +30315,19 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
     journal=emon,
     volume={76},
     number = {2},
-    pages={257-275}
+    pages={257--275}
 }
 
+
+@article{uriarte04,
+  title={A neighborhood analysis of tree growth and survival in a hurricane-driven tropical forest},
+  author={Uriarte, Mar{\'\i}a and Canham, Charles D and Thompson, Jill and Zimmerman, Jess K},
+  journal=emon,
+  volume={74},
+  number={4},
+  pages={591--614},
+  year={2004},
+}
 
 % articulo agregado por Tomas Cayul postulacion fondecyt 2019 03/09/18
 @article{duncanson15,
@@ -29604,7 +30358,7 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
     journal=ecoindi,
     volume={10},
     number = {6},
-    pages={1069-1076}
+    pages={1069--1076}
 }
 
 % articulo agregado por Tomas Cayul postulacion fondecyt 2019 03/09/18
@@ -29615,7 +30369,7 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
 	journal=sfenni,
 	volume={38},
 	number={4},
-	pages={437-448}
+	pages={437--448}
 } 
 
 % articulo agregado por Tomas Cayul postulacion fondecyt 2019 03/09/18
@@ -29626,7 +30380,7 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
 	journal=ecol,
 	volume={76},
 	number={6},
-	pages={1926-1939}
+	pages={1926--1939}
 } 
 
 % articulo agregado por Tomas Cayul postulacion fondecyt 2019 03/09/18
@@ -29637,7 +30391,7 @@ editor={H. Pretzsch and D. I. Forrester and J. Bauhus},
 	journal=tamenat,
 	volume={109},
 	number={970},
-	pages={713-736}
+	pages={713--736}
 } 
 
 
@@ -30034,9 +30788,19 @@ pages = {1303--1318},
 year = {2015},
 }
 
-
 % articulo agregado por Tomas Cayul carpeta mortality 15/09/18
 @article{bigler04, 
+author = {Christof Bigler and Harald Bugmann},
+title = {Predicting the time of tree death using dendrochronological data},
+journal = ecoappli,
+volume = {14},
+number = {3},
+pages = {902-914},
+year = {2004}
+}
+
+% articulo agregado por Tomas Cayul carpeta mortality 15/09/18
+@article{bigler04b, 
 author = {Christof Bigler and Harald Bugmann},
 title = {{Assessing the performance of theoretical and empirical tree mortality models using tree-ring series of Norway spruce}},
 journal = emod,
@@ -30045,7 +30809,6 @@ number={3},
 pages = {225-239},
 year = {2004}
 }
-
 
 % articulo agregado por Tomas Cayul carpeta mortality 15/09/18
 @article{bigler04a, 
@@ -30082,16 +30845,7 @@ year = {2004}
 
 
 
-% articulo agregado por Tomas Cayul carpeta mortality 15/09/18
-@article{bigler04, 
-author = {Christof Bigler and Harald Bugmann},
-title = {Predicting the time of tree death using dendrochronological data},
-journal = ecoappli,
-volume = {14},
-number = {3},
-pages = {902-914},
-year = {2004}
-}
+
 
 
 % articulo agregado por Tomas Cayul carpeta mortality 15/09/18
@@ -30161,7 +30915,8 @@ year = {2007}
 
 @article{das07,
 author = {Adrian J. Das and John J. Battles and Nathan L. Stephenson and Phillip J. van~Mantgem},
-title = {{The relationship between tree growth patterns and likelihood of mortality: a study of two tree species in the Sierra Nevada}},
+title = {{The relationship between tree growth patterns and likelihood of mortality: a study of two
+ tree species in the Sierra Nevada}},
 journal = cjfr,
 volume = {37},
 pages = {580-597},
@@ -30169,7 +30924,7 @@ year = {2007}
 }
 
 @article{fortin08,
-author={M. Fortin and S. B\'{e}dard and J. DeBlois and S. Meunier},
+author={M. Fortin and S. B\'{e}dard and J. {DeBlois} and S. Meunier},
 title={{Predicting individual tree mortality in northern hardwood stands under uneven-aged management in southern Qu\'{e}bec, Canada}},
 year={2008},
 journal=anafor,
@@ -30255,7 +31010,7 @@ year = {2009}
 
 
 @article{allen10,
-author = {Craig D. Allen and Alison K. Macalady and Haroun Chenchouni and Dominique Bachelet and Nate McDowell and Michel Vennetier and T. Kitzberger and Andreas Rigling and D. D. Breshears and E. H. {(Ted) Hogg} and Patrick Gonzalez and Rod Fensham and Zhen Zhang and Jorge Castro and Natalia Demidova and Jong-Hwan Lim and Gillian Allard and Steven W. Running and Akkin Semerci and Neil Cobb},
+author = {Craig D. Allen and Alison K. Macalady and Haroun Chenchouni and Dominique Bachelet and Nate McDowell and Michel Vennetier and T. Kitzberger and Andreas Rigling and D. D. Breshears and E. H. {Hogg} and Patrick Gonzalez and Rod Fensham and Zhen Zhang and Jorge Castro and Natalia Demidova and Jong-Hwan Lim and Gillian Allard and Steven W. Running and Akkin Semerci and Neil Cobb},
 title = {A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests},
 journal = foreco,
 volume = {259},
@@ -30445,8 +31200,9 @@ pages={63-86}
 } 
 
 @article{gonzalez16,
-author = {Erika Gonzalez-Akre and Victoria Meakem and Cheng-Yin Eng and Alan J. Tepley and
- Norman Bourg A. and William McShea and Stuart J. Davies and Kristina Anderson-Teixeira},
+author = {Erika Gonzalez-Akre and Victoria Meakem and Cheng-Yin Eng and
+ Alan J. Tepley and
+ Norman A. Bourg and William McShea and Stuart J. Davies and Kristina Anderson-Teixeira},
 title = {Patterns of tree mortality in a temperate deciduous forest derived from a large forest dynamics plot},
 journal = ecosph,
 volume = {7},
@@ -30504,9 +31260,9 @@ year = {1987}
     title = {The need to improve models for individual tree mortality},
     editor =   {G. Rink and C. A. Budelsky},
     booktitle = {Proceedings of the 7 th Central Hardwood Conference},
-    organization = {USDA Forest Service, North Central Experiment Station},
-    pages = {59-61},
-    address =  {St. Paul, MN}
+    organization = {Southern Illinois University},
+    pages = {59--61},
+    address =  {Carbondale, IL, USA.}
 
 }
 
@@ -30520,23 +31276,7 @@ pages = {49 - 60},
 year = {1996}
 }
 
-@article{monse96,
-author = {Robert A. Monserud and Hubert Sterba},
-title = {{A basal area increment model for individual trees growing in even- and uneven-aged forest stands in Austria}},
-journal = foreco,
-volume = {80},
-pages = {57 - 80},
-year = {1996}
-}
 
-@article{monse99b,
-title = {Modeling individual tree mortality for {A}ustrian forest species},
-journal = foreco,
-volume = {113},
-pages = {109-123},
-year = {1999},
-author = {Robert A. Monserud and Hubert Sterba}
-}
 
 
 @article{yang02,
@@ -30562,7 +31302,7 @@ year = {2009}
 }
 
 @article{wyckoff05,
-author = {Wyckoff, Peter H and Clark, James S},
+author = {Wyckoff, Peter H. and Clark, James S.},
 title = {Tree growth prediction using size and exposed crown area},
 journal = cjfr,
 volume = {35},
@@ -30581,6 +31321,26 @@ number = {4},
 pages = {601-608},
 year = {1983}
 
+}
+
+@article{buchman83,
+    author={R. G. Buchman and S. R. Shifley},
+    title={Guide to evaluating forest growth projection systems},
+    journal=jfor,
+    volume={81},
+    year={1983},
+    pages={232--254},
+    number={4}
+}
+
+@InProceedings{buchman79,
+    author={R. G. Buchman},
+ title =    {Mortality functions},
+ booktitle = {~A generalized forest growth projection system applied
+to the {L}ake states region},
+  pages =    {47--55},
+  year =     1979,
+  address =  {USDA For. Serv., Gen. Tech. Rep. NC-49. Sant Paul, Minnesota, USA.}
 }
 
 
@@ -30796,6 +31556,9 @@ pages = {2624-2640}
 }
 
 
+
+
+
 @article{wyckoff02,
 author = {Wyckoff, Peter H. and Clark, James S.},
 title = {{The relationship between growth and mortality for seven co-occurring tree species in the southern Appalachian Mountains}},
@@ -30832,15 +31595,26 @@ volume={51},
 pages={259-305}
 }
 
+@article{bugmann19,
+author = {Bugmann, Harald and Seidl, Rupert and Hartig, Florian and Bohn, Friedrich and Bruna, Josef and Cailleret, Maxime and Francois, Louis and Heinke, Jens and Henrot, Alexandra-Jane and Hickler, Thomas and Hülsmann, Lisa and Huth, Andreas and Jacquemin, Ingrid and Kollas, Chris and Lasch-Born, Petra and Lexer, Manfred J. and Merganič, Ján and Merganicov{\'a}, Katarina and Mette, Tobias and Miranda, Brian R. and Nadal-Sala, Daniel and Rammer, Werner and Rammig, Anja and Reineking, Bj{\"o}rn and Roedig, Edna and Sabat{\'e}, Santi and Steinkamp, J{\"o}rg and Suckow, Felicitas and Vacchiano, Giorgio and Wild, Jan and Xu, Chonggang and Reyer, Christopher P. O.},
+title = {Tree mortality submodels drive simulated long-term forest dynamics: assessing 15 models from the stand to global scale},
+journal = {Ecosphere},
+volume = {10},
+number = {2},
+pages = {e02616},
+year = {2019}
+}
 
 @article{coomes07b,
 author = {Coomes, D. A. and Allen, R. B.},
 title = {Effects of size, competition and altitude on tree growth},
 journal = jecol,
 volume = {95},
+ number = {5},
 pages = {1084--1097},
 year={2007}
 }
+
 
 @article{coomes07,
 author = {Coomes, D. A. and Allen, R. B.},
@@ -30850,6 +31624,17 @@ volume = {95},
 pages = {27--40},
 year={2007}
 }
+
+@article{allen20,
+author = {Allen, Robert B. and MacKenzie, Darryl I. and Bellingham, Peter J. and Wiser, Susan K. and Arnst, Elise A. and Coomes, David A. and Hurst, Jennifer M.},
+title = {Tree survival and growth responses in the aftermath of a strong earthquake},
+journal = jecol,
+volume = {108},
+number = {1},
+pages = {107--121},
+year = {2020}
+}
+
 
 @Article{dobbertin05,
 author={Dobbertin, Matthias},
@@ -31153,6 +31938,17 @@ pages = {689-695},
 year = {1981}
 }
 
+@article{lorimer84,
+ author = {Craig G. Lorimer and Lee E. Frelich},
+ journal = {Bulletin of the Torrey Botanical Club},
+ number = {2},
+ pages = {193--199},
+ title = {A Simulation of Equilibrium Diameter Distributions of Sugar Maple {(\textit{Acer saccharum})}},
+ volume = {111},
+ year = {1984}
+}
+
+
 @article{guo00,
  author = {Guang Guo and Hongxin Zhao},
  title = {Multilevel Modeling for Binary Data},
@@ -31178,6 +31974,16 @@ year = {2013}
 	year={2006},
 	address={New York, NY, USA},
 	note={625 p.}
+}
+
+
+@book{dirksen99,
+	author={C. Dirksen},
+	title={Soil Physics Measurements},
+	publisher={Catena Verlag},
+	year={1999},
+	address={Wageningen, Netherlands},
+	note={155 p.}
 }
 
 
@@ -31307,6 +32113,24 @@ year = "2019",
 author = "P. J. Donoso and B. C. Schlegel and C. Salas-Eljatib and C. Donoso"
 }
 
+@article{donososilvbn,
+title = "{Silviculture of South American temperate native forests}",
+journal = {New Zealand Journal of Forestry Science},
+volume = "52",
+pages = "2",
+year = "2022",
+author = "P. J. Donoso and A. Promis and G. Loguercio and H. A. Beltran and M. Caselli and L. M. Chauchard and
+ G. Cruz and G. Martinez and C. Navarro and P. N\'u\~{n}ez and C. Salas-Eljatib and D. P. Soto and A. Vasque-Grandon"
+}
+
+@article{sotosalas20,
+title = "{Differential early performance of two underplanted hardwood tree species following restoration treatments in high-graded temperate rainforests}",
+journal = {Forests},
+volume = "11",
+pages = "401",
+year = "2022",
+author = "D. P. Soto and P. J. Donoso and A. V{\'a}squez-Grand{\'o}n and M. Gonz{\'a}lez-Chang and C. Salas-Eljatib"
+}
 
 @article{taylor61,
 title = "Aggregation, variance and the mean",
@@ -31316,9 +32140,6 @@ pages = "732--735",
 year = "1961",
 author = "L. R. Taylor"
 }
-
-
-
 
 
 % agregado por JR el 18 de octubre de 2018
@@ -31344,7 +32165,7 @@ author = "L. R. Taylor"
   year="1999"
 }
 
-@article{harcombe2002,
+@article{harcombe02,
   title="Stand dynamics over 18 years in a southern mixed hardwood forest, Texas, USA",
   author="P.A. Harcombe,  C.J. Bill, M. Fulton, J.S. Glitzenstein, P.L. Marks I.S Elsik",
   journal=jecol,
@@ -31412,7 +32233,7 @@ author = "L. R. Taylor"
  Satomi Shiodera, Andrew Siefert, Enio E. Sosinski Jr, Nadejda A. Soudzilovskaia,
  Emily K. Swaine, Nathan G. Swenson, Peter M. van Bodegom, Laura Warman, Evan Weiher,
  Ian J. Wright, Hongxiang Zhang, Martin Zobel and Stephen P. Bonser},
-  journal= jvsc,
+  journal= jvsci,
   volume={25},
   number={5},
   pages={1167--1180},
@@ -31810,7 +32631,7 @@ year = {2004}
   journal=emon,
     author={Frelich, Lee E. and Reich, Peter B.},
   year={1995},
-  pages={325–346}
+  pages={325--346}
 }
 
 @article{wie04,
@@ -31926,7 +32747,7 @@ pages = {1267-1272},
 year ={1989}
 }
 
-@article{clark92,
+@article{clark92b,
 author = {Clark, Deborah A. and Clark, D. B.},
 title = {Life History Diversity of Canopy and Emergent Trees in a Neotropical Rain Forest},
 journal = emon,
@@ -32078,7 +32899,7 @@ pages = {456-464}
   number = {4},
   pages = {643-651},
   journal = iforest,
-  author = {K Maleki and A Kiviste},
+  author = {K. Maleki and A. Kiviste},
   title = {{Individual tree mortality of silver birch (\emph{Betula pendula} Roth) in Estonia}}
 }
 
@@ -32125,6 +32946,17 @@ year = "2006",
 author = "Alex Fajardo and Goodburn, J. M. and Graham, J",
 }
 
+@article{fajardo11,
+author = {Fajardo, Alex and Piper, Frida I.},
+title = {{Intraspecific trait variation and covariation in a widespread tree species ({\it Nothofagus pumilio}) in southern Chile}},
+journal = {New Phytologist},
+volume = {189},
+number = {1},
+pages = {259--271},
+year = {2011}
+}
+
+
 @article{fajardo19,
 title = "When Short Stature Is an Asset in Trees",
   journal = tecoevo,
@@ -32133,6 +32965,16 @@ number = "3",
 pages = "193--199",
 year = "2019",
 author = "Alex Fajardo and Eliot J.B. McIntire and Mark E. Olson",
+}
+
+@article{fajardo19b,
+author = {Fajardo, Alex and Gazol, Antonio and Mayr, Christoph and Camarero, J. Julio},
+title = {{Recent decadal drought reverts warming-triggered growth enhancement in contrasting climates in the southern Andes tree line}},
+journal = jbio,
+volume = {46},
+number = {7},
+pages = {1367--1379},
+year = {2019}
 }
 
 @article{damgaard19,
@@ -32172,7 +33014,7 @@ pages={759--762}
   journal = plone,
   pages = {1--9},
   author = {Jennifer M. Hurst and Robert B. Allen and D. A. Coomes and R. P. Duncan},
-  title = {Size-Specific Tree Mortality Varies with Neighbourhood Crowding and Disturbance in a Montane {\it{Nothofagus}} Forest}
+  title = {Size-Specific Tree Mortality Varies with Neighbourhood Crowding and Disturbance in a Montane \textit{{N}othofagus} Forest}
 }
 
 
@@ -32455,9 +33297,6 @@ pages = {400--410},
 year = {2017}
 }
 
-
-
-
 @article{comita09,
 author = {Comita, Liza S. and Uriarte, Maria and Thompson, Jill and Jonckheere, Inge and Canham, Charles D. and Zimmerman, Jess K.},
 title = {Abiotic and biotic drivers of seedling survival in a hurricane-impacted tropical forest},
@@ -32468,6 +33307,15 @@ pages = {1346-1359},
 year = {2009}
 }
 
+@article{comita09b,
+author = {Comita, Liza S. and Hubbell, Stephen P.},
+title = {Local neighborhood and species' shade tolerance influence survival in a diverse seedling bank},
+journal = {Ecology},
+volume = {90},
+number = {2},
+pages = {328--334},
+year = {2009}
+}
 
 @article{lin12,
 author = {Lin, Luxiang and Comita, Liza S. and Zheng, Zheng and Cao, Min},
@@ -32534,6 +33382,15 @@ pages="207-217"
   journal = sci
 }
 
+@article{comita10,
+author = {Liza S. Comita  and Helene C. Muller-Landau  and Salomón Aguilar  and Stephen P. Hubbell },
+title = {Asymmetric Density Dependence Shapes Species Abundances in a Tropical Tree Community},
+journal = {Science},
+volume = {329},
+number = {5989},
+pages = {330--332},
+year = {2010},
+}
 
 @InProceedings{comita14,
   author =   {Liza S. Comita and {B. M. J.} Engelbrecht},
@@ -32546,7 +33403,7 @@ pages="207-217"
  
 }
 
-@article{comita4b,
+@article{comita14b,
   year  = {2014},
   volume = {102},
   number = {4},
@@ -32563,7 +33420,8 @@ TITLE = {Changes in Phylogenetic Community Structure of the Seedling Layer Follo
 JOURNAL = fores,
 VOLUME = {9},
 YEAR = {2018},
-NUMBER = {9}
+NUMBER = {9},
+pages={556}
 }
 
 
@@ -33000,6 +33858,15 @@ author = {Guadalupe G. Garc\'ia-Espinoza and Oscar A. Aguirre-Calder\'on and Ben
   journal = mamm
 }
 
+@article{arellano21,
+author = {Arellano, Gabriel and Zuleta, Daniel and Davies, Stuart J.},
+title = {Tree death and damage: a standardized protocol for frequent surveys in tropical forests},
+journal = jvsci,
+volume = {32},
+number = {1},
+pages = {e12981},
+year = {2021}
+}
 
 
 @techreport{cifuentes08,
@@ -33122,7 +33989,7 @@ number="1",
 pages="281",
 }
 
-@article {mantgem09,
+@article{mantgem09,
 	author = {Phillip J. van~Mantgem and Nathan L. Stephenson and John C. Byrne and Lori D. Daniels and Jerry F. Franklin and
 	Peter Z. Ful{\'e} and Mark E. Harmon and Andrew J. Larson and Jeremy M. Smith and Alan H. Taylor and T. T. Veblen},
 	title = {Widespread Increase of Tree Mortality Rates in the Western {U}nited {S}tates},
@@ -33322,7 +34189,7 @@ year = {1896}
 @article{promis17,
     author = {Promis, Alvaro AND Allen, Robert B.},
     journal = plone,
-    title = {Tree seedlings respond to both light and soil nutrients in a Patagonian evergreen-deciduous forest},
+    title = {Tree seedlings respond to both light and soil nutrients in a {P}atagonian evergreen-deciduous forest},
     year = {2017},
     volume = {12},
     pages = {1-15}
@@ -33864,6 +34731,17 @@ author = "I. A. D\'iaz and J. J. Armesto and Sharon Reid and Kathryn E. Sieving 
     year = {2007}
 }
 
+@article{pastur97,
+    author = {Mart\'inez-Pastur, G. and Peri, P. and Vukasovic, R. and Vaccaro, S. and Piriz-Carrillo, V.},
+    title = {{Site index equation for {\it Nothofagus pumilio} Patagonian forest}},
+    journal = {Pyton},
+    volume = {61},
+    number = {1/2},
+    pages = {55--60},
+    year = {1997}
+}
+
+
 @article{sofaer19,
 author = {Sofaer, Helen R. and Hoeting, Jennifer A. and Jarnevich, Catherine S.},
 title = {The area under the precision-recall curve as a performance metric for rare binary events},
@@ -33948,7 +34826,7 @@ year = {2019}
 @book{hoffmann95,
   title={Flora silvestre de Chile: zona araucana, tercera edici{\'o}n revisada},
   author={Hoffmann, AE},
-  publisher={Ediciones Fundacion Claudio Gay, El Mercurio S. AP},
+  publisher={Ediciones Fundaci{\'o}n Claudio Gay, El Mercurio S. AP},
   address={Santiago},
   year={1995}
 }
@@ -33974,7 +34852,8 @@ pages = {217--225}
 @article{fajardo16trait,
 author = {Fajardo, A.},
 year = {2016},
-title = {Are trait-scaling relationships invariant across contrasting elevations in the widely distributed treeline species {N}othofagus pumilio?},
+title = {{Are trait-scaling relationships invariant across contrasting elevations in the widely distributed treeline species 
+{\it Nothofagus pumilio}?}},
 journal = foreco,
 volume = {103},
 number = {5},
@@ -33990,6 +34869,39 @@ volume = {104},
 number = {3},
 pages = {691--702}
 }
+
+@article{sala10,
+author = {Sala, Anna and Piper, Frida and Hoch, Günter},
+title = {Physiological mechanisms of drought-induced tree mortality are far from being resolved},
+journal = {New Phytologist},
+volume = {186},
+number = {2},
+pages = {274--281},
+year = {2010}
+}
+
+@article{piper11,
+	author = "F. I. Piper",
+	title ={{Drought induces opposite changes in the concentration of non-structural carbohydrates of two evergreen nothofagus species of differential drought resistance}},
+	journal = anafor,
+	year = 2011,
+	volume = 68,
+	pages = "415--424",
+}
+
+@article{piper07,
+author={Piper, Frida I.
+and Corcuera, Luis J.
+and Alberdi, Miren
+and Lusk, Christopher},
+title={{Differential photosynthetic and survival responses to soil drought in two evergreen {\it Nothofagus} species}},
+journal=anafor,
+year={2007},
+volume={64},
+number={4},
+pages={447--452},
+}
+
 
 @article{fajardo09,
 author = {McIntire, E. J. and Fajardo, A.},
@@ -34654,7 +35566,7 @@ journal =cjfr
 
 @article{cellini02,  
     author={J. M. Cellini and E. Wab\"{o} and G. M. Pastur and M. V. Lencinas},
-    title={Modelos de perfil de tronco en {\it Nothofagus pumilio} {(Poepp. et Endl.) Krasser} y su utilizaci{\'o}n en el c{\'a}lculo del volumen total},
+    title={{Modelos de perfil de tronco en {\it Nothofagus pumilio} {(Poepp. et Endl.) Krasser} y su utilizaci{\'o}n en el c{\'a}lculo del volumen total}},
     journal={Forest Systems},
     volume={11},
     year={2002},
@@ -34676,7 +35588,7 @@ journal = anafor
 
 @mastersthesis{silva06,
 	author={F. Silva},
-	title={Modelos de volumen de raz{\'o}n para {\it Nothofagus alpina} ({Poepp et Endl.) Oerst.} (raul{\'i}) comuna de curacautin, IX regi{\'o}n de la Araucania},
+	title={{Modelos de volumen de raz{\'o}n para {\it Nothofagus alpina} ({Poepp et Endl.) Oerst.} (raul{\'i}) comuna de Curacaut{\'i}n, IX regi{\'o}n de la Araucan{\'i}a}},
 	school={Universidad de La Frontera},
 	year={2006},
 	address={Temuco, Chile},
@@ -34756,8 +35668,8 @@ journal = foreco
 }
 
 @article{salinas19,
-	author={S. Salinas and F. Riquelme and B. Acu{\~{n}}a and M. Uribe},
-	title={{Crecimiento de renovales de lenga {\it Nothofagus pumilio} {(Poepp. et Endl.) Krasser} en el sur austral de Chile}},
+	author={J. Salinas and F. Riquelme and B. Acu{\~{n}}a and M. Uribe},
+	title={{Crecimiento de renovales de lenga ({\it Nothofagus pumilio} {(Poepp. et Endl.) Krasser}) en el sur austral de Chile}},
 	journal=cef,
 	volume={25},
 	year={2019},
@@ -34800,7 +35712,7 @@ journal = foreco
 
 @article{pastur01,
     author={G. Mart\'inez-Pastur and J. Cellini and M. Lencinas and R. Vukasovic and R. Vicente and F. Bertolami and J. Giunchi},
-    title={Modificaci{\'o}n del crecimiento y de la calidad de fustes en un raleo fuerte de un rodal en fase de crecimiento {\'o}ptimo inicial de {{N}othofagus pumilio}},
+    title={{Modificaci{\'o}n del crecimiento y de la calidad de fustes en un raleo fuerte de un rodal en fase de crecimiento {\'o}ptimo inicial de {\it Nothofagus pumilio}}},
     journal=ecoaus,
     volume={11},
     number={2},
@@ -35036,6 +35948,27 @@ year = {2009},
  year = {1977}
 }
 
+@article{weiner86,
+ author = {Jacob Weiner and Sean C. Thomas},
+ journal = {Oikos},
+ number = {2},
+ pages = {211--222},
+ title = {Size Variability and Competition in Plant Monocultures},
+ volume = {47},
+ year = {1986}
+}
+
+@article{schwi98,
+ author = {S. Schwinning and Jacob Weiner},
+ journal = {Oecologia},
+ pages = {447--455},
+ title = {Mechanisms determining the degree
+of size-asymmetry in competition among plants},
+ volume = {113},
+ year = {1998}
+}
+
+
 @article{weiner01,
  author = {Jacob Weiner and Sean C. Thomas},
  journal = {Oikos},
@@ -35045,6 +35978,15 @@ year = {2009},
   forest productivity"},
  volume = {94},
  year = {2001}
+}
+
+@article{weiner06,
+ author = {Jacob Weiner and C. Damgaard},
+ journal = {Ecological Research},
+ pages = {707--712},
+ title = {Size-asymmetric competition and size-asymmetric growth in a spatially explicit zone-of-influence model of plant competition},
+ volume = {21},
+ year = {2006}
 }
 
 @article{burk97,
@@ -35115,9 +36057,42 @@ year = {2019},
    pages = {1--8}
    }
 
+@article{krauch30,
+    author = {Krauch, Hermann},
+    title = "{Mortality in Cut-Over Stands of Western Yellow Pine}",
+    journal = jfor,
+    volume = {28},
+    number = {8},
+    pages = {1085--1097},
+    year = {1930},
+}
+
+
+@article{guise18,
+    author = {Guise, Cedric H.},
+    title = "{First Season's Growth and Mortality of White-Pine and Red-Pine Plantations}",
+    journal = jfor,
+    volume = {16},
+    number = {3},
+    pages = {308--318},
+    year = {1918},
+}
+
+
+@article{estay19,
+author = {Estay, Sergio A. and Ch{\'a}vez, Roberto O. and Rocco, Ronald and Guti{\'e}rrez, Alvaro G.},
+title = {{Quantifying massive outbreaks of the defoliator moth {\it Ormiscodes amphimone} in deciduous {\it Nothofagus}-dominated southern forests using remote sensing time series analysis}},
+journal = {J. of Applied Entomology},
+volume = {143},
+number = {7},
+pages = {787--796},
+year = {2019}
+}
+
 @article{cellini17,
     author={J. Cellini and G. Mart\'inez-Pastur and C. Spagarino and P. Peri and R. Vukasovic},
-    title={Rendimiento de distintos sistemas de aprovechamiento en la corta de protecci{\'o}n de un bosque de {\it Nothofagus pumilio}},
+    title={{Rendimiento de distintos sistemas de aprovechamiento en la corta de protecci{\'o}n de un
+     bosque de {\it Nothofagus pumilio}}},
     journal=bos,
     volume= {38},
     number= {3},
@@ -35189,7 +36164,7 @@ year = {2019},
 
 
 @article{carabelli04,
-  title={Estimaci{\'o}n de volumen maderable en bosques de Lenga ({\it Nothofagus pumilio}) en la regi{\'o}n patag{\'o}nica de Argentina},
+  title={{Estimaci{\'o}n de volumen maderable en bosques de Lenga ({\it Nothofagus pumilio}) en la regi{\'o}n patag{\'o}nica de Argentina}},
   author={F. Carabelli and J. Bava and F. Momberg and V. Cordone},
   journal=bos,
   volume={25},
@@ -35213,7 +36188,7 @@ year = {2019},
 
 @article{caldentey97,
        author={S. Donoso and J. Caldentey and I. Garib},
-       title={Bosque natural de lenga. evaluaci{\'o}n volum{\'e}trica de una corta de protecci{\'o}n. Lenga natural forest. volumetric assessment of shelterwood felling},
+       title={Bosque natural de lenga. Evaluaci{\'o}n volum{\'e}trica de una corta de protecci{\'o}n},
        journal={Revista de la Facultad de Ciencias Agrarias},
        volume={29},
        year= {1997},
@@ -35234,7 +36209,8 @@ year = {2019},
 
 @article{ibarra11,
 	author={M. Ibarra and J. Caldentey and A. Promis},
- title={Descomposici{\'o}n de hojarasca en rodales de {\it Nothofagus pumilio} de la regi{\'o}n de Magallanes},
+ title={{Descomposici{\'o}n de hojarasca en rodales de 
+ \textit{Nothofagus pumilio} de la regi{\'o}n de Magallanes}},
 	journal=bos,
 	volume={32},
 	year={2011},
@@ -35257,8 +36233,8 @@ year = {2019},
 
 
 @article{poulain10,
-   title = {Relationships between forest variables and remote sensing data in a
-{\it Nothofagus pumilio} forest},
+   title = {{Relationships between forest variables and remote sensing data in a
+{\it Nothofagus pumilio} forest}},
    journal = {Geocarto International},
    author={M. Poulain and M. Pe{\~{n}}a and A. Schmidt and H. Schmidt and A. Schulte},
    volume = {25},
@@ -35267,15 +36243,7 @@ year = {2019},
    pages = {25--43}
    }
    
-@article{klein08,
-author = {D. Klein and J. Fuentes and A. Schmidt and H. Schmidt and A. Schulte},
-title = {{Soil organic C as affected by silvicultural and exploitative interventions in {\it Nothofagus pumilio} forests of the Chilean Patagonia}},
-journal = foreco,
-volume = {255},
-number = {10},
-year = {2008},
-pages = {3549--3555}
-}
+
 
 @article{promis10,
 	author={A. Promis and J. Caldentey and M. Ibarra},
@@ -35311,8 +36279,8 @@ pages = {335--347}
 
 @article{promis12,
 author = {A. Promis and J. Caldentey and G. Cruz},
-title = {Evaluating the usefulness of hemispherical photographs as a means to estimate photosynthetic photon flux density during a growing season in the understorey of {\it Nothofagus pumilio} forests},
-journal = foreco,
+title = {{Evaluating the usefulness of hemispherical photographs as a means to estimate photosynthetic photon flux density during a growing season in the understorey of {\it Nothofagus pumilio} forests}},
+journal = {Plant Biosystems},
 volume = {146},
 number = {1},
 year = {2012},
@@ -35642,15 +36610,7 @@ year = {2020}
  volume = {78},
  year = {1990}}
 
-@article{coomes07,
- author = {David A. Coomes and Robert B. Allen},
- journal = {Journal of Ecology},
- number = {5},
- pages = {1084--1097},
- title = {Effects of Size, Competition and Altitude on Tree Growth},
- volume = {95},
- year = {2007}
-}
+
 
 @article{well17,
 author = {Wellhausen, Klaas and Heym, Michael and Pretzsch, Hans},

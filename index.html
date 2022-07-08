@@ -7,9 +7,9 @@
 
     
     
-    <title>index.knit</title>
+    <title>Pellín: un simulador de bosques nativos</title>
 
-        <script src="site_libs/header-attrs-2.14.1/header-attrs.js"></script>
+        <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
         <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="site_libs/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
@@ -149,14 +149,18 @@
         </div><!--/.container -->
       </div><!--/.navbar -->
         
+      <h1 class="title">Pellín: un simulador de bosques nativos</h1>
       
          <!-- readthedown authors -->
    <div id="sidebar">
-    <h2><a href="#content"></a></h2>
+    <h2><a href="#content">Pellín: un simulador de bosques nativos</a></h2>
     <div id="toc">
       <ul>
+      <li><a href="#contexto">Contexto</a></li>
       <li><a href="#el-modelo">El modelo</a></li>
       <li><a href="#simular">Simular</a></li>
+      <li><a href="#precaución">Precaución</a></li>
+      <li><a href="#referencias-bibliográficas">Referencias bibliográficas</a></li>
       </ul>
     </div>
     <div id="postamble" data-toggle="wy-nav-shift" class="status">
@@ -172,24 +176,16 @@
 <style>H1{color:DarkBlue;}</style>
 <style>H2{color:DarkBlue;}</style>
 <p><img src='img/logo2.png' width='200'></p>
-<p><font size="6"> <strong>Pellín: un prototipo de simulador de
-crecimiento de bosques nativos en Chile</strong></font></p>
-<p><em>Pellín</em> es un simulador de crecimiento de bosques nativos.
-Este simulador de bosques es un sistema de ecuaciones
-matemático-estadísticas que predice el crecimiento de bosques naturales
-en Chile. En específico, esta versión esta desarrollada para bosques
-secundarios dominados por las siguientes especies <em>Nothofagus
-obliqua</em> (roble), <em>N. alpina</em> (raulí), y <em>N. dombeyi</em>
-(coihue) en el centro-sur de Chile.</p>
+<!--- 
+<font size="6"> **Pellín: un prototipo de simulador de crecimiento de bosques nativos en Chile**</font>
+-->
+<div id="contexto" class="section level2">
+<h2>Contexto</h2>
+<p>Este sitio web es la puerta de entrada a <em>Pellín</em>: un prototipo de simulador de crecimiento de bosques nativos. Este simulador se basa en un modelo de crecimiento que es un sistema de ecuaciones matemático-estadísticas que predice el cambio de variables de estado en el tiempo para bosques naturales en Chile. En específico, esta versión esta desarrollada para bosques secundarios dominados por las siguientes especies <em>Nothofagus obliqua</em> (roble), <em>N. alpina</em> (raulí), y <em>N. dombeyi</em> (coihue) en el centro-sur de Chile. Este tipo de bosques son conocidos en Chile como renovales del tipo forestal roble-raulí-coihue <span class="citation">(Donoso 1981)</span>, y han sido caracterizados en diversos estudios <span class="citation">(Puente et al. 1979; Donoso 1993; Grosse and Quiroz 1999; Salas-Eljatib et al. 2018)</span>.</p>
+</div>
 <div id="el-modelo" class="section level2">
 <h2>El modelo</h2>
-<p><em>Pellín</em> es un prototipo de simulación de bosques basado en un
-modelo de crecimiento a nivel de árbol individual independiente de la
-distancia e independiente de la edad. El modelo se basa en un trabajo de
-modelación que se ha venido llevando a cabo bajo la dirección del
-Profesor <a href="http://eljatib.com">Christian Salas-Eljatib</a> y con
-la colaboración de un <a href="./team.html">equipo</a> de
-co-investigadores y asistentes de investigación.</p>
+<p><em>Pellín</em> es un prototipo de simulación de bosques basado en un modelo de crecimiento a nivel de árbol individual independiente de la distancia e independiente de la edad. El modelo se basa en un trabajo de modelación que se ha venido llevando a cabo bajo la dirección del Profesor <a href="http://eljatib.com">Christian Salas-Eljatib</a> y con la colaboración de un <a href="./team.html">equipo</a> de co-investigadores y asistentes de investigación.</p>
 </div>
 <div id="simular" class="section level2">
 <h2>Simular</h2>
@@ -198,13 +194,22 @@ co-investigadores y asistentes de investigación.</p>
 <li><p><input type="checkbox" disabled="" checked="" />
 Leer el <a href="manualPellin.pdf">manual del usuario</a></p></li>
 <li><p><input type="checkbox" disabled="" checked="" />
-Luego de lo anterior, debe ingresar al siguiente <a
-href="https://biometriabosques.shinyapps.io/Pellin01/">enlace</a></p></li>
+Luego de lo anterior, debe ingresar al siguiente <a href="https://biometriabosques.shinyapps.io/Pellin01/">enlace</a></p></li>
 </ol>
-<p>Mayores detalles técnicos son entregados en la sección <a
-href="./docs.html">Documentos</a> del presente sitio.</p>
+<p>Mayores detalles técnicos son entregados en la sección <a href="./docs.html">Documentos</a> del presente sitio.</p>
+</div>
+<div id="precaución" class="section level2">
+<h2>Precaución</h2>
+<p>Tal como se indicó anteriormente, este simulador es un prototipo, y una serie de mejoras e implementaciones serán realizadas en el futuro cercano. Es esperado que mientras se le de uso a <em>Pellín</em>, aparezcan problemas que deberán ser solucionados, por lo cual es vital contar con la retroalimentación de usuarios. Es por esta razón, que se invita a los usuarios de <em>Pellín</em>, que nos indiquen potenciales problemas con este mismo, así como también en el caso de estar interesad@ en contribuir a la mejora de este.</p>
+<p>En este mismo contexto, es necesario aclarar que el uso del presente prototipo es realizado bajo la completa responsabilidad del usuario, y en caso de el equipo desarrollador no asume responsabilidad alguna.</p>
 <hr />
+</div>
+<div id="referencias-bibliográficas" class="section level2">
+<h2>Referencias bibliográficas</h2>
 <!--- 
+output: rmdformats::readthedown
+bibliography: mybib.bib
+link-citations: no
 output: rmdformats::readthedown
 
 output: 
@@ -216,6 +221,23 @@ https://www.andreashandel.com/posts/github-website/
 output: 
   html_document
 -->
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-donosotipfor1981" class="csl-entry">
+Donoso, C. 1981. <em>Tipos Forestales de Los Bosques Nativos de <span>C</span>hile</em>. Investigación y Desarrollo Forestal (CONAF/PNUD/FAO), Documento de Trabajo No. 38 (Publicación FAO).
+</div>
+<div id="ref-donosobtempla1st" class="csl-entry">
+———. 1993. <em>Bosques Templados de <span>C</span>hile y <span>A</span>rgentina: Variaci<span>ó</span>n, Estructura y Din<span>á</span>mica</em>. Santiago, Chile: Editorial Universitaria.
+</div>
+<div id="ref-grosseq99" class="csl-entry">
+Grosse, H., and I. Quiroz. 1999. <span>“<span class="nocase">Silvicultura de los bosques de segundo crecimiento de Roble, Raulı́ y Coig<span class="nocase">ü</span>e en la regi<span class="nocase">ó</span>n centro-sur de <span>C</span>hile</span>.”</span> In <em> Silvicultura de Los Bosques Nativos de <span>C</span>hile</em>, edited by C. Donoso and A. Lara, 95–125. Santiago, Chile: Editorial Universitaria.
+</div>
+<div id="ref-puente79" class="csl-entry">
+Puente, M., C. Donoso, R. Peñaloza, and E. Morales. 1979. <span>“<span class="nocase">Estudio de raleo y otras técnicas para el manejo de renovales de raul<span class="nocase">ı́</span> (<em><span>N</span>othofagus alpina</em>) y roble (<em><span>N</span>othofagus obliqua</em>). <span>E</span>tapa <span>I</span>: Identificación y caracterización de renovales de raul<span class="nocase">ı́</span> y roble</span>.”</span> Informe de convenio No. 5. Santiago, Chile: Proyecto <span>CONAF</span>/<span>PNUD</span>/<span>FAO-CHI</span>/76/003.
+</div>
+<div id="ref-salascapitulo18" class="csl-entry">
+Salas-Eljatib, C., A. Fuentes-Ramírez, P. J. Donoso, C. Matus, and D. P. Soto. 2018. <span>“<span class="nocase">Crecimiento de bosques secundarios y adultos de <span><em>Nothofagus</em></span> en el centro-sur de Chile</span>.”</span> In <em>Silvicultura En Bosques Nativos. Experiencias En Silvicultura y Restauración En Chile, Argentina y El Oeste de Estados Unidos</em>, edited by P. Donoso, A. Promis, and D. Soto, 73–92. Valdivia, Chile: Oregon State University.
+</div>
+</div>
 </div>
 </div>
 
