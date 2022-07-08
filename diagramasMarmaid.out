@@ -1,0 +1,24 @@
+el diagram1
+
+[![](https://mermaid.ink/img/pako:eNqNkU1qw0AMha8yaJ0s-rNyoYWSQgulm7QrTxYTj-wI5ieMNYvW-DA5QFY5gi9WmTYpoWCy00if3ntoOqiiRSigSWa7Ue-LOx2UepPeVfmxpspUFINqMDZp2NXyXp2A6_KVWjbKohp2aR0dtn_Dm_I5JvqKgXEEWvLZidZwCKv_DtI9s5jP7x-75bBXTBhQOaMo1DH5H_Shn4xw8fJExEs0JgERGC1uy5dAcsEzcZiBR0HJytm7MY0G3qBHDYWUFmuTHWvQoRc0b61hfLLEMUFRG9fiDEzmuPwMFRScMh6hBRn5Rf9L9d_3PbIH)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNkU1qw0AMha8yaJ0s-rNyoYWSQgulm7QrTxYTj-wI5ieMNYvW-DA5QFY5gi9WmTYpoWCy00if3ntoOqiiRSigSWa7Ue-LOx2UepPeVfmxpspUFINqMDZp2NXyXp2A6_KVWjbKohp2aR0dtn_Dm_I5JvqKgXEEWvLZidZwCKv_DtI9s5jP7x-75bBXTBhQOaMo1DH5H_Shn4xw8fJExEs0JgERGC1uy5dAcsEzcZiBR0HJytm7MY0G3qBHDYWUFmuTHWvQoRc0b61hfLLEMUFRG9fiDEzmuPwMFRScMh6hBRn5Rf9L9d_3PbIH)
+
+y en simple, lo que tenia ahi escrito es
+
+graph TD;
+  Node1[Ubicacion geográfica];
+  Node2[Lista de árboles];
+  Node3[Horizonte de simulación];
+  Node1[Ubicación geográfica]-->B{Sí tiene la información?};
+  Node2[Lista de árboles]-->B{Sí tiene la información?};
+  Node3[Horizonte de simulación]-->B{Sí tiene la información?};
+ B{Sí tiene la información?}-->Node4[Inicio simulación]
+
+
+ ************
+ flowchart TD
+    A[Probabilidad de mortalidad] --> B{Sobrevive?}
+    B -->|Sí| C[Incremento]
+    C --> A[Probabilidad de mortalidad]
+    C --> D[Variables de estado de rodal]
+    D --> B
+    B ---->|No| E[Necromasa]
