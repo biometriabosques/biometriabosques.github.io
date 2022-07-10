@@ -14,6 +14,51 @@ graph TD;
  B{Sí tiene la información?}-->Node4[Inicio simulación]
 
 
+###flujo general de un simulador cualquiera
+flowchart TB
+subgraph Inicializar-Variables
+ Parametros-->
+ VarEstadoArbol-->VarEstadoRodal
+end
+  subgraph Ciclo-Simulacion
+    direction LR
+    subgraph Si-t-menor=tFinal
+    subgraph Calcular
+     direction LR
+        Tasas-Cambio-->
+        Actualizar-VarEstado-->
+        Guardar-->t=t+1
+    end    
+    end
+  end
+  Entradas --> Inicializar-Variables --> Ciclo-Simulacion  --> Salidas
+  Si-t-menor=tFinal
+
+
+
+  [![](https://mermaid.ink/img/pako:eNptUctOAzEM_JUoV5oD15VaqZSCkDigbsUpF2-S0kh5VI4jBFX_HadbFhXIxfbMeGQ7R2mydbKTu5DfzR6QxPZOp1KHN4TDXjwlbzwE_wmoXgE9DMEVncQLIERHmItSC66ZWxcCm5c45MDYBGyyhaCTS5ZlYjJeeROy6n2sAYzPqZFCWI_OEJfieTMiU0PvFanoUsY5PfjUPK_4FQTDXjjC_zi1t4UCRa0gDj6Pg1_e0lD9WXOc_ErwWAEts2pBc7q5HQleqoWpaMklrBMhWCiCO_6_4pn5fQZxRnvWcm_z-bO2nMnoMIK3_GvHJtGS9i46LTtOrdtBDaSlTieW1oMFcmvrKaPsdhCKm0molPuPZGRHWN236N4DXzJeVKcvp-izsg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNptUctOAzEM_JUoV5oD15VaqZSCkDigbsUpF2-S0kh5VI4jBFX_HadbFhXIxfbMeGQ7R2mydbKTu5DfzR6QxPZOp1KHN4TDXjwlbzwE_wmoXgE9DMEVncQLIERHmItSC66ZWxcCm5c45MDYBGyyhaCTS5ZlYjJeeROy6n2sAYzPqZFCWI_OEJfieTMiU0PvFanoUsY5PfjUPK_4FQTDXjjC_zi1t4UCRa0gDj6Pg1_e0lD9WXOc_ErwWAEts2pBc7q5HQleqoWpaMklrBMhWCiCO_6_4pn5fQZxRnvWcm_z-bO2nMnoMIK3_GvHJtGS9i46LTtOrdtBDaSlTieW1oMFcmvrKaPsdhCKm0molPuPZGRHWN236N4DXzJeVKcvp-izsg)
+
+  
+####este es un flujo general del simulador
+
+graph TD;
+  Node2[Lista de árboles];
+  Node1[Productividad];
+  Node1[Productividad]-->Node3[Estructura del bosque];
+  Node2[Lista de árboles]-->Node3[Estructura del bosque];
+  Node2[Lista de árboles]-->Node4[Tamaño del árbol];
+  Node3[Estructura del bosque]-->Node5[Probabilidad de mortalidad];
+  Node4[Tamaño del árbol]-->Node5[Probabilidad de mortalidad];
+  Node5[Probabilidad de mortalidad]-->B{Sobrevive?};
+  B-->|Sí| C[Incremento]
+  C[Incremento]-->Node2[Lista de árboles];
+  B ---->|No| E[Necromasa]
+
+####fin del flujo general
+
+aca lo mismo pero con codigo
+[![](https://mermaid.ink/img/pako:eNqtks9KxDAQxl8l5Lw9-O9SQaFuD4IUoXtLe5g2s24gadY0KUjbh_EBPPgMfTGTtSoLdkHwFr75vt9kkulprTnSmD4Z2O_IZn1dNIRkXjtnD6K1QDiS6dVUWmJbfhfP2KPR3NVWdIIDXy5E0U2QL1jaWuNlZwJRkkq3zw7Lk93-IXvJNqBgeteH4Gf1J7hEnsNXYZYKKiHDKAGvtLEgjyf-tcWfCCddnpT0ua4MdqLD2_GQSrw65NPbQO7YfVMbVNhYXYbSkTBfY_ErExJFAZXpgaQsw9poBS0EEF1RhUaB4H45-mAuqN15bkFjf-S4BSdtQYtm9Fa352Ax5cJqQ-MtyBZXFJzV-UtT09g_Mn6Z1gL8rqnZNX4A-mzlpg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqtks9KxDAQxl8l5Lw9-O9SQaFuD4IUoXtLe5g2s24gadY0KUjbh_EBPPgMfTGTtSoLdkHwFr75vt9kkulprTnSmD4Z2O_IZn1dNIRkXjtnD6K1QDiS6dVUWmJbfhfP2KPR3NVWdIIDXy5E0U2QL1jaWuNlZwJRkkq3zw7Lk93-IXvJNqBgeteH4Gf1J7hEnsNXYZYKKiHDKAGvtLEgjyf-tcWfCCddnpT0ua4MdqLD2_GQSrw65NPbQO7YfVMbVNhYXYbSkTBfY_ErExJFAZXpgaQsw9poBS0EEF1RhUaB4H45-mAuqN15bkFjf-S4BSdtQYtm9Fa352Ax5cJqQ-MtyBZXFJzV-UtT09g_Mn6Z1gL8rqnZNX4A-mzlpg)
+
  ************
  flowchart TD
     A[Probabilidad de mortalidad] --> B{Sobrevive?}
@@ -22,3 +67,80 @@ graph TD;
     C --> D[Variables de estado de rodal]
     D --> B
     B ---->|No| E[Necromasa]
+
+
+########casi bueno
+stateDiagram-v2
+    [*] --> Productividad
+    [*] --> ListaArboles
+    ListaArboles --> [*]
+    ListaArboles --> TamañoArbol
+    ListaArboles --> VarRodal
+    ListaArboles --> Estructura
+    ListaArboles --> Competencia
+    VarRodal --> Still
+    VarRodal --> Crash
+    TamañoArbol --> Mortalidad
+    Estructura --> Mortalidad
+    VarRodal --> Mortalidad
+    Competencia --> Mortalidad
+    Crash --> [*]
+            
+
+####
+[![](https://mermaid.ink/img/pako:eNqdUktqwzAQvYrQNvEFvCi0iWkLWRQn7cqbsTRJBvQxI4nShhyqZ-jFKttJTEOgUG0kzXvzRvNGB6m8RlnKrfHvag8cxeahcUKE1O4Yur1YkDK-WJNNBhR514NCaGJUMV_Fqh4jl4TXlhQ8ot_xCPRrYcjCbOM7P3uCliLEEUOn--1K4Z5bb6bkqVa9mqIbsPD95WdV6FARXvSutGqv4abW2Oa4lugCadCiKO6qEDmpmBjyZeFthxGdIvhVYNwuRZ4dZYahT-DiDZigNRj-NOoFGCxG9uG_vZ69O72qcpFBQ-jbuP2mAbmeqBii68zNub3ONMEBGcYxnE5mNk7OpUW2QDp_nUOf08i4R4uNLPNR4xaSiY1s3DFTU6chYqUpepblFkzAuYQU_frDKVlmv_FMWhJkc-yJdfwBPTnaoA)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqdUktqwzAQvYrQNvEFvCi0iWkLWRQn7cqbsTRJBvQxI4nShhyqZ-jFKttJTEOgUG0kzXvzRvNGB6m8RlnKrfHvag8cxeahcUKE1O4Yur1YkDK-WJNNBhR514NCaGJUMV_Fqh4jl4TXlhQ8ot_xCPRrYcjCbOM7P3uCliLEEUOn--1K4Z5bb6bkqVa9mqIbsPD95WdV6FARXvSutGqv4abW2Oa4lugCadCiKO6qEDmpmBjyZeFthxGdIvhVYNwuRZ4dZYahT-DiDZigNRj-NOoFGCxG9uG_vZ69O72qcpFBQ-jbuP2mAbmeqBii68zNub3ONMEBGcYxnE5mNk7OpUW2QDp_nUOf08i4R4uNLPNR4xaSiY1s3DFTU6chYqUpepblFkzAuYQU_frDKVlmv_FMWhJkc-yJdfwBPTnaoA)
+
+
+flowchart TB
+  subgraph Ciclo-Simulacion
+    direction LR
+    subgraph UbicaGeogr
+        Clima+Topo+Habitat
+    end    
+    subgraph Arbol
+        direction RL
+        Tamaño+Especie
+    end
+    subgraph Rodal
+        direction TB
+        Densidad -->Estructura-->Competencia
+    end
+  end
+ subgraph Inicializar-Variables
+    direction LR
+    subgraph Parametros
+        direction RL
+        Tamaño+Especie
+    end    
+  end
+  Entradas --> Inicializar-Variables --> Ciclo-Simulacion  --> Salidas
+  UbicaGeogr --> Arbol --> Rodal
+
+
+******
+mas complejo
+********    
+flowchart TB
+  subgraph Inicio
+    direction LR
+    subgraph UbicaGeogr
+        Clima+Topo+Habitat
+    end    
+    subgraph Arbol
+        direction RL
+        Tamaño+Especie
+    end
+    subgraph Rodal
+        direction TB
+        Densidad -->Estructura-->Competencia
+    end
+  end
+ subgraph Mortalidad
+    direction LR
+    subgraph ProbMortalidad
+        direction RL
+        Tamaño+Especie
+    end    
+  end
+  Entradas --> Inicio --> Mortalidad --> Salidas
+  UbicaGeogr --> Arbol --> Rodal
