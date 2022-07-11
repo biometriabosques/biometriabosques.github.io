@@ -17,13 +17,19 @@ link-citations: no
 
 +   Joaquín Riquelme (Ing. en Recursos Naturales, Mag. en Manejo de Recursos Naturales), Asistente de Investigación del Centro de Modelación y Monitoreo de Ecosistemas de la Universidad Mayor.
 
-+   Nicolas Pino (Ing. Civil Matemático), Asistente de Investigación, Proyecto Fondef No. ID19\|10421 (Ejecutado por el [CEM](https://cem.umayor.cl)).
++   Dr. [Aaron Weiskittel](https://forest.umaine.edu/faculty-staff/aaron-weiskittel/), Profesor de Biometría Forestal en la School of Forest Resources de la University of Maine, USA.
 
 +   Dr. Pablo J. Donoso, Profesor de Silvicultura de Bosque Nativo de la Universidad Austral de Chile.
 
-+   Dr. [Aaron Weiskittel](https://forest.umaine.edu/faculty-staff/aaron-weiskittel/), Profesor de Biometría Forestal en la School of Forest Resources de la University of Maine, USA.
+
+## Colaboradores
+
++   Nicolas Pino (Ing. Civil Matemático), Asistente de Investigación, Proyecto Fondef No. ID19\|10421 (Ejecutado por el [CEM](https://cem.umayor.cl)).
 
 +   Dr. Renato Cifuentes, Investigador Postdoctoral, Proyecto Fondef No. ID19\|10421 (Ejecutado por el [CEM](https://cem.umayor.cl)).
+
++   Dr. [Juan Pablo Fuentes](http://sel.forestaluchile.cl/), Profesor Asociado de Ecología de Suelos, Universidad de Chile.
+
 
 ## Estudiantes
 
@@ -53,9 +59,7 @@ Se listan a continuación estudiantes que en alguna medida contribuyeron al desa
 
 -   Víctor Rocco. Alumno Tesista Ingeniería Forestal, Universidad de La Frontera. 2011.
 
-## Colaboradores
 
--   Dr. [Juan Pablo Fuentes](http://sel.forestaluchile.cl/), Profesor Asociado de Ecología de Suelos, Universidad de Chile.
 
 --------
 ```{=html}

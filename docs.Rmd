@@ -26,33 +26,35 @@ En el
 ## Descripción del modelo
 En esta sección se entregan antecedentes más específicos respecto a los componentes que integran al modelo de crecimiento implementado en *Pellín*.
 
-El diagrama de la figura 2 describe el flujo general 
-del sistema de simulacion de *Pellín*. Lo primero
+El diagrama de la figura 2 describe el flujo básico de 
+ un sistema de simulación de crecimiento
+  forestal a nivel individual como el de *Pellín*. Lo primero
 es leer los **datos de control** (lo cual se simplifica
 como **Entradas** en el diagrama), lo que corresponde
-no tan solo a verificar el archivo con el listado de arboles, sino
-que tambien leer las definiciones para realizar
-la simulacion, como lo son el horizonte de simulacion
- y cargar los parametros necesarios de los modelos internos
+no tan sólo a verificar el archivo con el listado de árboles, sino
+que también leer las definiciones para realizar
+la simulación, como lo son el horizonte de simulación
+ y cargar los parámetros necesarios de los modelos internos
  a ser empleados. Luego de leidos estos datos de control, se **inicializan
- las variables** de estado a nivel de arbol y rodal, para
- el tiempo actual o inicial de simulacion. Esto en terminos computacionales equivale a una lista de informacion cuantitativa.
- El fundamento del simulador es el ciclo que iterativamente resuelve
- al sistema dinamico de ecuaciones que lo conforman. Dentro del **ciclo
- de simulacion**,
- para cada variable de estado (tanto a nivel de arbol como de rodal),
+ las variables** de estado a nivel de árbol y rodal, para
+ el tiempo actual o inicial de simulación. Esto en términos computacionales equivale a una lista de información cuantitativa.
+ El nucleo del simulador es el ciclo que iterativamente resuelve
+ al sistema dinámico de ecuaciones que lo conforman. Dentro del **ciclo
+ de simulación**,
+ para cada variable de estado (tanto a nivel de árbol como de rodal),
  se calcula su nuevo valor en base a su tasa de cambio, y se actualiza
- el valor del listado de arboles. Posteriormente, se aumenta
+ el valor del listado de árboles. Posteriormente, se aumenta
  el lapso de tiempo $\Delta t$, en el caso de *Pellín* igual a 1,
- y se inicia el ciclo nuevamente. Cuando el tiempo iguala al maximo
- estipulado de simulacion, se detiene el proceso y se procede
+ y se inicia el ciclo nuevamente. Cuando el tiempo iguala al máximo
+ estipulado de simulación, se detiene el proceso y se procede
  a generar las **salidas**.
  
 | ![](img/flujoSimuladorGral.png) |
 |:--:|
-| <b>Figura 2: Flujo general del simulador *Pellín*. </b>|
+| <b>Figura 2: Flujo básico  de un sistema de simulación de crecimiento   forestal a nivel individual como el de *Pellín*. </b>|
 
- 
+ El flujo general del sistema de simulación
+ *Pellín* se resume en la figura 3. 
 El modelo de crecimiento a partir de las variables
 de tamaño de un bosque (i.e., lista de árboles),
  define la estructura de este, representandola mediante variables de rodal agregada y de orden, y 
@@ -61,7 +63,9 @@ de tamaño de un bosque (i.e., lista de árboles),
    respectivos incrementos en tamaños para el siguiente ciclo. De esta manera se genera una nueva lista de árboles que entra a un nuevo ciclo.
  Esto se expresa en el siguiente flujo de componentes.
 
-![](img/flujoGral.png)
+| ![](img/flujoGral.png) |
+|:--:|
+| <b>Figura 3: Flujo general del modelo de crecimiento de árbol individual del simulador *Pellín*. </b>|
 
 ## Otros relacionados
 Una caractertística importante para el equipo desarrollador ha sido el trabajo científico detras del modelo de crecimiento. Para esto, los autores han sometido a revision de pares muchas de las ideas que sustentan a *Pellín*. Algunos trabajos donde se pueden revisar mayores detalles científicos en los cuales se basa el modelo son: @salascapitulo18,  @salasweis18, @salas20, @salasweis20, @salas21, @salas21stem, @salasgreq.

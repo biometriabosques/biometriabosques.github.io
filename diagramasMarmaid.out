@@ -45,13 +45,13 @@ graph TD;
 #=======================================================
 ##otro flujo general
 flowchart TB
-subgraph Inicializar-Variables
+subgraph uid1[Inicializar variables]
  id0(Parámetros)-->
  id1(Variables estado árbol)-->id2(Variables estado rodal)
 end
-  subgraph Ciclo_de_simulación
+  subgraph uid2[Ciclo de simulación]
     direction LR
-    subgraph Si-t-menor=tFinal
+    subgraph "Si t <= tFinal"
     subgraph Calcular
      direction LR
         id3(Tasas de cambio)-->
@@ -60,12 +60,11 @@ end
     end    
     end
   end
-  id99((Entradas)) --> Inicializar-Variables --> Ciclo_de_simulación  --> id98((Salidas))
-  Si-t-menor=tFinal
+id99((Entradas)) --> uid1[Inicializar variables] --> uid2[Ciclo de simulación]  --> id98((Salidas))
 
 
 
-  [![](https://mermaid.ink/img/pako:eNptkl1KAzEQx68S8pTFLli_sIUKWqsIPogtPi2UaSa1A9mkTLKKlh6mZ_AIvZjZbt2H2rzMZOY3_zAzWUnt0ci-nFv_qRfAUUzuCheq2TvDciGeHGkCS9_A-RswwcyaUDhBeKpegLeb0kT2Icvzm120q1pKmBABvdhueOZtTRCe_U-zR7BZ4YzDpCDal4ekrZ-imQYqKwuatj-uBoRAYqMjeSeeX5tIWzSmPOalcZ4H8YEc2IP8EKxOYtyEjyjVh_BcTSBAEGiEhnJGft9fC1yoWx2rZi7io20p8U1Xh_yleqyAEbgZw5WKg3jSzRokdV6b9lI7e0PY6yk1cpEBIWSZSOXHd7LLHJuZ2GWS0LVS41S106m1j85KdmRpuATC9CdWdaSQcWFKU8h-ctHMobKxkIVbJ7RaIkQzQoqeZX8ONpiOhCr68ZfTsh-5Mn_QPUFaQbmn1r8m6dNE)](https://mermaid.live/edit#pako:eNptkl1KAzEQx68S8pTFLli_sIUKWqsIPogtPi2UaSa1A9mkTLKKlh6mZ_AIvZjZbt2H2rzMZOY3_zAzWUnt0ci-nFv_qRfAUUzuCheq2TvDciGeHGkCS9_A-RswwcyaUDhBeKpegLeb0kT2Icvzm120q1pKmBABvdhueOZtTRCe_U-zR7BZ4YzDpCDal4ekrZ-imQYqKwuatj-uBoRAYqMjeSeeX5tIWzSmPOalcZ4H8YEc2IP8EKxOYtyEjyjVh_BcTSBAEGiEhnJGft9fC1yoWx2rZi7io20p8U1Xh_yleqyAEbgZw5WKg3jSzRokdV6b9lI7e0PY6yk1cpEBIWSZSOXHd7LLHJuZ2GWS0LVS41S106m1j85KdmRpuATC9CdWdaSQcWFKU8h-ctHMobKxkIVbJ7RaIkQzQoqeZX8ONpiOhCr68ZfTsh-5Mn_QPUFaQbmn1r8m6dNE)
+[![](https://mermaid.ink/img/pako:eNp9kttKAzEQhl8l5CqLFWw9YBcVPFQRvBBbvHG9mM2kdiCbSA6Kig_jM_gIfTGT3bZIPQRCkplv_iF_8salRcVLPtX2Wc7ABTY5qYyP9YODxxmLhP27S0OSQNMrOPYEjqDWyt9XhhFuiWtw849GBWd9sbl51Eb74naJMeUDoGXzD1dbnQnCwc-0swi6qIwymBTY9_6Du1OS2jJUzFMTNUiaf5rcPg0kp2Qga9jVTRdZlVZ8TCywg0MWzsmArvgacApaJjnXhX-RyoNwW0zAg8_9JTQ12cU1V8COOJYhrvuT-e5y6_yuuIjgEFznxp4Ih2GjX3RIMiAvq0PetAvhcCjEyAQHCL4oWCr-73mW-T_sY20-ie4LMU7FrWZulifv8Ua5BgjTz3hrozzMVKMqXqYtqilEHbKh7wmNjwhBjZCCdbycgvaqxyEGO34xkpfBRbWEzgiS982Cev8CZY_Tsw)](https://mermaid.live/edit#pako:eNp9kttKAzEQhl8l5CqLFWw9YBcVPFQRvBBbvHG9mM2kdiCbSA6Kig_jM_gIfTGT3bZIPQRCkplv_iF_8salRcVLPtX2Wc7ABTY5qYyP9YODxxmLhP27S0OSQNMrOPYEjqDWyt9XhhFuiWtw849GBWd9sbl51Eb74naJMeUDoGXzD1dbnQnCwc-0swi6qIwymBTY9_6Du1OS2jJUzFMTNUiaf5rcPg0kp2Qga9jVTRdZlVZ8TCywg0MWzsmArvgacApaJjnXhX-RyoNwW0zAg8_9JTQ12cU1V8COOJYhrvuT-e5y6_yuuIjgEFznxp4Ih2GjX3RIMiAvq0PetAvhcCjEyAQHCL4oWCr-73mW-T_sY20-ie4LMU7FrWZulifv8Ua5BgjTz3hrozzMVKMqXqYtqilEHbKh7wmNjwhBjZCCdbycgvaqxyEGO34xkpfBRbWEzgiS982Cev8CZY_Tsw)
 
 #=======================================================
 
