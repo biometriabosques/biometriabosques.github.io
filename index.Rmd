@@ -22,7 +22,7 @@ las siguientes especies *Nothofagus obliqua* (roble), *N. alpina* (raulí), y *N
 ## El modelo
 *Pellín* es un prototipo de simulación de bosques basado
  en un modelo de crecimiento a nivel de árbol individual independiente de la distancia e independiente de la edad. 
- El modelo se basa en un trabajo de modelación que se ha venido llevando a cabo bajo la dirección del Profesor [Christian Salas-Eljatib](http://eljatib.com) y con la colaboración de un [equipo](./team.html) de co-investigadores y asistentes de investigación.
+ El modelo se basa en un trabajo de modelación que se ha venido llevando a cabo bajo la dirección del Profesor [Christian Salas-Eljatib](http://eljatib.com) y con la la participación de un [equipo](./team.html) de co-investigadores, colaboradores, y asistentes de investigación.
 
 ## Simular
 
