@@ -1,4 +1,20 @@
-el diagram1
+el diagrama1
+
+graph TD;
+A[Inicio];
+A -->Node1(Ubicacion geográfica);
+A -->Node2(Lista de árboles);
+A -->Node3(Horizonte de simulación);
+Node1(Ubicación geográfica)-->B{Sí tiene la información?};
+Node2(Lista de árboles)-->B{Sí tiene la información?};
+Node3(Horizonte de simulación)-->B{Tiene la información?};
+B-->|Sí| Node4[Puede simular];
+B -->|No| A[Inicio];
+
+
+[![](https://mermaid.ink/img/pako:eNqNkU1OwzAQha8ymlWQ2gU_qyCBiIoEEqqQWlY1CzeepJYSu3LsBSQ5TA_AiiPkYoyhUCIBYjee-ea90XOLuVWEKZZObjewnJ0Lc7W6NTrX9jHWMJ1ezBk5Th7WOpfcNlCSLd2wK_h99J05Se504yUogmHn1raiZjQ_TW6s08_WeIpMo-tQseLwaiI2cuHeyIYVsnYxvIDXZAgqCdoU1tUf6GW_3__pgn-u_nHcu8Ly1-2M5x0bdBB1zlb3gb4EXAwxiwF0c9vBIVqcYE0soxWH3woDINBvqCaBKZeKChkqL1CYntGwVdLTtdLeOkwLWTU0QRm8XTyZHFPvAn1CMy35L-s91b8Byy2u_g)](https://mermaid.live/edit#pako:eNqNkU1OwzAQha8ymlWQ2gU_qyCBiIoEEqqQWlY1CzeepJYSu3LsBSQ5TA_AiiPkYoyhUCIBYjee-ea90XOLuVWEKZZObjewnJ0Lc7W6NTrX9jHWMJ1ezBk5Th7WOpfcNlCSLd2wK_h99J05Se504yUogmHn1raiZjQ_TW6s08_WeIpMo-tQseLwaiI2cuHeyIYVsnYxvIDXZAgqCdoU1tUf6GW_3__pgn-u_nHcu8Ly1-2M5x0bdBB1zlb3gb4EXAwxiwF0c9vBIVqcYE0soxWH3woDINBvqCaBKZeKChkqL1CYntGwVdLTtdLeOkwLWTU0QRm8XTyZHFPvAn1CMy35L-s91b8Byy2u_g)
+
+##otra version de lo mismo
 
 [![](https://mermaid.ink/img/pako:eNqNkU1qw0AMha8yaJ0s-rNyoYWSQgulm7QrTxYTj-wI5ieMNYvW-DA5QFY5gi9WmTYpoWCy00if3ntoOqiiRSigSWa7Ue-LOx2UepPeVfmxpspUFINqMDZp2NXyXp2A6_KVWjbKohp2aR0dtn_Dm_I5JvqKgXEEWvLZidZwCKv_DtI9s5jP7x-75bBXTBhQOaMo1DH5H_Shn4xw8fJExEs0JgERGC1uy5dAcsEzcZiBR0HJytm7MY0G3qBHDYWUFmuTHWvQoRc0b61hfLLEMUFRG9fiDEzmuPwMFRScMh6hBRn5Rf9L9d_3PbIH)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNkU1qw0AMha8yaJ0s-rNyoYWSQgulm7QrTxYTj-wI5ieMNYvW-DA5QFY5gi9WmTYpoWCy00if3ntoOqiiRSigSWa7Ue-LOx2UepPeVfmxpspUFINqMDZp2NXyXp2A6_KVWjbKohp2aR0dtn_Dm_I5JvqKgXEEWvLZidZwCKv_DtI9s5jP7x-75bBXTBhQOaMo1DH5H_Shn4xw8fJExEs0JgERGC1uy5dAcsEzcZiBR0HJytm7MY0G3qBHDYWUFmuTHWvQoRc0b61hfLLEMUFRG9fiDEzmuPwMFRScMh6hBRn5Rf9L9d_3PbIH)
 
@@ -11,9 +27,50 @@ graph TD;
   Node1[Ubicación geográfica]-->B{Sí tiene la información?};
   Node2[Lista de árboles]-->B{Sí tiene la información?};
   Node3[Horizonte de simulación]-->B{Sí tiene la información?};
- B{Sí tiene la información?}-->Node4[Inicio simulación]
+ B{Sí tiene la información?}-->Node4[Iniciar simulación]
 
 
+
+graph TD;
+  Node1[Ubicacion geográfica];
+  Node2[Lista de árboles];
+  Node3[Horizonte de simulación];
+  Node1[Ubicación geográfica]-->B{Sí tiene la información?};
+  Node2[Lista de árboles]-->B{Sí tiene la información?};
+  Node3[Horizonte de simulación]-->B{Sí tiene la información?};
+  B-->|Sí| Node4[Iniciar simulación];
+  B ---->|No| E[Necromasa]
+
+
+#=======================================================
+##otro flujo general
+flowchart TB
+subgraph Inicializar-Variables
+ id0(Parámetros)-->
+ id1(Variables estado árbol)-->id2(Variables estado rodal)
+end
+  subgraph Ciclo_de_simulación
+    direction LR
+    subgraph Si-t-menor=tFinal
+    subgraph Calcular
+     direction LR
+        id3(Tasas de cambio)-->
+        id4(Actualizar variables de estado)-->
+        id5(Guardar)-->id6(t=t+1)
+    end    
+    end
+  end
+  id99((Entradas)) --> Inicializar-Variables --> Ciclo_de_simulación  --> id98((Salidas))
+  Si-t-menor=tFinal
+
+
+
+  [![](https://mermaid.ink/img/pako:eNptkl1KAzEQx68S8pTFLli_sIUKWqsIPogtPi2UaSa1A9mkTLKKlh6mZ_AIvZjZbt2H2rzMZOY3_zAzWUnt0ci-nFv_qRfAUUzuCheq2TvDciGeHGkCS9_A-RswwcyaUDhBeKpegLeb0kT2Icvzm120q1pKmBABvdhueOZtTRCe_U-zR7BZ4YzDpCDal4ekrZ-imQYqKwuatj-uBoRAYqMjeSeeX5tIWzSmPOalcZ4H8YEc2IP8EKxOYtyEjyjVh_BcTSBAEGiEhnJGft9fC1yoWx2rZi7io20p8U1Xh_yleqyAEbgZw5WKg3jSzRokdV6b9lI7e0PY6yk1cpEBIWSZSOXHd7LLHJuZ2GWS0LVS41S106m1j85KdmRpuATC9CdWdaSQcWFKU8h-ctHMobKxkIVbJ7RaIkQzQoqeZX8ONpiOhCr68ZfTsh-5Mn_QPUFaQbmn1r8m6dNE)](https://mermaid.live/edit#pako:eNptkl1KAzEQx68S8pTFLli_sIUKWqsIPogtPi2UaSa1A9mkTLKKlh6mZ_AIvZjZbt2H2rzMZOY3_zAzWUnt0ci-nFv_qRfAUUzuCheq2TvDciGeHGkCS9_A-RswwcyaUDhBeKpegLeb0kT2Icvzm120q1pKmBABvdhueOZtTRCe_U-zR7BZ4YzDpCDal4ekrZ-imQYqKwuatj-uBoRAYqMjeSeeX5tIWzSmPOalcZ4H8YEc2IP8EKxOYtyEjyjVh_BcTSBAEGiEhnJGft9fC1yoWx2rZi7io20p8U1Xh_yleqyAEbgZw5WKg3jSzRokdV6b9lI7e0PY6yk1cpEBIWSZSOXHd7LLHJuZ2GWS0LVS41S106m1j85KdmRpuATC9CdWdaSQcWFKU8h-ctHMobKxkIVbJ7RaIkQzQoqeZX8ONpiOhCr68ZfTsh-5Mn_QPUFaQbmn1r8m6dNE)
+
+#=======================================================
+
+
+#=======================================================  
 ###flujo general de un simulador cualquiera
 flowchart TB
 subgraph Inicializar-Variables
@@ -37,9 +94,10 @@ end
 
 
   [![](https://mermaid.ink/img/pako:eNptUctOAzEM_JUoV5oD15VaqZSCkDigbsUpF2-S0kh5VI4jBFX_HadbFhXIxfbMeGQ7R2mydbKTu5DfzR6QxPZOp1KHN4TDXjwlbzwE_wmoXgE9DMEVncQLIERHmItSC66ZWxcCm5c45MDYBGyyhaCTS5ZlYjJeeROy6n2sAYzPqZFCWI_OEJfieTMiU0PvFanoUsY5PfjUPK_4FQTDXjjC_zi1t4UCRa0gDj6Pg1_e0lD9WXOc_ErwWAEts2pBc7q5HQleqoWpaMklrBMhWCiCO_6_4pn5fQZxRnvWcm_z-bO2nMnoMIK3_GvHJtGS9i46LTtOrdtBDaSlTieW1oMFcmvrKaPsdhCKm0molPuPZGRHWN236N4DXzJeVKcvp-izsg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNptUctOAzEM_JUoV5oD15VaqZSCkDigbsUpF2-S0kh5VI4jBFX_HadbFhXIxfbMeGQ7R2mydbKTu5DfzR6QxPZOp1KHN4TDXjwlbzwE_wmoXgE9DMEVncQLIERHmItSC66ZWxcCm5c45MDYBGyyhaCTS5ZlYjJeeROy6n2sAYzPqZFCWI_OEJfieTMiU0PvFanoUsY5PfjUPK_4FQTDXjjC_zi1t4UCRa0gDj6Pg1_e0lD9WXOc_ErwWAEts2pBc7q5HQleqoWpaMklrBMhWCiCO_6_4pn5fQZxRnvWcm_z-bO2nMnoMIK3_GvHJtGS9i46LTtOrdtBDaSlTieW1oMFcmvrKaPsdhCKm0molPuPZGRHWN236N4DXzJeVKcvp-izsg)
+#=======================================================
 
-  
-####este es un flujo general del simulador
+#=======================================================  
+####este es un flujo mas especifico del simulador
 
 graph TD;
   Node2[Lista de árboles];
@@ -58,6 +116,7 @@ graph TD;
 
 aca lo mismo pero con codigo
 [![](https://mermaid.ink/img/pako:eNqtks9KxDAQxl8l5Lw9-O9SQaFuD4IUoXtLe5g2s24gadY0KUjbh_EBPPgMfTGTtSoLdkHwFr75vt9kkulprTnSmD4Z2O_IZn1dNIRkXjtnD6K1QDiS6dVUWmJbfhfP2KPR3NVWdIIDXy5E0U2QL1jaWuNlZwJRkkq3zw7Lk93-IXvJNqBgeteH4Gf1J7hEnsNXYZYKKiHDKAGvtLEgjyf-tcWfCCddnpT0ua4MdqLD2_GQSrw65NPbQO7YfVMbVNhYXYbSkTBfY_ErExJFAZXpgaQsw9poBS0EEF1RhUaB4H45-mAuqN15bkFjf-S4BSdtQYtm9Fa352Ax5cJqQ-MtyBZXFJzV-UtT09g_Mn6Z1gL8rqnZNX4A-mzlpg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqtks9KxDAQxl8l5Lw9-O9SQaFuD4IUoXtLe5g2s24gadY0KUjbh_EBPPgMfTGTtSoLdkHwFr75vt9kkulprTnSmD4Z2O_IZn1dNIRkXjtnD6K1QDiS6dVUWmJbfhfP2KPR3NVWdIIDXy5E0U2QL1jaWuNlZwJRkkq3zw7Lk93-IXvJNqBgeteH4Gf1J7hEnsNXYZYKKiHDKAGvtLEgjyf-tcWfCCddnpT0ua4MdqLD2_GQSrw65NPbQO7YfVMbVNhYXYbSkTBfY_ErExJFAZXpgaQsw9poBS0EEF1RhUaB4H45-mAuqN15bkFjf-S4BSdtQYtm9Fa352Ax5cJqQ-MtyBZXFJzV-UtT09g_Mn6Z1gL8rqnZNX4A-mzlpg)
+#=======================================================
 
  ************
  flowchart TD

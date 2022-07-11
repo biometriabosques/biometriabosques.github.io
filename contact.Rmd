@@ -1,0 +1,19 @@
+---
+title: ""
+output: rmdformats::readthedown
+---
+
+<style>H1{color:DarkBlue;}</style>
+<style>H2{color:DarkBlue;}</style>
+
+--------
+
+## Contacto
+
+En caso de dudas/consultas/sugerencias, por favor contactar a: 
+
+Christian Salas-Eljatib al email cseljatib@gmail.com
+
+<img src='img/logo.png' width='200'>
+
+--------

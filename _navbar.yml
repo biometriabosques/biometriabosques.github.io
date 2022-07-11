@@ -1,0 +1,15 @@
+name: "simulaPellin"
+title: "Simulador Pellin"
+type: inverse
+homeassistant:
+entity_picture: /img/logo.png
+left:
+  - text: "Documentos"
+    href: ./docs.html
+  - text: "Equipo"
+    href: ./team.html
+  - text: "Contacto"
+    href: ./contact.html
+right:
+  - icon: fa-home fa-lg
+    href: ./index.html
