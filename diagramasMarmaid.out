@@ -117,6 +117,39 @@ aca lo mismo pero con codigo
 [![](https://mermaid.ink/img/pako:eNqtks9KxDAQxl8l5Lw9-O9SQaFuD4IUoXtLe5g2s24gadY0KUjbh_EBPPgMfTGTtSoLdkHwFr75vt9kkulprTnSmD4Z2O_IZn1dNIRkXjtnD6K1QDiS6dVUWmJbfhfP2KPR3NVWdIIDXy5E0U2QL1jaWuNlZwJRkkq3zw7Lk93-IXvJNqBgeteH4Gf1J7hEnsNXYZYKKiHDKAGvtLEgjyf-tcWfCCddnpT0ua4MdqLD2_GQSrw65NPbQO7YfVMbVNhYXYbSkTBfY_ErExJFAZXpgaQsw9poBS0EEF1RhUaB4H45-mAuqN15bkFjf-S4BSdtQYtm9Fa352Ax5cJqQ-MtyBZXFJzV-UtT09g_Mn6Z1gL8rqnZNX4A-mzlpg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqtks9KxDAQxl8l5Lw9-O9SQaFuD4IUoXtLe5g2s24gadY0KUjbh_EBPPgMfTGTtSoLdkHwFr75vt9kkulprTnSmD4Z2O_IZn1dNIRkXjtnD6K1QDiS6dVUWmJbfhfP2KPR3NVWdIIDXy5E0U2QL1jaWuNlZwJRkkq3zw7Lk93-IXvJNqBgeteH4Gf1J7hEnsNXYZYKKiHDKAGvtLEgjyf-tcWfCCddnpT0ua4MdqLD2_GQSrw65NPbQO7YfVMbVNhYXYbSkTBfY_ErExJFAZXpgaQsw9poBS0EEF1RhUaB4H45-mAuqN15bkFjf-S4BSdtQYtm9Fa352Ax5cJqQ-MtyBZXFJzV-UtT09g_Mn6Z1gL8rqnZNX4A-mzlpg)
 #=======================================================
 
+######@@@@@@@@@@@@
+flujo mas power
+
+flowchart TB
+  subgraph uid33[Inicio]
+  end
+  subgraph uid02[Productividad]
+  direction LR
+  Clima---Topografia---TipoHabitat
+  end
+  subgraph uid03[Ciclo de simulación]
+  direction TB
+  uid99[Lista de árboles]
+  uid99[Lista de árboles]-->Node4(Tamaño del árbol)
+  uid99[Lista de árboles]-->Node41(Competencia)
+  uid99[Lista de árboles]-->Node3(Estructura del bosque)
+  Node4(Tamaño del árbol)-->Node5[Probabilidad de mortalidad];
+  Node41(Competencia)-->Node5[Probabilidad de mortalidad];
+  Node3(Estructura del bosque)-->Node5[Probabilidad de mortalidad];
+  Node5[Probabilidad de mortalidad]-->B{Sobrevive?};
+  B-->|Sí| C[Tasa de cambio]
+  B ---->|No| E[Necromasa] 
+  end
+  uid02[Productividad] --> C[Tasa de cambio];
+  uid02[Productividad] -->Node5[Probabilidad de mortalidad];
+  C[Tasa de cambio] --> uid99[Lista de árboles];
+uid33[Inicio]-->uid03[Ciclo de simulación]
+uid33[Inicio]-->uid02[Productividad]
+
+[![](https://mermaid.ink/img/pako:eNqVk8FqGzEQhl9F6ORCFto6OcSBFOwaGgim1L7t-jArjesBaWejlVyK7YfpA_RQ-gh-sc5u3NI4sXFuO5rv_2d2NFprwxb1QC8cfzNLCFHNhkWlVJPKrwHqpUpk-_38riJDPG8zWNlD4O37_HNgm0ykFVmwHWcpoBxwpe6_tPHIkYcsy2ZcsygX1AVU8ycoKUI85t3PR2QcK4uqIZ8cGNr9rg5KPDYt-PV1fk9NhBbf_QglO2zmp3JZdjuREVz2ZuBh96ut4_bZN-fo3vVG7GuMWBmCcxT93riJQWaVAnTFSm4eEnbSo53stVftnEuZl2vH3Lp7DhG6aH7zz-FpT6_SHuvuVSYnKXEarqdcBlzRCj9sO9VQTjfT3c-NGuUzaLrBGfDlfueGSnZFiAlv1DifoAnshZqr_5bmpT0U2e1zx5tT-Hl_-cyzq3Ts5kXy5BkJe3KzX4IPe9UX2mPwQFZe77rtqdBxiR4LPZBPiwtILha6qLaCptpCxLGlyEEPFuAavNCQIk-_V0YP5MbxL_SRQB6f31PbPwFYdj8)](https://mermaid.live/edit#pako:eNqVk8FqGzEQhl9F6ORCFto6OcSBFOwaGgim1L7t-jArjesBaWejlVyK7YfpA_RQ-gh-sc5u3NI4sXFuO5rv_2d2NFprwxb1QC8cfzNLCFHNhkWlVJPKrwHqpUpk-_38riJDPG8zWNlD4O37_HNgm0ykFVmwHWcpoBxwpe6_tPHIkYcsy2ZcsygX1AVU8ycoKUI85t3PR2QcK4uqIZ8cGNr9rg5KPDYt-PV1fk9NhBbf_QglO2zmp3JZdjuREVz2ZuBh96ut4_bZN-fo3vVG7GuMWBmCcxT93riJQWaVAnTFSm4eEnbSo53stVftnEuZl2vH3Lp7DhG6aH7zz-FpT6_SHuvuVSYnKXEarqdcBlzRCj9sO9VQTjfT3c-NGuUzaLrBGfDlfueGSnZFiAlv1DifoAnshZqr_5bmpT0U2e1zx5tT-Hl_-cyzq3Ts5kXy5BkJe3KzX4IPe9UX2mPwQFZe77rtqdBxiR4LPZBPiwtILha6qLaCptpCxLGlyEEPFuAavNCQIk-_V0YP5MbxL_SRQB6f31PbPwFYdj8)
+
+  ######@@@@@@@@@@@@
+
  ************
  flowchart TD
     A[Probabilidad de mortalidad] --> B{Sobrevive?}

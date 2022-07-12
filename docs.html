@@ -201,6 +201,16 @@ muestreo), además de conocer la ubicación geográfica de la lista de
 </table>
 <p>En el <a href="manualPellin.pdf">manual del usuario</a> se detalla
 paso a paso como usar el simulador.</p>
+<p>A modo de ejemplo se entregan archivos con el listado de árboles para
+parcelas de muestreo:</p>
+<ol style="list-style-type: decimal">
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="img/parcela01.csv">parcela01.csv</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="img/parcela02.csv">parcela02.csv</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="img/parcela03.csv">parcela03.csv</a></p></li>
+</ol>
 </div>
 <div id="descripción-del-modelo" class="section level2">
 <h2>Descripción del modelo</h2>
@@ -252,17 +262,16 @@ tamaño de un bosque (i.e., lista de árboles), define la estructura de
 este, representandola mediante variables de rodal agregada y de orden, y
 variables que definen la competencia. Posteriormente, se calcula la
 probabilidad de mortalidad de cada individuo, y con los que sobreviven
-se predice sus respectivos incrementos en tamaños para el siguiente
-ciclo. De esta manera se genera una nueva lista de árboles que entra a
-un nuevo ciclo. Esto se expresa en el siguiente flujo de
-componentes.</p>
+se predice sus respectivas tasas de cambio para el siguiente ciclo. De
+esta manera se genera una nueva lista de árboles que entra a un nuevo
+ciclo.</p>
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center"><img src="img/flujoGral.png" /></th>
+<th align="center"><img src="img/flujoPellin1.png" /></th>
 </tr>
 </thead>
 <tbody>
