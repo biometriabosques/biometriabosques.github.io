@@ -7,7 +7,7 @@
 
     
     
-    <title>Documentos</title>
+    <title>El simulador</title>
 
         <script src="site_libs/header-attrs-2.14.1/header-attrs.js"></script>
         <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -128,10 +128,16 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li>
-        <a href="./docs.html">Documentos</a>
+        <a href="./docs.html">El modelo</a>
+      </li>
+      <li>
+        <a href="./simular.html">Simular</a>
       </li>
       <li>
         <a href="./team.html">Equipo</a>
+      </li>
+      <li>
+        <a href="./pubs.html">Publicaciones</a>
       </li>
       <li>
         <a href="./contact.html">Contacto</a>
@@ -149,17 +155,15 @@
         </div><!--/.container -->
       </div><!--/.navbar -->
         
-      <h1 class="title">Documentos</h1>
+      <h1 class="title">El simulador</h1>
       
          <!-- readthedown authors -->
    <div id="sidebar">
-    <h2><a href="#content">Documentos</a></h2>
+    <h2><a href="#content">El simulador</a></h2>
     <div id="toc">
       <ul>
-      <li><a href="#manual-del-usuario">Manual del usuario</a></li>
       <li><a href="#descripción-del-modelo">Descripción del
       modelo</a></li>
-      <li><a href="#otros-relacionados">Otros relacionados</a></li>
       <li><a href="#referencias-bibliográficas">Referencias
       bibliográficas</a></li>
       </ul>
@@ -177,49 +181,18 @@
 <style>H1{color:DarkBlue;}</style>
 <style>H2{color:DarkBlue;}</style>
 <hr />
-<div id="manual-del-usuario" class="section level2">
-<h2>Manual del usuario</h2>
-<p>Existen diversas aproximaciones para modelar el crecimiento de
-bosques <span class="citation">(Munro 1974; Weiskittel et al. 2011;
-Salas et al. 2016)</span>. Al ser <em>Pellín</em> un simulador a nivel
-individual es necesario contar con información a nivel de árbol en una
-unidad de superficie (e.g., lista de árboles en una parcela de
-muestreo), además de conocer la ubicación geográfica de la lista de
-árboles y el horizonte de simulación (Fig. 1).</p>
-<table>
-<thead>
-<tr class="header">
-<th align="center"><img src="img/diagram1.png" /></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center"><b>Figura 1: Elementos necesarios para simular en
-<em>Pellín</em>. </b></td>
-</tr>
-</tbody>
-</table>
-<p>En el <a href="manualPellin.pdf">manual del usuario</a> se detalla
-paso a paso como usar el simulador.</p>
-<p>A modo de ejemplo se entregan archivos con el listado de árboles para
-parcelas de muestreo:</p>
-<ol style="list-style-type: decimal">
-<li><p><input type="checkbox" disabled="" checked="" />
-<a href="img/parcela01.csv">parcela01.csv</a></p></li>
-<li><p><input type="checkbox" disabled="" checked="" />
-<a href="img/parcela02.csv">parcela02.csv</a></p></li>
-<li><p><input type="checkbox" disabled="" checked="" />
-<a href="img/parcela03.csv">parcela03.csv</a></p></li>
-</ol>
-</div>
 <div id="descripción-del-modelo" class="section level2">
 <h2>Descripción del modelo</h2>
-<p>En esta sección se entregan antecedentes más específicos respecto a
-los componentes que integran al modelo de crecimiento implementado en
+<p>Existen diversas aproximaciones para modelar el crecimiento de
+bosques <span class="citation">(Munro 1974; Weiskittel et al. 2011;
+Salas et al. 2016)</span>. <em>Pellín</em> adopta el enfoque de modelo
+de crecimiento de arbol individual independiente de la distancia. En
+esta sección se entregan antecedentes más específicos respecto a los
+componentes que integran al modelo de crecimiento implementado en
 <em>Pellín</em>.</p>
 <p>El diagrama de la figura 2 describe el flujo básico de un sistema de
-simulación de crecimiento forestal a nivel individual como el de
-<em>Pellín</em>. Lo primero es leer los <strong>datos de
+simulación de crecimiento forestal a nivel individual, como por ejemplo
+el de <em>Pellín</em>. Lo primero es leer los <strong>datos de
 control</strong> (lo cual se simplifica como <strong>Entradas</strong>
 en el diagrama), lo que corresponde no tan sólo a verificar el archivo
 con el listado de árboles, sino que también leer las definiciones para
@@ -281,11 +254,8 @@ de árbol individual del simulador <em>Pellín</em>. </b></td>
 </tr>
 </tbody>
 </table>
-</div>
-<div id="otros-relacionados" class="section level2">
-<h2>Otros relacionados</h2>
-<p>Una caractertística importante para el equipo desarrollador ha sido
-el trabajo científico detras del modelo de crecimiento. Para esto, los
+<p>Una característica importante para el equipo desarrollador ha sido el
+trabajo científico detras del modelo de crecimiento. Para esto, los
 autores han sometido a revision de pares muchas de las ideas que
 sustentan a <em>Pellín</em>. Algunos trabajos donde se pueden revisar
 mayores detalles científicos en los cuales se basa el modelo son: <span
@@ -301,6 +271,15 @@ class="citation">Salas-Eljatib et al. (2021)</span>.</p>
 <div id="referencias-bibliográficas" class="section level2">
 <h2>Referencias bibliográficas</h2>
 <!--- 
+## Manual del usuario
+
+## Publicaciones
+
+En el 
+[manual del usuario](manualPellin.pdf) se detalla paso a paso como usar el simulador.
+
+
+
 áfica]--Tiene la información
 flowchart LR
     id1[(Ubicacion geografica parcela)]--id2[(Lista de arboles)]
