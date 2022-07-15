@@ -1,3 +1,22 @@
+###el nuevo diagrama1
+graph TD;
+A[Inicio];
+A -->Node1(Productividad);
+A -->Node2(Lista de árboles);
+A -->Node3(Horizonte de simulación);
+Node1(Productividad)-->B{Sí tiene la información?};
+Node2(Lista de árboles)-->B{Sí tiene la información?};
+Node3(Horizonte de simulación)-->B{Tiene la información?};
+B-->|Sí| Node4[Puede simular];
+B -->|No| A[Inicio];
+
+
+
+[![](https://mermaid.ink/img/pako:eNqNkcFKAzEQhl9lmNMK7cHqaQXFpYKClEJ7azzEzWw7kE1KNhF0dx_GB_DkI-yLmWi1ClW8Dfzf_0_mT4ulVYQ5rp3cbmA5PRPmcnVjuGR7l2YYj89nETnO5s6qUHp-YCXV0Xdtkt1y4yUoguHZ3VtNzQ_9JLu2jp-s8ZSYhuugZcnDq0nYofRoLNrF8AKeyRBoCWwq6-oP10W_sx1a_E_rH296T1j-6i6i3sUFHaSc09U80FeAS50V6e5uZjvYN4kjrCnGsIpdt8IACPQbqklgHkdFlQzaCxSmj2jYKunpSrG3DvNK6oZGKIO3i0dTYu5doE9oyjJ-Xb2j-jc_K6cr)](https://mermaid.live/edit#pako:eNqNkcFKAzEQhl9lmNMK7cHqaQXFpYKClEJ7azzEzWw7kE1KNhF0dx_GB_DkI-yLmWi1ClW8Dfzf_0_mT4ulVYQ5rp3cbmA5PRPmcnVjuGR7l2YYj89nETnO5s6qUHp-YCXV0Xdtkt1y4yUoguHZ3VtNzQ_9JLu2jp-s8ZSYhuugZcnDq0nYofRoLNrF8AKeyRBoCWwq6-oP10W_sx1a_E_rH296T1j-6i6i3sUFHaSc09U80FeAS50V6e5uZjvYN4kjrCnGsIpdt8IACPQbqklgHkdFlQzaCxSmj2jYKunpSrG3DvNK6oZGKIO3i0dTYu5doE9oyjJ-Xb2j-jc_K6cr)
+
+
+##@@@@@@@@@@@@@@
+
 el diagrama1
 
 graph TD;
