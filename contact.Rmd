@@ -1,0 +1,21 @@
+---
+title: ""
+output: rmdformats::readthedown
+---
+
+<style>H1{color:DarkBlue;}</style>
+<style>H2{color:DarkBlue;}</style>
+
+--------
+
+## Contacto
+
+En caso de dudas/consultas/sugerencias, por favor contactar a 
+nuestro email simuladorpellin@gmail.com
+
+Además, para aquella(o)s interesada(o)s en discutir otros temas relacionados, y posibilidades de colaboración, contactar a 
+Christian Salas-Eljatib al email cseljatib@gmail.com
+
+<img src='img/logo.png' width='200'>
+
+--------
