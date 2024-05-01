@@ -11,8 +11,8 @@ link-citations: no
 
 ## Investigador principal
 
-+ Dr. <a href="http://www.eljatib.com" target="_blank">Christian Salas-Eljatib</a>, Profesor Titular de Biometría Forestal en el
-<a href="https://cem.umayor.cl" target="_blank">Centro de Modelación y Monitoreo de Ecosistemas</a> (CEM) de la Universidad Mayor.
++ Dr. <a href="http://www.eljatib.com" target="_blank">Christian Salas-Eljatib</a>, Profesor de Biometría Forestal en la 
+<a href="https://forestal.uchile.cl" target="_blank">Facultad de Ciencias Forestales y de Conservación de la Naturaleza</a> de la Universidad de Chile.
 
 ## Co-investigadores
 
