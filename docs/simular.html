@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="pandoc" />
+
+    
+    
+    <title>Simular</title>
+
+        <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+        <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="site_libs/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="site_libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+        <script src="site_libs/navigation-1.1/tabsets.js"></script>
+        <link href="site_libs/readthedown-0.1/readthedown.css" rel="stylesheet" />
+        <link href="site_libs/readthedown-0.1/readthedown_fonts_embed.css" rel="stylesheet" />
+        <script src="site_libs/readthedown-0.1/readthedown.js"></script>
+        <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+        <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+    
+    
+    
+    
+    <!-- tabsets -->
+    <script>
+      $(document).ready(function () {
+	  window.buildTabsets("toc");
+      });
+      $(document).ready(function () {
+	  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+	      $(this).parent().toggleClass('nav-tabs-open')
+	  });
+      });
+    </script>
+
+    <!-- code folding -->
+    
+    <!-- code download -->
+    
+    <!-- tabsets dropdown -->
+
+    <style type="text/css">
+      .tabset-dropdown > .nav-tabs {
+	  display: inline-table;
+	  max-height: 500px;
+	  min-height: 44px;
+	  overflow-y: auto;
+	  background: white;
+	  border: 1px solid #ddd;
+	  border-radius: 4px;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li.active:before {
+	  content: "";
+	  font-family: 'Glyphicons Halflings';
+	  display: inline-block;
+	  padding: 10px;
+	  border-right: 1px solid #ddd;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+	  content: "&#xe258;";
+	  border: none;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+	  content: "";
+	  font-family: 'Glyphicons Halflings';
+	  display: inline-block;
+	  padding: 10px;
+	  border-right: 1px solid #ddd;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li.active {
+	  display: block;
+      }
+
+      .tabset-dropdown > .nav-tabs > li.active a {
+  	  padding: 0 15px !important;
+      }
+
+      .tabset-dropdown > .nav-tabs > li > a,
+      .tabset-dropdown > .nav-tabs > li > a:focus,
+      .tabset-dropdown > .nav-tabs > li > a:hover {
+	  border: none;
+	  display: inline-block;
+	  border-radius: 4px;
+	  background-color: transparent;
+      }
+      
+      .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+	  display: block;
+	  float: none;
+      }
+      
+      .tabset-dropdown > .nav-tabs > li {
+	  display: none;
+	  margin-left: 0 !important;
+      }
+    </style>
+    
+</head>
+
+<body class="preload">
+
+   	
+         <!-- readthedown start -->   
+   <div id="content" data-toggle="wy-nav-shift">
+     <nav id="nav-top" role="navigation" aria-label="top navigation">
+       <a role="button" href="#" data-toggle="wy-nav-top"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+     </nav>
+         
+   
+      
+      <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Simulador Pellin</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li>
+        <a href="./docs.html">El modelo</a>
+      </li>
+      <li>
+        <a href="./simular.html">Simular</a>
+      </li>
+      <li>
+        <a href="./team.html">Equipo</a>
+      </li>
+      <li>
+        <a href="./pubs.html">Publicaciones</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contacto</a>
+      </li>
+      <li>
+        <a href="./updates.html">Actualizaciones</a>
+      </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+        <a href="./index.html">
+          <span class="fa fa-home fa-lg"></span>
+           
+        </a>
+      </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container -->
+      </div><!--/.navbar -->
+        
+      <h1 class="title">Simular</h1>
+      
+         <!-- readthedown authors -->
+   <div id="sidebar">
+    <h2><a href="#content">Simular</a></h2>
+    <div id="toc">
+      <ul>
+      <li><a href="#usando-el-simulador"
+      id="toc-usando-el-simulador">Usando el simulador</a></li>
+      <li><a href="#ejemplo-de-lista-de-árboles"
+      id="toc-ejemplo-de-lista-de-árboles">Ejemplo de lista de
+      árboles</a></li>
+      <li><a href="#ejercicio-de-simulación"
+      id="toc-ejercicio-de-simulación">Ejercicio de simulación</a></li>
+      <li><a href="#actualizaciones"
+      id="toc-actualizaciones">Actualizaciones</a></li>
+      </ul>
+    </div>
+    <div id="postamble" data-toggle="wy-nav-shift" class="status">
+                </div>
+   </div>
+     
+
+   
+      
+   
+<!-- Don't indent these lines or it will mess pre blocks indentation --> 
+<div id="main">
+<style>H1{color:DarkBlue;}</style>
+<style>H2{color:DarkBlue;}</style>
+<hr />
+<div id="usando-el-simulador" class="section level2">
+<h2>Usando el simulador</h2>
+<p>Al ser <em>Pellín</em> un simulador a nivel individual es necesario
+contar con información a nivel de árbol en una unidad de superficie
+(e.g., lista de árboles en una parcela de muestreo), además de conocer
+el nivel de productividad (o la ubicación geográfica) del lugar donde se
+encuentran estos árboles y el horizonte de simulación (Fig. 1).</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="img/diagram1.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Figura 1: Elementos necesarios para simular en
+<em>Pellín</em>. </b></td>
+</tr>
+</tbody>
+</table>
+<p>Para simular en <em>Pellín</em> Ud debe:</p>
+<ol style="list-style-type: decimal">
+<li><p><input type="checkbox" checked="" />Leer el <a
+href="manualPellin.pdf">manual del usuario</a></p></li>
+<li><p><input type="checkbox" checked="" />Ingresar al siguiente <a
+href="https://biometriabosques.shinyapps.io/Pellin/">enlace</a></p></li>
+</ol>
+<p>Mayores detalles técnicos son entregados en la sección <a
+href="./docs.html">que describe el modelo detras del simulador</a>.</p>
+</div>
+<div id="ejemplo-de-lista-de-árboles" class="section level2">
+<h2>Ejemplo de lista de árboles</h2>
+<p>Acá se entregan archivos, a modo de ejemplo, con el listado de
+árboles para algunas parcelas de muestreo.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Parcela</th>
+<th align="center">Archivo</th>
+<th align="center">Superficie parcela (m2)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center"><a href="data/parcela01.csv">parcela01.csv</a></td>
+<td align="center">500</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center"><a href="data/parcela02.csv">parcela02.csv</a></td>
+<td align="center">500</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center"><a href="data/parcela03.csv">parcela03.csv</a></td>
+<td align="center">250</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="ejercicio-de-simulación" class="section level2">
+<h2>Ejercicio de simulación</h2>
+<p>Para ejercitar con el simulador <em>Pellín</em>, responda el
+siguiente <a href="testPellin.pdf">ejercicio práctico</a>.</p>
+</div>
+<div id="actualizaciones" class="section level2">
+<h2>Actualizaciones</h2>
+<p>Revisar <a href="./updates.html">acá</a></p>
+<hr />
+<!--- 
+2. [x]   Ingresar al siguiente [enlace](./updates.html) 
+
+## Referencias bibliográficas
+
+2. [x]   Ingresar al siguiente [enlace](https://biometriabosques.shinyapps.io/Pellin/) 
+
+
+1. [x]   [parcela01.csv](data/parcela01.csv)
+2. [x]   [parcela02.csv](data/parcela02.csv)
+3. [x]   [parcela03.csv](data/parcela03.csv)
+
+<style>H2{color:Red;}</style>
+**Some of my older websites**
+Pellín: un simulador de crecimiento de bosques nativos
+![](images/chacai01.jpg)
+
+output: 
+  html_document:
+    toc: FALSE
+    
+    ![Amazon Rainforest](img/diagram1.png)
+
+
+[![](https://mermaid.ink/img/pako:eNqNkU1OAzEMha9ied0u-FkNEkioSEVCbCirSRfpxDO1lDhVJlnAaA7TM3CEuRiu-BOLUnaO3_eenWTAJjrCCrtkd1tYLa6MADxq76x-3nBjG44CHcUuTftWz-tv4Lx-4D5bcATTPm2ip_5HvKiXMfFrlEzQcyheg6Y3WZ-Mn8-vb4cVkxB4CyxtTOHDezP-OfpfxmNrnTIfFdV4yL2s74X1Lr9CjRjBGQZSnJ2-8XBYw2DeUiCDlZaOWlt8NmhkVLTsnM105zjHhFVrfU8ztCXHpxdpsMqp0Be0YKtfFj6p8R3jL6i2)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNkU1OAzEMha9ied0u-FkNEkioSEVCbCirSRfpxDO1lDhVJlnAaA7TM3CEuRiu-BOLUnaO3_eenWTAJjrCCrtkd1tYLa6MADxq76x-3nBjG44CHcUuTftWz-tv4Lx-4D5bcATTPm2ip_5HvKiXMfFrlEzQcyheg6Y3WZ-Mn8-vb4cVkxB4CyxtTOHDezP-OfpfxmNrnTIfFdV4yL2s74X1Lr9CjRjBGQZSnJ2-8XBYw2DeUiCDlZaOWlt8NmhkVLTsnM105zjHhFVrfU8ztCXHpxdpsMqp0Be0YKtfFj6p8R3jL6i2)
+
+<img src='img/diagram1.png' width='200'>    
+-->
+</div>
+</div>
+
+   
+   
+            
+      
+
+  <script>
+    $(document).ready(function () {
+
+			
+ 		
+	    });
+  </script>
+
+
+
+    <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+	var script = document.createElement("script");
+	script.type = "text/javascript";
+	script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+	document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+  
+</body>
+</html>
