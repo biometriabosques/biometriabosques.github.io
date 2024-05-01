@@ -1,5 +1,4 @@
-=========
-Sobre este sitioweb
+# Sobre este sitioweb
 
 Este sitio web lo prepare en markdown, por lo tanto hay que editar el archivo index.Rmd primero, el cual se abre en Rstudio. 
 
@@ -23,5 +22,5 @@ https://biometriabosques.github.io
 Atte
 Christian,
 
-28 julio, 2022
-=============
+1 de mayo, 2024
+
