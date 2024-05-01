@@ -1,0 +1,71 @@
+---
+title: "Publicaciones"
+output: rmdformats::readthedown
+bibliography: mybib.bib
+link-citations: no
+---
+
+<style>H1{color:DarkBlue;}</style>
+<style>H2{color:DarkBlue;}</style>
+
+
+--------
+
+* **[Artículos](#articulos)** 
+* **[Informes y otros](./informes.html)** 
+
+--------
+
+## Artículos
+
+Se listan papers, i.e., trabajos evaluados por pares, que son utilizados
+directamente dentro de *Pellín* y/o le dan sustento a su estructura. 
+En caso que no tenga acceso a alguno de estos papers, [enviar
+un e-mail](mailto:cseljatib@gmail.com).
+
+--------
+
+
++ **Donoso PJ**, Promis A, Loguercio G, Beltran HA, Caselli M, Chauchard LM, Cruz G, Gonzales M, Martinez G, Navarro C, Nunez P, **Salas-Eljatib C**, Soto DP, Vasquez-Grandon A. 2022. [Silviculture of South American temperate native forests](https://doi.org/10.33494/nzjfs522022x173x). <u>New Zealand Journal of Forestry Science</u> 52: 2. 
+
++ **Salas-Eljatib C**, Mehtatalo L, Gregoire TG, Soto DP, Vargas-Gaete R, 2021. [Growth equations in forest research: mathematical basis and model similarities](https://doi.org/10.1007/s40725-021-00145-8). <u>Current Forestry Reports</u> 7, 230-244. 
+
++ **Salas-Eljatib C**. 2021. [A new algorithm for reconstructing tree height growth with stem analysis data](https://doi.org/10.1111/2041-210X.13616). <u>Methods in Ecology and Evolution</u> 12(10): 2008-2016.
+
++ **Salas-Eljatib C**. 2021. [An approach to quantify climate-productivity relationships: an example from a widespread *Nothofagus* forest](https://doi.org/10.1002/eap.2285). <u>Ecological Applications</u> 31(4): e02285.
+
++ **Salas-Eljatib C**. 2020. [Height growth–rate at a given height: a mathematical perspective for forest productivity](http://eljatib.com/myPubs/2020hgrate_ecoModelling.pdf). <u>Ecological Modelling</u> 431: 109198.
+
++ **Salas-Eljatib C**, Weiskittel AR. 2020. [On studying the patterns of individual-based tree mortality in natural forests: a modelling analysis](https://doi.org/10.1016/j.foreco.2020.118369). <u>Forest Ecology and Management</u> 475: 118369.
+
+
++ Ponce DB, **Donoso PJ**, **Salas-Eljatib C**. 2019. [Índice de bosque adulto: Una herramienta para evaluar estados de desarrollo de bosques nativos de tierras bajas del centro-sur de Chile](https://scielo.conicyt.cl/pdf/bosque/v40n2/0717-9200-bosque-40-02-235.pdf). <u>Bosque</u> 40(2): 235–240.
+
+
+
++ **Salas-Eljatib C**, Weiskittel AR. 2018. [Evaluation of modelling strategies for assessing self-thinning behavior and carrying capacity](https://doi.org/10.1002/ece3.4525). <u>Ecology and Evolution</u> 8(22): 10768–10779.
+
+
++ **Salas C**, Gregoire TG, Craven DJ, Gilabert H. 2016. [Modelación del crecimiento de bosques: estado del arte](http://dx.doi.org/10.4067/S0717-92002016000100001). <u>Bosque</u> 37(1): 3–12.
+
++ Stage AR, and **Salas C**. 2007. [Interactions of elevation, aspect, and slope in models of forest species composition and productivity](https://academic.oup.com/forestscience/article/53/4/486/4604065). <u>Forest Science</u> 53(4): 486–492.
+
++ **Salas C**, LeMay V, Núñez P, Pacheco P, and Espinosa A. 2006. [Spatial patterns in an old-growth *Nothofagus obliqua* forest in south-central
+Chile](http://dx.doi.org/10.1016/j.foreco.2006.04.037). <u>Forest Ecology and Management</u> 231(1-3): 38–46.
+
++ **Salas C**, and García O. 2006. [Modelling height development of mature *Nothofagus obliqua*](http://dx.doi.org/10.1016/j.foreco.2006.04.015). <u>Forest Ecology and Management</u> 229(1-3): 1–6.
+
++ **Salas C**. 2002. [Ajuste y validación de ecuaciones de volumen para un relicto del bosque de Roble-Laurel-Lingue](http://eljatib.com/myPubs/2002ajuvolrolali_Bosque.pdf). <u>Bosque</u> 23(2): 81–92.
+
+
+<!-- ### Footer
+* **[Miscellaneous](./misce.md)** 
+salas20 /myPubs/2020hgrate_ecoModelling.pdf (https://doi.org/10.1016/j.ecolmodel.2020.109198)
+ponce 17 `doi:10.3390/f8090329`
+sensors cifuentes 2018 `doi:10.3390/s18103357`.
+salas10 http://rchn.biologiachile.cl/pdfs/2010/3/Soto_et_al_2010.pdf
+salas06 /myPubs/2006xylofagos_RebolledoSalas_Bosque.pdf
+salas05 pinaster /myPubs/2005volPinaster_Quebracho.pdf (https://fcf.unse.edu.ar/archivos/quebracho/q12-01-Pinus-pinaster.pdf)
+salas05 /myPubs/2005relascope_Bosque.pdf (http://dx.doi.org/10.4067/S0717-92002005000200010) 
+salas02 /myPubs/2002ajuvolrolali_Bosque.pdf (http://dx.doi.org/10.4067/S0717-92002002000200009)
+Last updated: August 2020 -->

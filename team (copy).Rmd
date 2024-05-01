@@ -11,29 +11,19 @@ link-citations: no
 
 ## Investigador principal
 
-+ Dr. <a href="http://www.eljatib.com" target="_blank">Christian Salas-Eljatib</a>, Profesor Titular de Biometría Forestal en el
-<a href="https://cem.umayor.cl" target="_blank">Centro de Modelación y Monitoreo de Ecosistemas</a> (CEM) de la Universidad Mayor.
++ Dr. [Christian Salas Eljatib](http://www.eljatib.com), Profesor de Biometría Forestal en el [Centro de Modelación y Monitoreo de Ecosistemas](https://cem.umayor.cl) (CEM) de la Universidad Mayor.
 
 ## Co-investigadores
 
 +   Joaquín Riquelme (Ing. en Recursos Naturales, Mag. en Manejo de Recursos Naturales), Asistente de Investigación del Centro de Modelación y Monitoreo de Ecosistemas de la Universidad Mayor.
 
-+   Dr. 
-<a href="https://forest.umaine.edu/faculty-staff/aaron-weiskittel/" target="_blank">Aaron Weiskittel</a>, Profesor de Biometría Forestal en la School of Forest Resources de la University of Maine, USA.
++   Nicolas Pino (Ing. Civil Matemático), Asistente de Investigación, Proyecto Fondef No. ID19\|10421 (Ejecutado por el [CEM](https://cem.umayor.cl)).
 
 +   Dr. Pablo J. Donoso, Profesor de Silvicultura de Bosque Nativo de la Universidad Austral de Chile.
 
++   Dr. [Aaron Weiskittel](https://forest.umaine.edu/faculty-staff/aaron-weiskittel/), Profesor de Biometría Forestal en la School of Forest Resources de la University of Maine, USA.
 
-## Colaboradores
-
-+   Nicolas Pino (Ing. Civil Matemático), Asistente de Investigación, Proyecto Fondef No. ID19\|10421.
-
-+   Dr. Renato Cifuentes, Investigador Postdoctoral, Proyecto Fondef No. ID19\|10421.
-
-+ Dr. 
-<a href="https://sites.google.com/uchile.cl/sel-forestal-uchile" target="_blank">Juan Pablo Fuentes</a>, Profesor Asociado de Ecología de Suelos, Universidad de Chile.
-
-
++   Dr. Renato Cifuentes, Investigador Postdoctoral, Proyecto Fondef No. ID19\|10421 (Ejecutado por el [CEM](https://cem.umayor.cl)).
 
 ## Estudiantes
 
@@ -63,16 +53,13 @@ Se listan a continuación estudiantes que en alguna medida contribuyeron al desa
 
 -   Víctor Rocco. Alumno Tesista Ingeniería Forestal, Universidad de La Frontera. 2011.
 
+## Colaboradores
 
+-   Dr. [Juan Pablo Fuentes](http://sel.forestaluchile.cl/), Profesor Asociado de Ecología de Suelos, Universidad de Chile.
 
 --------
 ```{=html}
 <!--- 
-
-[Aaron Weiskittel](https://forest.umaine.edu/faculty-staff/aaron-weiskittel/)
-
-+   Dr. [Juan Pablo Fuentes](https://sites.google.com/uchile.cl/sel-forestal-uchile), Profesor Asociado de Ecología de Suelos, Universidad de Chile.
-
 output: html_document
 **Some of my older websites**
 Pellín: un simulador de crecimiento de bosques nativos
