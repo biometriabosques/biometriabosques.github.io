@@ -13,7 +13,7 @@ link-citations: no
 -->
 
 ## Contexto
-Este sitio web es la puerta de entrada a *Pellín*: un prototipo de simulador de crecimiento de bosques nativos.  Este simulador se basa en un modelo de crecimiento que es un sistema de ecuaciones matemático-estadísticas que predice el cambio de variables de estado en el tiempo para bosques naturales en Chile. En específico, esta versión esta desarrollada para bosques secundarios dominados por
+Este web2 es la puerta de entrada a *Pellín*: un prototipo de simulador de crecimiento de bosques nativos.  Este simulador se basa en un modelo de crecimiento que es un sistema de ecuaciones matemático-estadísticas que predice el cambio de variables de estado en el tiempo para bosques naturales en Chile. En específico, esta versión esta desarrollada para bosques secundarios dominados por
 las siguientes especies *Nothofagus obliqua* (roble), *N. alpina* (raulí), y *N. dombeyi* (coihue) en el centro-sur de Chile. Este tipo de bosques son conocidos en Chile como renovales del tipo forestal roble-raulí-coihue [@donosotipfor1981], y han
  sido caracterizados en diversos estudios [@puente79; @donosobtempla1st;@grosseq99;@salascapitulo18].
 
