@@ -19,6 +19,9 @@ luego en godaddy, donde tengo el dominio simuladorpellin.com, voy a redirecciona
 
 https://biometriabosques.github.io
 
+### Sobre donde trabajar, y/o editar para lograr cambios
+note que este repositorio lo cree en la cuenta biometriabosques de github, pero invite a cseljatib como colaborador, por lo tanto el puede copiarlo como un repositorio y hacer los cambios directamente en su computador, y hacer push para que todo se actualice automaticamente.
+
 Atte
 Christian,
 
