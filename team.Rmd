@@ -11,33 +11,27 @@ link-citations: no
 
 ## Investigador principal
 
-+ Dr. <a href="http://www.eljatib.com" target="_blank">Christian Salas-Eljatib</a>, Profesor de Biometría Forestal en la 
-<a href="https://forestal.uchile.cl" target="_blank">Facultad de Ciencias Forestales y de Conservación de la Naturaleza</a> de la Universidad de Chile.
++ Dr. <a href="https://eljatib.com" target="_blank">Christian Salas-Eljatib</a>, Profesor de Biometría y Modelación Forestal en la 
+<a href="https://forestal.uchile.cl" target="_blank">Facultad de Ciencias Forestales y de la Conservación de la Naturaleza</a> de la <a href="https://www.uchile.cl" target="_blank">Universidad de Chile</a>.
 
 ## Co-investigadores
-
-+   Joaquín Riquelme (Ing. en Recursos Naturales, Mag. en Manejo de Recursos Naturales), Asistente de Investigación del Centro de Modelación y Monitoreo de Ecosistemas de la Universidad Mayor.
 
 +   Dr. 
 <a href="https://forest.umaine.edu/faculty-staff/aaron-weiskittel/" target="_blank">Aaron Weiskittel</a>, Profesor de Biometría Forestal en la School of Forest Resources de la University of Maine, USA.
 
 +   Dr. Pablo J. Donoso, Profesor de Silvicultura de Bosque Nativo de la Universidad Austral de Chile.
 
-
-## Colaboradores
+## Personas que han contribuido en el tiempo 
+### Profesionales
++   Joaquín Riquelme (Ing. en Recursos Naturales, Mag. en Manejo de Recursos Naturales), Asistente de Investigación del Centro de Modelación y Monitoreo de Ecosistemas de la Universidad Mayor.
 
 +   Nicolas Pino (Ing. Civil Matemático), Asistente de Investigación, Proyecto Fondef No. ID19\|10421.
 
 +   Dr. Renato Cifuentes, Investigador Postdoctoral, Proyecto Fondef No. ID19\|10421.
 
-+ Dr. 
-<a href="https://sites.google.com/uchile.cl/sel-forestal-uchile" target="_blank">Juan Pablo Fuentes</a>, Profesor Asociado de Ecología de Suelos, Universidad de Chile.
-
-
-
-## Estudiantes
-
-Se listan a continuación estudiantes que en alguna medida contribuyeron al desarrollo del modelo Pellín.
+### Estudiantes
+Se listan a continuación estudiantes que en alguna medida contribuyeron con
+ trabajos especficios que ha sustentando en parte al desarrollo de Pellín.
 
 -   Rodolfo Mendez. Alumno Tesista Ingeniería Forestal, Universidad de Chile. 2022.
 
@@ -68,6 +62,9 @@ Se listan a continuación estudiantes que en alguna medida contribuyeron al desa
 --------
 ```{=html}
 <!--- 
+
++ Dr. 
+<a href="https://sites.google.com/uchile.cl/sel-forestal-uchile" target="_blank">Juan Pablo Fuentes</a>, Profesor Asociado de Ecología de Suelos, Universidad de Chile.
 
 [Aaron Weiskittel](https://forest.umaine.edu/faculty-staff/aaron-weiskittel/)
 
