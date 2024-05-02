@@ -1,0 +1,287 @@
+###el nuevo diagrama1
+graph TD;
+A[Inicio];
+A -->Node1(Productividad);
+A -->Node2(Lista de árboles);
+A -->Node3(Horizonte de simulación);
+Node1(Productividad)-->B{Sí tiene la información?};
+Node2(Lista de árboles)-->B{Sí tiene la información?};
+Node3(Horizonte de simulación)-->B{Tiene la información?};
+B-->|Sí| Node4[Puede simular];
+B -->|No| A[Inicio];
+
+
+
+[![](https://mermaid.ink/img/pako:eNqNkcFKAzEQhl9lmNMK7cHqaQXFpYKClEJ7azzEzWw7kE1KNhF0dx_GB_DkI-yLmWi1ClW8Dfzf_0_mT4ulVYQ5rp3cbmA5PRPmcnVjuGR7l2YYj89nETnO5s6qUHp-YCXV0Xdtkt1y4yUoguHZ3VtNzQ_9JLu2jp-s8ZSYhuugZcnDq0nYofRoLNrF8AKeyRBoCWwq6-oP10W_sx1a_E_rH296T1j-6i6i3sUFHaSc09U80FeAS50V6e5uZjvYN4kjrCnGsIpdt8IACPQbqklgHkdFlQzaCxSmj2jYKunpSrG3DvNK6oZGKIO3i0dTYu5doE9oyjJ-Xb2j-jc_K6cr)](https://mermaid.live/edit#pako:eNqNkcFKAzEQhl9lmNMK7cHqaQXFpYKClEJ7azzEzWw7kE1KNhF0dx_GB_DkI-yLmWi1ClW8Dfzf_0_mT4ulVYQ5rp3cbmA5PRPmcnVjuGR7l2YYj89nETnO5s6qUHp-YCXV0Xdtkt1y4yUoguHZ3VtNzQ_9JLu2jp-s8ZSYhuugZcnDq0nYofRoLNrF8AKeyRBoCWwq6-oP10W_sx1a_E_rH296T1j-6i6i3sUFHaSc09U80FeAS50V6e5uZjvYN4kjrCnGsIpdt8IACPQbqklgHkdFlQzaCxSmj2jYKunpSrG3DvNK6oZGKIO3i0dTYu5doE9oyjJ-Xb2j-jc_K6cr)
+
+
+##@@@@@@@@@@@@@@
+
+el diagrama1
+
+graph TD;
+A[Inicio];
+A -->Node1(Ubicacion geográfica);
+A -->Node2(Lista de árboles);
+A -->Node3(Horizonte de simulación);
+Node1(Ubicación geográfica)-->B{Sí tiene la información?};
+Node2(Lista de árboles)-->B{Sí tiene la información?};
+Node3(Horizonte de simulación)-->B{Tiene la información?};
+B-->|Sí| Node4[Puede simular];
+B -->|No| A[Inicio];
+
+
+[![](https://mermaid.ink/img/pako:eNqNkU1OwzAQha8ymlWQ2gU_qyCBiIoEEqqQWlY1CzeepJYSu3LsBSQ5TA_AiiPkYoyhUCIBYjee-ea90XOLuVWEKZZObjewnJ0Lc7W6NTrX9jHWMJ1ezBk5Th7WOpfcNlCSLd2wK_h99J05Se504yUogmHn1raiZjQ_TW6s08_WeIpMo-tQseLwaiI2cuHeyIYVsnYxvIDXZAgqCdoU1tUf6GW_3__pgn-u_nHcu8Ly1-2M5x0bdBB1zlb3gb4EXAwxiwF0c9vBIVqcYE0soxWH3woDINBvqCaBKZeKChkqL1CYntGwVdLTtdLeOkwLWTU0QRm8XTyZHFPvAn1CMy35L-s91b8Byy2u_g)](https://mermaid.live/edit#pako:eNqNkU1OwzAQha8ymlWQ2gU_qyCBiIoEEqqQWlY1CzeepJYSu3LsBSQ5TA_AiiPkYoyhUCIBYjee-ea90XOLuVWEKZZObjewnJ0Lc7W6NTrX9jHWMJ1ezBk5Th7WOpfcNlCSLd2wK_h99J05Se504yUogmHn1raiZjQ_TW6s08_WeIpMo-tQseLwaiI2cuHeyIYVsnYxvIDXZAgqCdoU1tUf6GW_3__pgn-u_nHcu8Ly1-2M5x0bdBB1zlb3gb4EXAwxiwF0c9vBIVqcYE0soxWH3woDINBvqCaBKZeKChkqL1CYntGwVdLTtdLeOkwLWTU0QRm8XTyZHFPvAn1CMy35L-s91b8Byy2u_g)
+
+##otra version de lo mismo
+
+[![](https://mermaid.ink/img/pako:eNqNkU1qw0AMha8yaJ0s-rNyoYWSQgulm7QrTxYTj-wI5ieMNYvW-DA5QFY5gi9WmTYpoWCy00if3ntoOqiiRSigSWa7Ue-LOx2UepPeVfmxpspUFINqMDZp2NXyXp2A6_KVWjbKohp2aR0dtn_Dm_I5JvqKgXEEWvLZidZwCKv_DtI9s5jP7x-75bBXTBhQOaMo1DH5H_Shn4xw8fJExEs0JgERGC1uy5dAcsEzcZiBR0HJytm7MY0G3qBHDYWUFmuTHWvQoRc0b61hfLLEMUFRG9fiDEzmuPwMFRScMh6hBRn5Rf9L9d_3PbIH)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNkU1qw0AMha8yaJ0s-rNyoYWSQgulm7QrTxYTj-wI5ieMNYvW-DA5QFY5gi9WmTYpoWCy00if3ntoOqiiRSigSWa7Ue-LOx2UepPeVfmxpspUFINqMDZp2NXyXp2A6_KVWjbKohp2aR0dtn_Dm_I5JvqKgXEEWvLZidZwCKv_DtI9s5jP7x-75bBXTBhQOaMo1DH5H_Shn4xw8fJExEs0JgERGC1uy5dAcsEzcZiBR0HJytm7MY0G3qBHDYWUFmuTHWvQoRc0b61hfLLEMUFRG9fiDEzmuPwMFRScMh6hBRn5Rf9L9d_3PbIH)
+
+y en simple, lo que tenia ahi escrito es
+
+graph TD;
+  Node1[Ubicacion geográfica];
+  Node2[Lista de árboles];
+  Node3[Horizonte de simulación];
+  Node1[Ubicación geográfica]-->B{Sí tiene la información?};
+  Node2[Lista de árboles]-->B{Sí tiene la información?};
+  Node3[Horizonte de simulación]-->B{Sí tiene la información?};
+ B{Sí tiene la información?}-->Node4[Iniciar simulación]
+
+
+
+graph TD;
+  Node1[Ubicacion geográfica];
+  Node2[Lista de árboles];
+  Node3[Horizonte de simulación];
+  Node1[Ubicación geográfica]-->B{Sí tiene la información?};
+  Node2[Lista de árboles]-->B{Sí tiene la información?};
+  Node3[Horizonte de simulación]-->B{Sí tiene la información?};
+  B-->|Sí| Node4[Iniciar simulación];
+  B ---->|No| E[Necromasa]
+
+
+#=======================================================
+##otro flujo general
+flowchart TB
+subgraph uid1[Inicializar variables]
+ id0(Parámetros)-->
+ id1(Variables estado árbol)-->id2(Variables estado rodal)
+end
+  subgraph uid2[Ciclo de simulación]
+    direction LR
+    subgraph "Si t <= tFinal"
+    subgraph Calcular
+     direction LR
+        id3(Tasas de cambio)-->
+        id4(Actualizar variables de estado)-->
+        id5(Guardar)-->id6(t=t+1)
+    end    
+    end
+  end
+id99((Entradas)) --> uid1[Inicializar variables] --> uid2[Ciclo de simulación]  --> id98((Salidas))
+
+
+
+[![](https://mermaid.ink/img/pako:eNp9kttKAzEQhl8l5CqLFWw9YBcVPFQRvBBbvHG9mM2kdiCbSA6Kig_jM_gIfTGT3bZIPQRCkplv_iF_8salRcVLPtX2Wc7ABTY5qYyP9YODxxmLhP27S0OSQNMrOPYEjqDWyt9XhhFuiWtw849GBWd9sbl51Eb74naJMeUDoGXzD1dbnQnCwc-0swi6qIwymBTY9_6Du1OS2jJUzFMTNUiaf5rcPg0kp2Qga9jVTRdZlVZ8TCywg0MWzsmArvgacApaJjnXhX-RyoNwW0zAg8_9JTQ12cU1V8COOJYhrvuT-e5y6_yuuIjgEFznxp4Ih2GjX3RIMiAvq0PetAvhcCjEyAQHCL4oWCr-73mW-T_sY20-ie4LMU7FrWZulifv8Ua5BgjTz3hrozzMVKMqXqYtqilEHbKh7wmNjwhBjZCCdbycgvaqxyEGO34xkpfBRbWEzgiS982Cev8CZY_Tsw)](https://mermaid.live/edit#pako:eNp9kttKAzEQhl8l5CqLFWw9YBcVPFQRvBBbvHG9mM2kdiCbSA6Kig_jM_gIfTGT3bZIPQRCkplv_iF_8salRcVLPtX2Wc7ABTY5qYyP9YODxxmLhP27S0OSQNMrOPYEjqDWyt9XhhFuiWtw849GBWd9sbl51Eb74naJMeUDoGXzD1dbnQnCwc-0swi6qIwymBTY9_6Du1OS2jJUzFMTNUiaf5rcPg0kp2Qga9jVTRdZlVZ8TCywg0MWzsmArvgacApaJjnXhX-RyoNwW0zAg8_9JTQ12cU1V8COOJYhrvuT-e5y6_yuuIjgEFznxp4Ih2GjX3RIMiAvq0PetAvhcCjEyAQHCL4oWCr-73mW-T_sY20-ie4LMU7FrWZulifv8Ua5BgjTz3hrozzMVKMqXqYtqilEHbKh7wmNjwhBjZCCdbycgvaqxyEGO34xkpfBRbWEzgiS982Cev8CZY_Tsw)
+
+#=======================================================
+
+
+#=======================================================  
+###flujo general de un simulador cualquiera
+flowchart TB
+subgraph Inicializar-Variables
+ Parametros-->
+ VarEstadoArbol-->VarEstadoRodal
+end
+  subgraph Ciclo-Simulacion
+    direction LR
+    subgraph Si-t-menor=tFinal
+    subgraph Calcular
+     direction LR
+        Tasas-Cambio-->
+        Actualizar-VarEstado-->
+        Guardar-->t=t+1
+    end    
+    end
+  end
+  Entradas --> Inicializar-Variables --> Ciclo-Simulacion  --> Salidas
+  Si-t-menor=tFinal
+
+
+
+  [![](https://mermaid.ink/img/pako:eNptUctOAzEM_JUoV5oD15VaqZSCkDigbsUpF2-S0kh5VI4jBFX_HadbFhXIxfbMeGQ7R2mydbKTu5DfzR6QxPZOp1KHN4TDXjwlbzwE_wmoXgE9DMEVncQLIERHmItSC66ZWxcCm5c45MDYBGyyhaCTS5ZlYjJeeROy6n2sAYzPqZFCWI_OEJfieTMiU0PvFanoUsY5PfjUPK_4FQTDXjjC_zi1t4UCRa0gDj6Pg1_e0lD9WXOc_ErwWAEts2pBc7q5HQleqoWpaMklrBMhWCiCO_6_4pn5fQZxRnvWcm_z-bO2nMnoMIK3_GvHJtGS9i46LTtOrdtBDaSlTieW1oMFcmvrKaPsdhCKm0molPuPZGRHWN236N4DXzJeVKcvp-izsg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNptUctOAzEM_JUoV5oD15VaqZSCkDigbsUpF2-S0kh5VI4jBFX_HadbFhXIxfbMeGQ7R2mydbKTu5DfzR6QxPZOp1KHN4TDXjwlbzwE_wmoXgE9DMEVncQLIERHmItSC66ZWxcCm5c45MDYBGyyhaCTS5ZlYjJeeROy6n2sAYzPqZFCWI_OEJfieTMiU0PvFanoUsY5PfjUPK_4FQTDXjjC_zi1t4UCRa0gDj6Pg1_e0lD9WXOc_ErwWAEts2pBc7q5HQleqoWpaMklrBMhWCiCO_6_4pn5fQZxRnvWcm_z-bO2nMnoMIK3_GvHJtGS9i46LTtOrdtBDaSlTieW1oMFcmvrKaPsdhCKm0molPuPZGRHWN236N4DXzJeVKcvp-izsg)
+#=======================================================
+
+#=======================================================  
+####este es un flujo mas especifico del simulador
+
+graph TD;
+  Node2[Lista de árboles];
+  Node1[Productividad];
+  Node1[Productividad]-->Node3[Estructura del bosque];
+  Node2[Lista de árboles]-->Node3[Estructura del bosque];
+  Node2[Lista de árboles]-->Node4[Tamaño del árbol];
+  Node3[Estructura del bosque]-->Node5[Probabilidad de mortalidad];
+  Node4[Tamaño del árbol]-->Node5[Probabilidad de mortalidad];
+  Node5[Probabilidad de mortalidad]-->B{Sobrevive?};
+  B-->|Sí| C[Incremento]
+  C[Incremento]-->Node2[Lista de árboles];
+  B ---->|No| E[Necromasa]
+
+####fin del flujo general
+
+aca lo mismo pero con codigo
+[![](https://mermaid.ink/img/pako:eNqtks9KxDAQxl8l5Lw9-O9SQaFuD4IUoXtLe5g2s24gadY0KUjbh_EBPPgMfTGTtSoLdkHwFr75vt9kkulprTnSmD4Z2O_IZn1dNIRkXjtnD6K1QDiS6dVUWmJbfhfP2KPR3NVWdIIDXy5E0U2QL1jaWuNlZwJRkkq3zw7Lk93-IXvJNqBgeteH4Gf1J7hEnsNXYZYKKiHDKAGvtLEgjyf-tcWfCCddnpT0ua4MdqLD2_GQSrw65NPbQO7YfVMbVNhYXYbSkTBfY_ErExJFAZXpgaQsw9poBS0EEF1RhUaB4H45-mAuqN15bkFjf-S4BSdtQYtm9Fa352Ax5cJqQ-MtyBZXFJzV-UtT09g_Mn6Z1gL8rqnZNX4A-mzlpg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqtks9KxDAQxl8l5Lw9-O9SQaFuD4IUoXtLe5g2s24gadY0KUjbh_EBPPgMfTGTtSoLdkHwFr75vt9kkulprTnSmD4Z2O_IZn1dNIRkXjtnD6K1QDiS6dVUWmJbfhfP2KPR3NVWdIIDXy5E0U2QL1jaWuNlZwJRkkq3zw7Lk93-IXvJNqBgeteH4Gf1J7hEnsNXYZYKKiHDKAGvtLEgjyf-tcWfCCddnpT0ua4MdqLD2_GQSrw65NPbQO7YfVMbVNhYXYbSkTBfY_ErExJFAZXpgaQsw9poBS0EEF1RhUaB4H45-mAuqN15bkFjf-S4BSdtQYtm9Fa352Ax5cJqQ-MtyBZXFJzV-UtT09g_Mn6Z1gL8rqnZNX4A-mzlpg)
+#=======================================================
+
+######@@@@@@@@@@@@
+flujo mas power
+
+flowchart TB
+  subgraph uid33[Inicio]
+  end
+  subgraph uid02[Productividad]
+  direction LR
+  Clima---Topografia---TipoHabitat
+  end
+  subgraph uid03[Ciclo de simulación]
+  direction TB
+  uid99[Lista de árboles]
+  uid99[Lista de árboles]-->Node4(Tamaño del árbol)
+  uid99[Lista de árboles]-->Node41(Competencia)
+  uid99[Lista de árboles]-->Node3(Estructura del bosque)
+  Node4(Tamaño del árbol)-->Node5[Probabilidad de mortalidad];
+  Node41(Competencia)-->Node5[Probabilidad de mortalidad];
+  Node3(Estructura del bosque)-->Node5[Probabilidad de mortalidad];
+  Node5[Probabilidad de mortalidad]-->B{Sobrevive?};
+  B-->|Sí| C[Tasa de cambio]
+  B ---->|No| E[Necromasa] 
+  end
+  uid02[Productividad] --> C[Tasa de cambio];
+  uid02[Productividad] -->Node5[Probabilidad de mortalidad];
+  C[Tasa de cambio] --> uid99[Lista de árboles];
+uid33[Inicio]-->uid03[Ciclo de simulación]
+uid33[Inicio]-->uid02[Productividad]
+
+[![](https://mermaid.ink/img/pako:eNqVk8FqGzEQhl9F6ORCFto6OcSBFOwaGgim1L7t-jArjesBaWejlVyK7YfpA_RQ-gh-sc5u3NI4sXFuO5rv_2d2NFprwxb1QC8cfzNLCFHNhkWlVJPKrwHqpUpk-_38riJDPG8zWNlD4O37_HNgm0ykFVmwHWcpoBxwpe6_tPHIkYcsy2ZcsygX1AVU8ycoKUI85t3PR2QcK4uqIZ8cGNr9rg5KPDYt-PV1fk9NhBbf_QglO2zmp3JZdjuREVz2ZuBh96ut4_bZN-fo3vVG7GuMWBmCcxT93riJQWaVAnTFSm4eEnbSo53stVftnEuZl2vH3Lp7DhG6aH7zz-FpT6_SHuvuVSYnKXEarqdcBlzRCj9sO9VQTjfT3c-NGuUzaLrBGfDlfueGSnZFiAlv1DifoAnshZqr_5bmpT0U2e1zx5tT-Hl_-cyzq3Ts5kXy5BkJe3KzX4IPe9UX2mPwQFZe77rtqdBxiR4LPZBPiwtILha6qLaCptpCxLGlyEEPFuAavNCQIk-_V0YP5MbxL_SRQB6f31PbPwFYdj8)](https://mermaid.live/edit#pako:eNqVk8FqGzEQhl9F6ORCFto6OcSBFOwaGgim1L7t-jArjesBaWejlVyK7YfpA_RQ-gh-sc5u3NI4sXFuO5rv_2d2NFprwxb1QC8cfzNLCFHNhkWlVJPKrwHqpUpk-_38riJDPG8zWNlD4O37_HNgm0ykFVmwHWcpoBxwpe6_tPHIkYcsy2ZcsygX1AVU8ycoKUI85t3PR2QcK4uqIZ8cGNr9rg5KPDYt-PV1fk9NhBbf_QglO2zmp3JZdjuREVz2ZuBh96ut4_bZN-fo3vVG7GuMWBmCcxT93riJQWaVAnTFSm4eEnbSo53stVftnEuZl2vH3Lp7DhG6aH7zz-FpT6_SHuvuVSYnKXEarqdcBlzRCj9sO9VQTjfT3c-NGuUzaLrBGfDlfueGSnZFiAlv1DifoAnshZqr_5bmpT0U2e1zx5tT-Hl_-cyzq3Ts5kXy5BkJe3KzX4IPe9UX2mPwQFZe77rtqdBxiR4LPZBPiwtILha6qLaCptpCxLGlyEEPFuAavNCQIk-_V0YP5MbxL_SRQB6f31PbPwFYdj8)
+
+  ######@@@@@@@@@@@@
+  Lo mismo anterior, pero en ingles
+
+  flowchart TB
+  subgraph uid33[Start]
+  end
+  subgraph uid02[Productivity]
+  direction LR
+  Climate---Topography---HabitatType
+  end
+  subgraph uid03[Simulation cicle]
+  direction TB
+  uid99[tree list]
+  uid99[tree list]-->Node4(Tree size)
+  uid99[tree list]-->Node41(Competition)
+  uid99[tree list]-->Node3(Forest structure)
+  Node4(Tree size)-->Node5[Mortality likelihood];
+  Node41(Competition)-->Node5[Mortality likelihood];
+  Node3(Forest structure)-->Node5[Mortality likelihood];
+  Node5[Mortality likelihood]-->B{Survive?};
+  B-->|Yes| C[Growth-rate]
+  B ---->|No| E[Necromass] 
+  end
+  uid02[Productividad] --> C[Growth-rate];
+  uid02[Productividad] -->Node5[Mortality likelihood];
+  C[Growth-rate] --> uid99[Tree list];
+uid33[Start]-->uid03[Simulation cicle]
+uid33[Start]-->uid02[Productivity]
+
+
+
+
+
+ ************
+ flowchart TD
+    A[Probabilidad de mortalidad] --> B{Sobrevive?}
+    B -->|Sí| C[Incremento]
+    C --> A[Probabilidad de mortalidad]
+    C --> D[Variables de estado de rodal]
+    D --> B
+    B ---->|No| E[Necromasa]
+
+
+########casi bueno
+stateDiagram-v2
+    [*] --> Productividad
+    [*] --> ListaArboles
+    ListaArboles --> [*]
+    ListaArboles --> TamañoArbol
+    ListaArboles --> VarRodal
+    ListaArboles --> Estructura
+    ListaArboles --> Competencia
+    VarRodal --> Still
+    VarRodal --> Crash
+    TamañoArbol --> Mortalidad
+    Estructura --> Mortalidad
+    VarRodal --> Mortalidad
+    Competencia --> Mortalidad
+    Crash --> [*]
+            
+
+####
+[![](https://mermaid.ink/img/pako:eNqdUktqwzAQvYrQNvEFvCi0iWkLWRQn7cqbsTRJBvQxI4nShhyqZ-jFKttJTEOgUG0kzXvzRvNGB6m8RlnKrfHvag8cxeahcUKE1O4Yur1YkDK-WJNNBhR514NCaGJUMV_Fqh4jl4TXlhQ8ot_xCPRrYcjCbOM7P3uCliLEEUOn--1K4Z5bb6bkqVa9mqIbsPD95WdV6FARXvSutGqv4abW2Oa4lugCadCiKO6qEDmpmBjyZeFthxGdIvhVYNwuRZ4dZYahT-DiDZigNRj-NOoFGCxG9uG_vZ69O72qcpFBQ-jbuP2mAbmeqBii68zNub3ONMEBGcYxnE5mNk7OpUW2QDp_nUOf08i4R4uNLPNR4xaSiY1s3DFTU6chYqUpepblFkzAuYQU_frDKVlmv_FMWhJkc-yJdfwBPTnaoA)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqdUktqwzAQvYrQNvEFvCi0iWkLWRQn7cqbsTRJBvQxI4nShhyqZ-jFKttJTEOgUG0kzXvzRvNGB6m8RlnKrfHvag8cxeahcUKE1O4Yur1YkDK-WJNNBhR514NCaGJUMV_Fqh4jl4TXlhQ8ot_xCPRrYcjCbOM7P3uCliLEEUOn--1K4Z5bb6bkqVa9mqIbsPD95WdV6FARXvSutGqv4abW2Oa4lugCadCiKO6qEDmpmBjyZeFthxGdIvhVYNwuRZ4dZYahT-DiDZigNRj-NOoFGCxG9uG_vZ69O72qcpFBQ-jbuP2mAbmeqBii68zNub3ONMEBGcYxnE5mNk7OpUW2QDp_nUOf08i4R4uNLPNR4xaSiY1s3DFTU6chYqUpepblFkzAuYQU_frDKVlmv_FMWhJkc-yJdfwBPTnaoA)
+
+
+flowchart TB
+  subgraph Ciclo-Simulacion
+    direction LR
+    subgraph UbicaGeogr
+        Clima+Topo+Habitat
+    end    
+    subgraph Arbol
+        direction RL
+        Tamaño+Especie
+    end
+    subgraph Rodal
+        direction TB
+        Densidad -->Estructura-->Competencia
+    end
+  end
+ subgraph Inicializar-Variables
+    direction LR
+    subgraph Parametros
+        direction RL
+        Tamaño+Especie
+    end    
+  end
+  Entradas --> Inicializar-Variables --> Ciclo-Simulacion  --> Salidas
+  UbicaGeogr --> Arbol --> Rodal
+
+
+******
+mas complejo
+********    
+flowchart TB
+  subgraph Inicio
+    direction LR
+    subgraph UbicaGeogr
+        Clima+Topo+Habitat
+    end    
+    subgraph Arbol
+        direction RL
+        Tamaño+Especie
+    end
+    subgraph Rodal
+        direction TB
+        Densidad -->Estructura-->Competencia
+    end
+  end
+ subgraph Mortalidad
+    direction LR
+    subgraph ProbMortalidad
+        direction RL
+        Tamaño+Especie
+    end    
+  end
+  Entradas --> Inicio --> Mortalidad --> Salidas
+  UbicaGeogr --> Arbol --> Rodal
